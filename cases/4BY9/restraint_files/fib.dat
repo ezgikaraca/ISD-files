@@ -1,0 +1,161 @@
+# 10-Oct-2012       (1.000 *078554_009.dat - 1.005 *078547_002.dat) /  1.0000  
+#078554_009.d  Conc = .10E+01  Mult = .10E+01  N1 =    1  N2 =   78  SCALE =  1
+# 547_002.dat  Conc = .10E+01  Mult = .10E+01  N1 =    1  N2 =   78  SCALE =  1
+  0.131839E-01  0.999601E-01  0.268259E-02
+  0.154647E-01  0.938436E-01  0.185174E-02
+  0.174484E-01  0.871609E-01  0.139498E-02
+  0.194356E-01  0.777780E-01  0.131534E-02
+  0.214440E-01  0.700024E-01  0.116662E-02
+  0.235743E-01  0.631580E-01  0.109271E-02
+  0.256937E-01  0.573168E-01  0.105643E-02
+  0.277758E-01  0.502947E-01  0.100236E-02
+  0.298544E-01  0.448050E-01  0.978459E-03
+  0.319561E-01  0.398274E-01  0.904517E-03
+  0.340849E-01  0.356389E-01  0.885152E-03
+  0.361493E-01  0.329296E-01  0.871977E-03
+  0.382232E-01  0.294969E-01  0.822946E-03
+  0.403178E-01  0.273941E-01  0.819361E-03
+  0.423984E-01  0.250990E-01  0.778874E-03
+  0.444903E-01  0.246165E-01  0.773743E-03
+  0.465617E-01  0.237352E-01  0.748534E-03
+  0.486723E-01  0.233124E-01  0.714811E-03
+  0.508143E-01  0.230636E-01  0.709305E-03
+  0.529199E-01  0.234188E-01  0.692063E-03
+  0.550147E-01  0.222398E-01  0.688566E-03
+  0.570880E-01  0.219522E-01  0.671267E-03
+  0.591698E-01  0.211638E-01  0.658402E-03
+  0.612781E-01  0.218335E-01  0.647162E-03
+  0.633493E-01  0.211561E-01  0.642495E-03
+  0.654436E-01  0.210468E-01  0.619140E-03
+  0.675806E-01  0.202861E-01  0.608576E-03
+  0.696382E-01  0.214278E-01  0.625206E-03
+  0.717159E-01  0.205085E-01  0.588575E-03
+  0.738422E-01  0.202690E-01  0.590307E-03
+  0.759361E-01  0.194659E-01  0.578667E-03
+  0.780463E-01  0.193116E-01  0.567676E-03
+  0.801365E-01  0.180311E-01  0.569819E-03
+  0.822130E-01  0.176464E-01  0.552856E-03
+  0.843188E-01  0.166649E-01  0.549410E-03
+  0.863971E-01  0.159180E-01  0.546687E-03
+  0.884849E-01  0.150178E-01  0.532537E-03
+  0.906111E-01  0.157222E-01  0.522296E-03
+  0.927179E-01  0.140508E-01  0.522255E-03
+  0.948113E-01  0.135834E-01  0.517524E-03
+  0.968855E-01  0.125487E-01  0.512887E-03
+  0.989578E-01  0.128423E-01  0.502508E-03
+  0.101065E+00  0.121889E-01  0.495391E-03
+  0.103170E+00  0.113646E-01  0.490099E-03
+  0.105270E+00  0.112862E-01  0.487070E-03
+  0.107363E+00  0.101599E-01  0.481342E-03
+  0.109442E+00  0.101788E-01  0.480082E-03
+  0.111520E+00  0.979172E-02  0.471860E-03
+  0.113621E+00  0.880446E-02  0.466285E-03
+  0.115712E+00  0.842165E-02  0.465231E-03
+  0.117808E+00  0.757975E-02  0.454420E-03
+  0.119905E+00  0.800556E-02  0.459144E-03
+  0.121981E+00  0.699844E-02  0.449045E-03
+  0.124095E+00  0.673797E-02  0.443258E-03
+  0.126211E+00  0.611413E-02  0.438607E-03
+  0.128274E+00  0.584980E-02  0.456566E-03
+  0.130339E+00  0.527764E-02  0.457426E-03
+  0.132412E+00  0.494303E-02  0.484161E-03
+  0.134489E+00  0.466891E-02  0.500567E-03
+  0.136608E+00  0.465859E-02  0.524258E-03
+  0.138745E+00  0.359098E-02  0.555968E-03
+  0.140833E+00  0.413574E-02  0.579483E-03
+  0.142915E+00  0.369762E-02  0.605646E-03
+  0.145025E+00  0.229119E-02  0.617266E-03
+  0.147093E+00  0.239137E-02  0.665207E-03
+  0.149192E+00  0.217194E-02  0.658673E-03
+  0.151310E+00  0.235586E-02  0.711915E-03
+  0.153364E+00  0.257304E-02  0.744802E-03
+  0.155444E+00  0.239961E-02  0.755226E-03
+  0.157588E+00  0.174497E-02  0.795780E-03
+  0.159690E+00  0.149250E-02  0.835919E-03
+  0.161784E+00  0.245918E-02  0.886998E-03
+  0.163899E+00  0.194470E-02  0.910591E-03
+  0.165982E+00  0.145527E-02  0.102524E-02
+  0.168051E+00  0.184157E-02  0.102117E-02
+  0.170076E+00  0.162603E-02  0.121757E-02
+  0.172176E+00  0.662730E-03  0.118127E-02
+  0.174212E+00  0.100435E-02  0.144599E-02
+#----------Z:\home\ill\Experiments_D22\Lapinaite_Oct12\078554_009.dat-----------------------------
+#GRASP V.6.54    Instrument:  ILL_d22                                            
+#                                                                                
+#***** Sample, Backgrounds and Transmissions Data: *****                         
+#Subtitle:  dFIB_lowRNA_42D2O                                                    
+#Start: 08-Oct-12   03:34:21   End: 08-Oct-12   04:19:21                         
+#                                                                                
+#Foreground:  78554 , Loaded: 78559                                              
+#Background: Sum 78487 , Loaded: 78487                                           
+#Cadmium: Sum 78488 , Loaded: 78488                                              
+#Det: 1 : Applying Deadtime Correction per (vertical) Tube: 1/[1-tau/detector_rat
+#Data Normalisation: Standard Monitor (10000000) counts                          
+#Attenuator: 0 is In.  Attenuation factor 1                                      
+#Attenuator: 0 is In. Up-scaling data by 1                                       
+#Attenuator2: is Out                                                             
+#Attenuator2: Up-scaling data by 1                                               
+#                                                                                
+#Beam Centre1 :  Cx = 63.7059  Cy = 64.4828       Cm Translation :  Tx = 0  Ty = 
+#Transmissions:  Ts = 0.64927 +/- 0.00060192  Te = 0.94554 +/- 0.0007691         
+#Transmissions Thickness Correction is:  on                                      
+#Applying standard SANS data reduction:  I_corr = 1/[Ts Te] [I_s - I_cd]  - 1/[Te
+#Data: Corrected for D22 Detector Paralax                                        
+#                                                                                
+#***** Calibrations: *****                                                       
+#Data: Corrected for Detector Efficiency (doesn't change magnitude but contains c
+#Data: Divided by Volume 0.1 cm3                                                 
+#Solid Angle Correction:                                                         
+#Divide data by empty beam flux, I0, from worksheet: Trans Empty Beam 1 10       
+#Applying Default Instrument Mask                                                
+#Applying User Defined Mask                                                      
+#Applying NanInf Mask                                                            
+#Intensity units are:  cm-1 \\ \Delta\Omega                                      
+#                                                                                
+#***** Analysis *****                                                            
+#Averaging I vs. Q.  Bin size:  1 [Pixel(s)]                                     
+#                                                                                
+#                                                                                
+#Mod_Q   	I       	Err_I   	Sigma_Q                                             
+#                                                                                
+#                                                                                
+#----------Z:\home\ill\Experiments_D22\Lapinaite_Oct12\078547_002.dat-----------------------------
+#GRASP V.6.54    Instrument:  ILL_d22                                            
+#                                                                                
+#***** Sample, Backgrounds and Transmissions Data: *****                         
+#Subtitle:  buff_42D2O                                                           
+#Start: 07-Oct-12   22:14:01   End: 07-Oct-12   22:34:01                         
+#                                                                                
+#Foreground:  78547 , Loaded: 78559                                              
+#Background: Sum 78487 , Loaded: 78487                                           
+#Cadmium: Sum 78488 , Loaded: 78488                                              
+#Det: 1 : Applying Deadtime Correction per (vertical) Tube: 1/[1-tau/detector_rat
+#Data Normalisation: Standard Monitor (10000000) counts                          
+#Attenuator: 0 is In.  Attenuation factor 1                                      
+#Attenuator: 0 is In. Up-scaling data by 1                                       
+#Attenuator2: is Out                                                             
+#Attenuator2: Up-scaling data by 1                                               
+#                                                                                
+#Beam Centre1 :  Cx = 63.7059  Cy = 64.4828       Cm Translation :  Tx = 0  Ty = 
+#Transmissions:  Ts = 0.65042 +/- 0.00060264  Te = 0.94554 +/- 0.0007691         
+#Transmissions Thickness Correction is:  on                                      
+#Applying standard SANS data reduction:  I_corr = 1/[Ts Te] [I_s - I_cd]  - 1/[Te
+#Data: Corrected for D22 Detector Paralax                                        
+#                                                                                
+#***** Calibrations: *****                                                       
+#Data: Corrected for Detector Efficiency (doesn't change magnitude but contains c
+#Data: Divided by Volume 0.1 cm3                                                 
+#Solid Angle Correction:                                                         
+#Divide data by empty beam flux, I0, from worksheet: Trans Empty Beam 1 3        
+#Applying Default Instrument Mask                                                
+#Applying User Defined Mask                                                      
+#Applying NanInf Mask                                                            
+#Intensity units are:  cm-1 \\ \Delta\Omega                                      
+#                                                                                
+#***** Analysis *****                                                            
+#Averaging I vs. Q.  Bin size:  1 [Pixel(s)]                                     
+#                                                                                
+#                                                                                
+#Mod_Q   	I       	Err_I   	Sigma_Q                                             
+#                                                                                
+#                                                                                

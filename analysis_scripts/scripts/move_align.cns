@@ -1,0 +1,27 @@
+! Add or remove coor and write lines according to the number of monomers present in your system
+! This cns script is organized for a 7mer case.
+
+struc @complex.psf end
+do (mass=1) (all)
+coor @protein1.pdb
+coor orient sele=(segid A) end
+write coor sele=(segid A) output=protein1_aligned.pdb end
+coor @protein2.pdb
+coor orient sele=(segid B) end
+write coor sele=(segid B) output=protein2_aligned.pdb end
+coor @protein3.pdb
+coor orient sele=(segid C) end
+write coor sele=(segid C) output=protein3_aligned.pdb end
+coor @protein4.pdb
+coor orient sele=(segid D) end
+write coor sele=(segid D) output=protein4_aligned.pdb end
+coor @protein5.pdb
+coor orient sele=(segid E) end
+write coor sele=(segid E) output=protein5_aligned.pdb end
+coor @protein6.pdb
+coor orient sele=(segid F) end
+write coor sele=(segid F) output=protein6_aligned.pdb end
+coor @protein7.pdb
+coor orient sele=(segid G) end
+write coor sele=(segid G) output=protein7_aligned.pdb end
+stop

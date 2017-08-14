@@ -1,0 +1,9 @@
+assign ( resid 104 and segid A and name OE2) ( resid 252 and segid D and name CB) 4.87 4.87 0.05
+assign ( resid 187 and segid A and name O) ( resid 248 and segid B and name OD1) 4.86 4.86 0.05
+assign ( resid 164 and segid C and name CE2) ( resid 146 and segid G and name CG2) 4.80 4.80 0.05
+assign ( resid 21 and segid A and name CE1) ( resid 10 and segid D and name CD1) 4.26 4.26 0.05
+assign ( resid 239 and segid A and name CG1) ( resid 51 and segid E and name CB) 3.63 3.63 0.05
+assign ( resid 53 and segid F and name CA) ( resid 114 and segid G and name CD1) 3.89 3.89 0.05
+assign ( resid 48 and segid F and name CB) ( resid 145 and segid G and name O) 3.47 3.47 0.05
+assign ( resid 204 and segid C and name CZ2) ( resid 66 and segid F and name C) 4.44 4.44 0.05
+assign ( resid 104 and segid A and name OE2) ( resid 252 and segid D and name CB) 4.87 4.87 0.05

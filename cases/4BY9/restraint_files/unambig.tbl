@@ -1,0 +1,432 @@
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 101 and segid E) or (resid 1101 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 104 and segid E) or (resid 1104 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 110 and segid E) or (resid 1110 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 111 and segid E) or (resid 1111 and segid C)) and name CD#) 21.00 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 114 and segid E) or (resid 1114 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 115 and segid E) or (resid 1115 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 117 and segid E) or (resid 1117 and segid C)) and name CD1) 23.83 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 124 and segid E) or (resid 1124 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 125 and segid E) or (resid 1125 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 127 and segid E) or (resid 1127 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 140 and segid E) or (resid 1140 and segid C)) and name CD#) 23.09 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 141 and segid E) or (resid 1141 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 144 and segid E) or (resid 1144 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 159 and segid E) or (resid 1159 and segid C)) and name CD1) 2.80 0.00 22.73
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 15 and segid E) or (resid 1015 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 160 and segid E) or (resid 1160 and segid C)) and name CD#) 19.98 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 161 and segid E) or (resid 1161 and segid C)) and name CD1) 2.80 0.00 22.73
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 168 and segid E) or (resid 1168 and segid C)) and name CD#) 24.03 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 16 and segid E) or (resid 1016 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 176 and segid E) or (resid 1176 and segid C)) and name CD1) 2.80 0.00 22.73
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 183 and segid E) or (resid 1183 and segid C)) and name CD1) 2.80 0.00 22.73
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 185 and segid E) or (resid 1185 and segid C)) and name CG#) 20.82 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 192 and segid E) or (resid 1192 and segid C)) and name CG#) 20.78 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 196 and segid E) or (resid 1196 and segid C)) and name CG#) 18.10 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 207 and segid E) or (resid 1207 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 210 and segid E) or (resid 1210 and segid C)) and name CD#) 22.89 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 212 and segid E) or (resid 1212 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 223 and segid E) or (resid 1223 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 224 and segid E) or (resid 1224 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 24 and segid E) or (resid 1024 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 29 and segid E) or (resid 1029 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 41 and segid E) or (resid 1041 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid  4 and segid E) or (resid 1004 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 50 and segid E) or (resid 1050 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 58 and segid E) or (resid 1058 and segid C)) and name CD#) 20.18 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 62 and segid E) or (resid 1062 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 66 and segid E) or (resid 1066 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 77 and segid E) or (resid 1077 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 78 and segid E) or (resid 1078 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 82 and segid E) or (resid 1082 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 95 and segid E) or (resid 1095 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 101 and segid K) or (resid 1101 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 104 and segid K) or (resid 1104 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 110 and segid K) or (resid 1110 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 111 and segid K) or (resid 1111 and segid I)) and name CD#) 21.00 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 114 and segid K) or (resid 1114 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 115 and segid K) or (resid 1115 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 117 and segid K) or (resid 1117 and segid I)) and name CD1) 23.83 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 124 and segid K) or (resid 1124 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 125 and segid K) or (resid 1125 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 127 and segid K) or (resid 1127 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 140 and segid K) or (resid 1140 and segid I)) and name CD#) 23.09 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 141 and segid K) or (resid 1141 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 144 and segid K) or (resid 1144 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 159 and segid K) or (resid 1159 and segid I)) and name CD1) 2.80 0.00 22.73
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 15 and segid K) or (resid 1015 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 160 and segid K) or (resid 1160 and segid I)) and name CD#) 19.98 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 161 and segid K) or (resid 1161 and segid I)) and name CD1) 2.80 0.00 22.73
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 168 and segid K) or (resid 1168 and segid I)) and name CD#) 24.03 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 16 and segid K) or (resid 1016 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 176 and segid K) or (resid 1176 and segid I)) and name CD1) 2.80 0.00 22.73
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 183 and segid K) or (resid 1183 and segid I)) and name CD1) 2.80 0.00 22.73
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 185 and segid K) or (resid 1185 and segid I)) and name CG#) 20.82 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 192 and segid K) or (resid 1192 and segid I)) and name CG#) 20.78 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 196 and segid K) or (resid 1196 and segid I)) and name CG#) 18.10 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 207 and segid K) or (resid 1207 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 210 and segid K) or (resid 1210 and segid I)) and name CD#) 22.89 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 212 and segid K) or (resid 1212 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 223 and segid K) or (resid 1223 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 224 and segid K) or (resid 1224 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 24 and segid K) or (resid 1024 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 29 and segid K) or (resid 1029 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 41 and segid K) or (resid 1041 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid  4 and segid K) or (resid 1004 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 50 and segid K) or (resid 1050 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 58 and segid K) or (resid 1058 and segid I)) and name CD#) 20.18 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 62 and segid K) or (resid 1062 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 66 and segid K) or (resid 1066 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 77 and segid K) or (resid 1077 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 78 and segid K) or (resid 1078 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 82 and segid K) or (resid 1082 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 95 and segid K) or (resid 1095 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 128 and segid E) or (resid 1128 and segid C)) and (name CD1 or name CD2)) 24.03 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 200 and segid E) or (resid 1200 and segid C)) and (name CD1 or name CD2)) 18.70 0.00 8.35
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 221 and segid E) or (resid 1221 and segid C)) and (name CD1 or name CD2)) 24.00 0.00 8.25
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 2 and segid E) or (resid 1002 and segid C)) and (name CG1 or name CG2)) 22.42 0.00 8.30
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 128 and segid K) or (resid 1128 and segid I)) and (name CD1 or name CD2)) 24.03 0.00 8.00
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 200 and segid K) or (resid 1200 and segid I)) and (name CD1 or name CD2)) 18.70 0.00 8.35
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 221 and segid K) or (resid 1221 and segid I)) and (name CD1 or name CD2)) 24.00 0.00 8.25
+assign (((resid 45 and (segid D or segid J)) or (resid 1045 and (segid A or segid G))) and name SG) (((resid 2 and segid K) or (resid 1002 and segid I)) and (name CG1 or name CG2)) 22.42 0.00 8.30
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 101 and segid E) or (resid 1101 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 104 and segid E) or (resid 1104 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 110 and segid E) or (resid 1110 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 111 and segid E) or (resid 1111 and segid C)) and name CD#) 22.71 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 114 and segid E) or (resid 1114 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 115 and segid E) or (resid 1115 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 117 and segid E) or (resid 1117 and segid C)) and name CD1) 22.53 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 124 and segid E) or (resid 1124 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 125 and segid E) or (resid 1125 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 127 and segid E) or (resid 1127 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 141 and segid E) or (resid 1141 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 144 and segid E) or (resid 1144 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 159 and segid E) or (resid 1159 and segid C)) and name CD1) 24.49 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 15 and segid E) or (resid 1015 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 160 and segid E) or (resid 1160 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 161 and segid E) or (resid 1161 and segid C)) and name CD1) 23.22 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 168 and segid E) or (resid 1168 and segid C)) and name CD#) 24.11 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 16 and segid E) or (resid 1016 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 176 and segid E) or (resid 1176 and segid C)) and name CD1) 22.02 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 178 and segid E) or (resid 1178 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 183 and segid E) or (resid 1183 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 185 and segid E) or (resid 1185 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 196 and segid E) or (resid 1196 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 206 and segid E) or (resid 1206 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 207 and segid E) or (resid 1207 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 210 and segid E) or (resid 1210 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 212 and segid E) or (resid 1212 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 223 and segid E) or (resid 1223 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 224 and segid E) or (resid 1224 and segid C)) and name CG#) 24.19 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 24 and segid E) or (resid 1024 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 29 and segid E) or (resid 1029 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 41 and segid E) or (resid 1041 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid  4 and segid E) or (resid 1004 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 50 and segid E) or (resid 1050 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 58 and segid E) or (resid 1058 and segid C)) and name CD#) 19.35 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 62 and segid E) or (resid 1062 and segid C)) and name CD1) 24.24 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 66 and segid E) or (resid 1066 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 77 and segid E) or (resid 1077 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 78 and segid E) or (resid 1078 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 82 and segid E) or (resid 1082 and segid C)) and name CD1) 20.22 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 95 and segid E) or (resid 1095 and segid C)) and name CG#) 21.97 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 101 and segid K) or (resid 1101 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 104 and segid K) or (resid 1104 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 110 and segid K) or (resid 1110 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 111 and segid K) or (resid 1111 and segid I)) and name CD#) 22.71 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 114 and segid K) or (resid 1114 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 115 and segid K) or (resid 1115 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 117 and segid K) or (resid 1117 and segid I)) and name CD1) 22.53 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 124 and segid K) or (resid 1124 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 125 and segid K) or (resid 1125 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 127 and segid K) or (resid 1127 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 141 and segid K) or (resid 1141 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 144 and segid K) or (resid 1144 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 159 and segid K) or (resid 1159 and segid I)) and name CD1) 24.49 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 15 and segid K) or (resid 1015 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 160 and segid K) or (resid 1160 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 161 and segid K) or (resid 1161 and segid I)) and name CD1) 23.22 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 168 and segid K) or (resid 1168 and segid I)) and name CD#) 24.11 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 16 and segid K) or (resid 1016 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 176 and segid K) or (resid 1176 and segid I)) and name CD1) 22.02 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 178 and segid K) or (resid 1178 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 183 and segid K) or (resid 1183 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 185 and segid K) or (resid 1185 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 196 and segid K) or (resid 1196 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 206 and segid K) or (resid 1206 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 207 and segid K) or (resid 1207 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 210 and segid K) or (resid 1210 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 212 and segid K) or (resid 1212 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 223 and segid K) or (resid 1223 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 224 and segid K) or (resid 1224 and segid I)) and name CG#) 24.19 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 24 and segid K) or (resid 1024 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 29 and segid K) or (resid 1029 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 41 and segid K) or (resid 1041 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid  4 and segid K) or (resid 1004 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 50 and segid K) or (resid 1050 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 58 and segid K) or (resid 1058 and segid I)) and name CD#) 19.35 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 62 and segid K) or (resid 1062 and segid I)) and name CD1) 24.24 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 66 and segid K) or (resid 1066 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 77 and segid K) or (resid 1077 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 78 and segid K) or (resid 1078 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 82 and segid K) or (resid 1082 and segid I)) and name CD1) 20.22 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 95 and segid K) or (resid 1095 and segid I)) and name CG#) 21.97 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 128 and segid E) or (resid 1128 and segid C)) and (name CD1 or name CD2)) 24.10 0.00 8.10
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 140 and segid E) or (resid 1140 and segid C)) and (name CD1 or name CD2)) 22.38 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 200 and segid E) or (resid 1200 and segid C)) and (name CD1 or name CD2)) 24.28 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 221 and segid E) or (resid 1221 and segid C)) and (name CD1 or name CD2)) 23.13 0.00 8.30
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 2 and segid E) or (resid 1002 and segid C)) and (name CG1 or name CG2)) 23.95 0.00 8.20
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 128 and segid K) or (resid 1128 and segid I)) and (name CD1 or name CD2)) 24.10 0.00 8.10
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 140 and segid K) or (resid 1140 and segid I)) and (name CD1 or name CD2)) 22.38 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 200 and segid K) or (resid 1200 and segid I)) and (name CD1 or name CD2)) 24.28 0.00 8.00
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 221 and segid K) or (resid 1221 and segid I)) and (name CD1 or name CD2)) 23.13 0.00 8.30
+assign (((resid 71 and (segid D or segid J)) or (resid 1071 and (segid A or segid G))) and name SG) (((resid 2 and segid K) or (resid 1002 and segid I)) and (name CG1 or name CG2)) 23.95 0.00 8.20
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 101 and segid E) or (resid 1101 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 104 and segid E) or (resid 1104 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 110 and segid E) or (resid 1110 and segid C)) and name CG#) 23.72 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 111 and segid E) or (resid 1111 and segid C)) and name CD#) 23.83 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 114 and segid E) or (resid 1114 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 115 and segid E) or (resid 1115 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 117 and segid E) or (resid 1117 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 124 and segid E) or (resid 1124 and segid C)) and name CD1) 22.68 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 125 and segid E) or (resid 1125 and segid C)) and name CD1) 2.80 0.00 22.73
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 127 and segid E) or (resid 1127 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 128 and segid E) or (resid 1128 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 140 and segid E) or (resid 1140 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 141 and segid E) or (resid 1141 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 144 and segid E) or (resid 1144 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 14 and segid E) or (resid 1014 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 159 and segid E) or (resid 1159 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 15 and segid E) or (resid 1015 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 160 and segid E) or (resid 1160 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 161 and segid E) or (resid 1161 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 168 and segid E) or (resid 1168 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 16 and segid E) or (resid 1016 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 176 and segid E) or (resid 1176 and segid C)) and name CD1) 24.28 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 178 and segid E) or (resid 1178 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 183 and segid E) or (resid 1183 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 200 and segid E) or (resid 1200 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 206 and segid E) or (resid 1206 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 207 and segid E) or (resid 1207 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 210 and segid E) or (resid 1210 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 212 and segid E) or (resid 1212 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 221 and segid E) or (resid 1221 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 223 and segid E) or (resid 1223 and segid C)) and name CG#) 17.67 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 224 and segid E) or (resid 1224 and segid C)) and name CG#) 2.80 0.00 22.73
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 24 and segid E) or (resid 1024 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid  2 and segid E) or (resid 1002 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 41 and segid E) or (resid 1041 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid  4 and segid E) or (resid 1004 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 50 and segid E) or (resid 1050 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 58 and segid E) or (resid 1058 and segid C)) and name CD#) 20.91 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 62 and segid E) or (resid 1062 and segid C)) and name CD1) 24.41 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 66 and segid E) or (resid 1066 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 77 and segid E) or (resid 1077 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 78 and segid E) or (resid 1078 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 82 and segid E) or (resid 1082 and segid C)) and name CD1) 24.45 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 95 and segid E) or (resid 1095 and segid C)) and name CG#) 24.24 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 101 and segid K) or (resid 1101 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 104 and segid K) or (resid 1104 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 110 and segid K) or (resid 1110 and segid I)) and name CG#) 23.72 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 111 and segid K) or (resid 1111 and segid I)) and name CD#) 23.83 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 114 and segid K) or (resid 1114 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 115 and segid K) or (resid 1115 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 117 and segid K) or (resid 1117 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 124 and segid K) or (resid 1124 and segid I)) and name CD1) 22.68 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 125 and segid K) or (resid 1125 and segid I)) and name CD1) 2.80 0.00 22.73
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 127 and segid K) or (resid 1127 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 128 and segid K) or (resid 1128 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 140 and segid K) or (resid 1140 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 141 and segid K) or (resid 1141 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 144 and segid K) or (resid 1144 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 14 and segid K) or (resid 1014 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 159 and segid K) or (resid 1159 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 15 and segid K) or (resid 1015 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 160 and segid K) or (resid 1160 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 161 and segid K) or (resid 1161 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 168 and segid K) or (resid 1168 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 16 and segid K) or (resid 1016 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 176 and segid K) or (resid 1176 and segid I)) and name CD1) 24.28 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 178 and segid K) or (resid 1178 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 183 and segid K) or (resid 1183 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 200 and segid K) or (resid 1200 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 206 and segid K) or (resid 1206 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 207 and segid K) or (resid 1207 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 210 and segid K) or (resid 1210 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 212 and segid K) or (resid 1212 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 221 and segid K) or (resid 1221 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 223 and segid K) or (resid 1223 and segid I)) and name CG#) 17.67 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 224 and segid K) or (resid 1224 and segid I)) and name CG#) 2.80 0.00 22.73
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 24 and segid K) or (resid 1024 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid  2 and segid K) or (resid 1002 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 41 and segid K) or (resid 1041 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid  4 and segid K) or (resid 1004 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 50 and segid K) or (resid 1050 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 58 and segid K) or (resid 1058 and segid I)) and name CD#) 20.91 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 62 and segid K) or (resid 1062 and segid I)) and name CD1) 24.41 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 66 and segid K) or (resid 1066 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 77 and segid K) or (resid 1077 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 78 and segid K) or (resid 1078 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 82 and segid K) or (resid 1082 and segid I)) and name CD1) 24.45 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 95 and segid K) or (resid 1095 and segid I)) and name CG#) 24.24 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 196 and segid E) or (resid 1196 and segid C)) and (name CG1 or name CG2)) 24.41 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 29 and segid E) or (resid 1029 and segid C)) and (name CD1 or name CD2)) 23.29 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 196 and segid K) or (resid 1196 and segid I)) and (name CG1 or name CG2)) 24.41 0.00 8.00
+assign (((resid 196 or resid 1196) and (segid B or segid H)) and name SG) (((resid 29 and segid K) or (resid 1029 and segid I)) and (name CD1 or name CD2)) 23.29 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 101 and segid E) or (resid 1101 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 104 and segid E) or (resid 1104 and segid C)) and name CD1) 18.12 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 110 and segid E) or (resid 1110 and segid C)) and name CG#) 2.80 0.00 22.73
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 114 and segid E) or (resid 1114 and segid C)) and name CD#) 21.21 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 115 and segid E) or (resid 1115 and segid C)) and name CG#) 19.50 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 117 and segid E) or (resid 1117 and segid C)) and name CD1) 22.05 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 118 and segid E) or (resid 1118 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 124 and segid E) or (resid 1124 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 125 and segid E) or (resid 1125 and segid C)) and name CD1) 19.69 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 127 and segid E) or (resid 1127 and segid C)) and name CD1) 20.72 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 128 and segid E) or (resid 1128 and segid C)) and name CD#) 2.80 0.00 22.73
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 140 and segid E) or (resid 1140 and segid C)) and name CD#) 22.68 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 141 and segid E) or (resid 1141 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 144 and segid E) or (resid 1144 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 159 and segid E) or (resid 1159 and segid C)) and name CD1) 2.80 0.00 22.73
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 15 and segid E) or (resid 1015 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 160 and segid E) or (resid 1160 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 161 and segid E) or (resid 1161 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 168 and segid E) or (resid 1168 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 16 and segid E) or (resid 1016 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 176 and segid E) or (resid 1176 and segid C)) and name CD1) 21.44 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 178 and segid E) or (resid 1178 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 183 and segid E) or (resid 1183 and segid C)) and name CD1) 19.98 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 200 and segid E) or (resid 1200 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 206 and segid E) or (resid 1206 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 207 and segid E) or (resid 1207 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 210 and segid E) or (resid 1210 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 212 and segid E) or (resid 1212 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 221 and segid E) or (resid 1221 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 223 and segid E) or (resid 1223 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 224 and segid E) or (resid 1224 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 24 and segid E) or (resid 1024 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 29 and segid E) or (resid 1029 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid  2 and segid E) or (resid 1002 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 41 and segid E) or (resid 1041 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid  4 and segid E) or (resid 1004 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 50 and segid E) or (resid 1050 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 58 and segid E) or (resid 1058 and segid C)) and name CD#) 21.35 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 62 and segid E) or (resid 1062 and segid C)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 66 and segid E) or (resid 1066 and segid C)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 77 and segid E) or (resid 1077 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 78 and segid E) or (resid 1078 and segid C)) and name CD#) 18.08 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 82 and segid E) or (resid 1082 and segid C)) and name CD1) 20.06 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 95 and segid E) or (resid 1095 and segid C)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 101 and segid K) or (resid 1101 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 104 and segid K) or (resid 1104 and segid I)) and name CD1) 18.12 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 110 and segid K) or (resid 1110 and segid I)) and name CG#) 2.80 0.00 22.73
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 114 and segid K) or (resid 1114 and segid I)) and name CD#) 21.21 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 115 and segid K) or (resid 1115 and segid I)) and name CG#) 19.50 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 117 and segid K) or (resid 1117 and segid I)) and name CD1) 22.05 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 118 and segid K) or (resid 1118 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 124 and segid K) or (resid 1124 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 125 and segid K) or (resid 1125 and segid I)) and name CD1) 19.69 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 127 and segid K) or (resid 1127 and segid I)) and name CD1) 20.72 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 128 and segid K) or (resid 1128 and segid I)) and name CD#) 2.80 0.00 22.73
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 140 and segid K) or (resid 1140 and segid I)) and name CD#) 22.68 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 141 and segid K) or (resid 1141 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 144 and segid K) or (resid 1144 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 159 and segid K) or (resid 1159 and segid I)) and name CD1) 2.80 0.00 22.73
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 15 and segid K) or (resid 1015 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 160 and segid K) or (resid 1160 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 161 and segid K) or (resid 1161 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 168 and segid K) or (resid 1168 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 16 and segid K) or (resid 1016 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 176 and segid K) or (resid 1176 and segid I)) and name CD1) 21.44 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 178 and segid K) or (resid 1178 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 183 and segid K) or (resid 1183 and segid I)) and name CD1) 19.98 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 200 and segid K) or (resid 1200 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 206 and segid K) or (resid 1206 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 207 and segid K) or (resid 1207 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 210 and segid K) or (resid 1210 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 212 and segid K) or (resid 1212 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 221 and segid K) or (resid 1221 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 223 and segid K) or (resid 1223 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 224 and segid K) or (resid 1224 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 24 and segid K) or (resid 1024 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 29 and segid K) or (resid 1029 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid  2 and segid K) or (resid 1002 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 41 and segid K) or (resid 1041 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid  4 and segid K) or (resid 1004 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 50 and segid K) or (resid 1050 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 58 and segid K) or (resid 1058 and segid I)) and name CD#) 21.35 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 62 and segid K) or (resid 1062 and segid I)) and name CD1) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 66 and segid K) or (resid 1066 and segid I)) and name CD#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 77 and segid K) or (resid 1077 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 78 and segid K) or (resid 1078 and segid I)) and name CD#) 18.08 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 82 and segid K) or (resid 1082 and segid I)) and name CD1) 20.06 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 95 and segid K) or (resid 1095 and segid I)) and name CG#) 99.00 70.28 6.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 196 and segid E) or (resid 1196 and segid C)) and (name CG1 or name CG2)) 23.99 0.00 8.00
+assign (((resid 247 or resid 1247) and (segid B or segid H)) and name SG) (((resid 196 and segid K) or (resid 1196 and segid I)) and (name CG1 or name CG2)) 23.99 0.00 8.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 100 and segid D) or (resid 1100 and segid A)) and name CD1) 99.00 70.28 6.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 108 and segid D) or (resid 1108 and segid A)) and name CD#) 99.00 70.28 6.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 109 and segid D) or (resid 1109 and segid A)) and name CG#) 21.23 0.00 8.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 112 and segid D) or (resid 1112 and segid A)) and name CD1) 21.46 0.00 8.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 116 and segid D) or (resid 1116 and segid A)) and name CG#) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 119 and segid D) or (resid 1119 and segid A)) and name CD#) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 18 and segid D) or (resid 1018 and segid A)) and name CD#) 99.00 70.28 6.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 21 and segid D) or (resid 1021 and segid A)) and name CG#) 99.00 70.28 6.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 23 and segid D) or (resid 1023 and segid A)) and name CD1) 99.00 70.28 6.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 30 and segid D) or (resid 1030 and segid A)) and name CD1) 23.15 0.00 8.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 41 and segid D) or (resid 1041 and segid A)) and name CG#) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 48 and segid D) or (resid 1048 and segid A)) and name CD#) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 49 and segid D) or (resid 1049 and segid A)) and name CG#) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 50 and segid D) or (resid 1050 and segid A)) and name CD1) 19.96 0.00 8.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 51 and segid D) or (resid 1051 and segid A)) and name CD1) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 55 and segid D) or (resid 1055 and segid A)) and name CG#) 99.00 70.28 6.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 60 and segid D) or (resid 1060 and segid A)) and name CD1) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 73 and segid D) or (resid 1073 and segid A)) and name CD1) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 76 and segid D) or (resid 1076 and segid A)) and name CD1) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 99 and segid D) or (resid 1099 and segid A)) and name CD1) 99.00 70.28 6.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 9 and segid D) or (resid 1009 and segid A)) and name CG#) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 100 and segid J) or (resid 1100 and segid G)) and name CD1) 99.00 70.28 6.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 108 and segid J) or (resid 1108 and segid G)) and name CD#) 99.00 70.28 6.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 109 and segid J) or (resid 1109 and segid G)) and name CG#) 21.23 0.00 8.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 112 and segid J) or (resid 1112 and segid G)) and name CD1) 21.46 0.00 8.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 116 and segid J) or (resid 1116 and segid G)) and name CG#) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 119 and segid J) or (resid 1119 and segid G)) and name CD#) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 18 and segid J) or (resid 1018 and segid G)) and name CD#) 99.00 70.28 6.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 21 and segid J) or (resid 1021 and segid G)) and name CG#) 99.00 70.28 6.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 23 and segid J) or (resid 1023 and segid G)) and name CD1) 99.00 70.28 6.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 30 and segid J) or (resid 1030 and segid G)) and name CD1) 23.15 0.00 8.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 41 and segid J) or (resid 1041 and segid G)) and name CG#) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 48 and segid J) or (resid 1048 and segid G)) and name CD#) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 49 and segid J) or (resid 1049 and segid G)) and name CG#) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 50 and segid J) or (resid 1050 and segid G)) and name CD1) 19.96 0.00 8.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 51 and segid J) or (resid 1051 and segid G)) and name CD1) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 55 and segid J) or (resid 1055 and segid G)) and name CG#) 99.00 70.28 6.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 60 and segid J) or (resid 1060 and segid G)) and name CD1) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 73 and segid J) or (resid 1073 and segid G)) and name CD1) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 76 and segid J) or (resid 1076 and segid G)) and name CD1) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 99 and segid J) or (resid 1099 and segid G)) and name CD1) 99.00 70.28 6.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 9 and segid J) or (resid 1009 and segid G)) and name CG#) 2.80 0.00 22.73
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 13 and segid D) or (resid 1013 and segid A)) and (name CD1 or name CD2)) 18.10 0.00 8.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 64 and segid D) or (resid 1064 and segid A)) and (name CD1 or name CD2)) 20.00 0.00 8.80
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 78 and segid D) or (resid 1078 and segid A)) and (name CG1 or name CG2)) 18.65 0.00 8.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 84 and segid D) or (resid 1084 and segid A)) and (name CD1 or name CD2)) 22.63 0.00 9.10
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 97 and segid D) or (resid 1097 and segid A)) and (name CG1 or name CG2)) 0.00 16.03 8.80
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 13 and segid J) or (resid 1013 and segid G)) and (name CD1 or name CD2)) 18.10 0.00 8.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 64 and segid J) or (resid 1064 and segid G)) and (name CD1 or name CD2)) 20.00 0.00 8.80
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 78 and segid J) or (resid 1078 and segid G)) and (name CG1 or name CG2)) 18.65 0.00 8.00
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 84 and segid J) or (resid 1084 and segid G)) and (name CD1 or name CD2)) 22.63 0.00 9.10
+assign (((resid 65 and (segid C or segid I)) or (resid 1065 and (segid E or segid K))) and name SG) (((resid 97 and segid J) or (resid 1097 and segid G)) and (name CG1 or name CG2)) 0.00 16.03 8.80
+assign (resid 312 and segid E and name P) (resid 14 and segid A and name O3') 5.0 5.0 0.0
+assign (resid 61 and segid F and name O3') (resid 62 and segid A and name O5') 5.0 5.0 0.0
+assign (resid 248 and segid B and name C) (resid 249 and segid A and name N) 5.0 5.0 0.0
+assign (resid 120 and segid B and name N) (resid 119 and segid C and name C) 5.0 5.0 0.0
+assign (resid 1120 and segid B and name N) (resid 1119 and segid E and name C) 5.0 5.0 0.0
+assign (resid 1248 and segid B and name C) (resid 1249 and segid D and name N) 5.0 5.0 0.0
+assign (resid 226 and segid D and name O5') (resid 322 and segid K and name O3') 5.0 5.0 0.0
+assign (resid 250 and segid D and name O3') (resid 51 and segid L and name O5') 5.0 5.0 0.0
+assign (resid 322 and segid E and name O3') (resid 226 and segid J and name O5') 5.0 5.0 0.0
+assign (resid 250 and segid J and name O3') (resid 51 and segid F and name O5') 5.0 5.0 0.0
+assign (resid 61 and segid L and name O3') (resid 62 and segid G and name O5') 5.0 5.0 0.0
+assign (resid 1248 and segid H and name C) (resid 249 and segid G and name N) 5.0 5.0 0.0
+assign (resid 312 and segid K and name P) (resid 14 and segid G and name O3') 5.0 5.0 0.0
+assign (resid 1120 and segid H and name N) (resid 119 and segid I and name C) 5.0 5.0 0.0
+assign (resid 120 and segid H and name N) (resid 1119 and segid K and name C) 5.0 5.0 0.0
+assign (resid 248 and segid H and name C) (resid 1249 and segid J and name N) 5.0 5.0 0.0

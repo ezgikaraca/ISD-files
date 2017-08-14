@@ -1,0 +1,495 @@
+assign ( resid 78 and segid A and name SG) ( resid 43 and segid B and name CG1) 15.0 15.0 0.5
+assign ( resid 78 and segid A and name SG) ( resid 47 and segid B and name CD1) 15.0 15.0 0.5
+assign ( resid 78 and segid A and name SG) ( resid 53 and segid B and name CG1) 15.0 15.0 0.5
+assign ( resid 78 and segid A and name SG) ( resid 55 and segid B and name CD1) 15.0 15.0 0.5
+assign ( resid 78 and segid A and name SG) ( resid 58 and segid B and name CD1) 15.0 15.0 0.5
+assign ( resid 69 and segid B and name SG) ( resid 39 and segid C and name CD1) 15.0 15.0 0.5
+assign ( resid 69 and segid B and name SG) ( resid 53 and segid C and name CG1) 15.0 15.0 0.5
+assign ( resid 69 and segid B and name SG) ( resid 54 and segid C and name CD1) 15.0 15.0 0.5
+assign ( resid 69 and segid B and name SG) ( resid 57 and segid C and name CG1) 15.0 15.0 0.5
+assign ( resid 69 and segid B and name SG) ( resid 83 and segid C and name CD1) 15.0 15.0 0.5
+assign ( resid 69 and segid B and name SG) ( resid 88 and segid C and name CD1) 15.0 15.0 0.5
+assign ( resid 99 and segid C and name SG) ( resid 41 and segid F and name CD1) 15.0 15.0 0.5
+assign ( resid 99 and segid C and name SG) ( resid 56 and segid F and name CD1) 15.0 15.0 0.5
+assign ( resid 99 and segid C and name SG) ( resid 59 and segid F and name CG1) 15.0 15.0 0.5
+assign ( resid 70 and segid D and name SG) ( resid 35 and segid A and name CD1) 15.0 15.0 0.5
+assign ( resid 70 and segid D and name SG) ( resid 36 and segid A and name CD1) 15.0 15.0 0.5
+assign ( resid 70 and segid D and name SG) ( resid 37 and segid A and name CD1) 15.0 15.0 0.5
+assign ( resid 70 and segid D and name SG) ( resid 62 and segid A and name CD1) 15.0 15.0 0.5
+assign ( resid 70 and segid D and name SG) ( resid 64 and segid A and name CD1) 15.0 15.0 0.5
+assign ( resid 70 and segid D and name SG) ( resid 65 and segid A and name CG1) 15.0 15.0 0.5
+assign ( resid 70 and segid D and name SG) ( resid 66 and segid A and name CD1) 15.0 15.0 0.5
+assign ( resid 70 and segid D and name SG) ( resid 67 and segid A and name CD1) 15.0 15.0 0.5
+assign ( resid 70 and segid E and name SG) ( resid 38 and segid G and name CG1) 15.0 15.0 0.5
+assign ( resid 70 and segid E and name SG) ( resid 39 and segid G and name CD1) 15.0 15.0 0.5
+assign ( resid 70 and segid E and name SG) ( resid 54 and segid G and name CD1) 15.0 15.0 0.5
+assign ( resid 70 and segid E and name SG) ( resid 57 and segid G and name CG1) 15.0 15.0 0.5
+assign ( resid 70 and segid E and name SG) ( resid 58 and segid G and name CG1) 15.0 15.0 0.5
+assign ( resid 70 and segid E and name SG) ( resid 59 and segid G and name CD1) 15.0 15.0 0.5
+assign ( resid 71 and segid F and name SG) ( resid 24 and segid E and name CD1) 15.0 15.0 0.5
+assign ( resid 71 and segid F and name SG) ( resid 29 and segid E and name CD1) 15.0 15.0 0.5
+assign ( resid 71 and segid F and name SG) ( resid 38 and segid E and name CG1) 15.0 15.0 0.5
+assign ( resid 71 and segid F and name SG) ( resid 39 and segid E and name CD1) 15.0 15.0 0.5
+assign ( resid 71 and segid F and name SG) ( resid 55 and segid E and name CD1) 15.0 15.0 0.5
+assign ( resid 71 and segid F and name SG) ( resid 58 and segid E and name CD1) 15.0 15.0 0.5
+assign ( resid 71 and segid F and name SG) ( resid 60 and segid E and name CD1) 15.0 15.0 0.5
+assign ( resid 69 and segid G and name SG) ( resid 30 and segid D and name CD1) 15.0 15.0 0.5
+assign ( resid 69 and segid G and name SG) ( resid 43 and segid D and name CD1) 15.0 15.0 0.5
+assign ( resid 69 and segid G and name SG) ( resid 45 and segid D and name CG1) 15.0 15.0 0.5
+assign ( resid 69 and segid G and name SG) ( resid 55 and segid D and name CD1) 15.0 15.0 0.5
+assign ( resid 69 and segid G and name SG) ( resid 58 and segid D and name CG1) 15.0 15.0 0.5
+assign ( resid 69 and segid G and name SG) ( resid 60 and segid D and name CD1) 15.0 15.0 0.5
+assign ( resid 78 and segid A and name SG) ( resid 15 and segid B and name CG1) 23.33 0.5 0.5
+assign ( resid 78 and segid A and name SG) ( resid 17 and segid B and name CD1) 19.50 0.5 0.5
+assign ( resid 78 and segid A and name SG) ( resid 19 and segid B and name CD1) 17.13 0.5 0.5
+assign ( resid 78 and segid A and name SG) ( resid 25 and segid B and name CG1) 15.73 0.5 0.5
+assign ( resid 78 and segid A and name SG) ( resid 29 and segid B and name CD1) 22.69 0.5 0.5
+assign ( resid 78 and segid A and name SG) ( resid 32 and segid B and name CG1) 24.26 0.5 0.5
+assign ( resid 78 and segid A and name SG) ( resid 40 and segid B and name CD1) 16.77 0.5 0.5
+assign ( resid 78 and segid A and name SG) ( resid 60 and segid B and name CD1) 16.48 0.5 0.5
+assign ( resid 78 and segid A and name SG) ( resid 65 and segid B and name CD1) 20.93 0.5 0.5
+assign ( resid 78 and segid A and name SG) ( resid 69 and segid D and name CD1) 22.42 0.5 0.5
+assign ( resid 78 and segid A and name SG) ( resid 80 and segid D and name CD1) 20.91 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 15 and segid A and name CD1) 19.36 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 21 and segid A and name CD1) 23.18 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 72 and segid A and name CD1) 22.01 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 73 and segid A and name CG1) 17.24 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 77 and segid A and name CG1) 24.34 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 23 and segid C and name CG1) 24.69 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 29 and segid C and name CG1) 19.44 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 30 and segid C and name CD1) 20.82 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 31 and segid C and name CD1) 17.99 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 40 and segid C and name CD1) 20.11 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 43 and segid C and name CG1) 19.59 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 64 and segid C and name CG1) 24.44 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 93 and segid C and name CG1) 20.50 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 94 and segid C and name CD1) 23.26 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 96 and segid C and name CG1) 23.01 0.5 0.5
+assign ( resid 69 and segid B and name SG) ( resid 97 and segid C and name CD1) 24.50 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 3 and segid B and name CD1) 22.47 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 70 and segid B and name CD1) 22.60 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 83 and segid B and name CG1) 23.52 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 87 and segid B and name CG1) 24.68 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 16 and segid F and name CG1) 22.82 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 18 and segid F and name CG1) 19.49 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 20 and segid F and name CD1) 18.31 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 30 and segid F and name CD1) 19.21 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 31 and segid F and name CG1) 16.83 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 33 and segid F and name CG1) 22.87 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 48 and segid F and name CD1) 15.98 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 52 and segid F and name CD1) 16.93 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 60 and segid F and name CD1) 15.09 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 61 and segid F and name CD1) 15.47 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 66 and segid F and name CG1) 21.96 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 69 and segid F and name CD1) 22.01 0.5 0.5
+assign ( resid 99 and segid C and name SG) ( resid 72 and segid F and name CG1) 22.51 0.5 0.5
+assign ( resid 70 and segid D and name SG) ( resid 5 and segid A and name CD1) 23.69 0.5 0.5
+assign ( resid 70 and segid D and name SG) ( resid 8 and segid A and name CD1) 17.13 0.5 0.5
+assign ( resid 70 and segid D and name SG) ( resid 15 and segid A and name CD1) 21.51 0.5 0.5
+assign ( resid 70 and segid D and name SG) ( resid 16 and segid A and name CD1) 15.59 0.5 0.5
+assign ( resid 70 and segid D and name SG) ( resid 21 and segid A and name CD1) 20.79 0.5 0.5
+assign ( resid 70 and segid D and name SG) ( resid 23 and segid A and name CD1) 17.25 0.5 0.5
+assign ( resid 70 and segid D and name SG) ( resid 72 and segid A and name CD1) 17.63 0.5 0.5
+assign ( resid 70 and segid D and name SG) ( resid 73 and segid A and name CG1) 23.12 0.5 0.5
+assign ( resid 70 and segid D and name SG) ( resid 77 and segid A and name CG1) 21.70 0.5 0.5
+assign ( resid 70 and segid D and name SG) ( resid 55 and segid B and name CD1) 24.86 0.5 0.5
+assign ( resid 70 and segid D and name SG) ( resid 58 and segid B and name CD1) 23.00 0.5 0.5
+assign ( resid 70 and segid D and name SG) ( resid 65 and segid G and name CD1) 24.40 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 2 and segid F and name CD1) 19.00 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 8 and segid F and name CD1) 23.62 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 11 and segid F and name CD1) 21.26 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 16 and segid F and name CG1) 24.05 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 18 and segid F and name CG1) 24.09 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 66 and segid F and name CG1) 22.21 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 67 and segid F and name CD1) 17.64 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 69 and segid F and name CD1) 22.80 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 6 and segid G and name CD1) 19.91 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 14 and segid G and name CD1) 20.46 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 16 and segid G and name CD1) 18.37 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 18 and segid G and name CD1) 16.53 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 24 and segid G and name CG1) 15.59 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 27 and segid G and name CD1) 18.43 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 28 and segid G and name CD1) 16.15 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 37 and segid G and name CD1) 16.69 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 43 and segid G and name CG1) 18.06 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 64 and segid G and name CD1) 17.22 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 65 and segid G and name CD1) 24.42 0.5 0.5
+assign ( resid 70 and segid E and name SG) ( resid 67 and segid G and name CD1) 21.27 0.5 0.5
+assign ( resid 71 and segid F and name SG) ( resid 18 and segid C and name CG1) 24.96 0.5 0.5
+assign ( resid 71 and segid F and name SG) ( resid 94 and segid C and name CD1) 24.13 0.5 0.5
+assign ( resid 71 and segid F and name SG) ( resid 95 and segid C and name CG1) 20.69 0.5 0.5
+assign ( resid 71 and segid F and name SG) ( resid 97 and segid C and name CD1) 23.82 0.5 0.5
+assign ( resid 71 and segid F and name SG) ( resid 6 and segid E and name CD1) 22.19 0.5 0.5
+assign ( resid 71 and segid F and name SG) ( resid 12 and segid E and name CD1) 22.64 0.5 0.5
+assign ( resid 71 and segid F and name SG) ( resid 14 and segid E and name CG1) 17.27 0.5 0.5
+assign ( resid 71 and segid F and name SG) ( resid 16 and segid E and name CD1) 17.45 0.5 0.5
+assign ( resid 71 and segid F and name SG) ( resid 20 and segid E and name CG1) 20.71 0.5 0.5
+assign ( resid 71 and segid F and name SG) ( resid 28 and segid E and name CD1) 17.47 0.5 0.5
+assign ( resid 71 and segid F and name SG) ( resid 37 and segid E and name CD1) 16.45 0.5 0.5
+assign ( resid 71 and segid F and name SG) ( resid 45 and segid E and name CD1) 17.18 0.5 0.5
+assign ( resid 71 and segid F and name SG) ( resid 65 and segid E and name CD1) 17.96 0.5 0.5
+assign ( resid 71 and segid F and name SG) ( resid 68 and segid E and name CD1) 19.83 0.5 0.5
+assign ( resid 71 and segid F and name SG) ( resid 58 and segid G and name CG1) 24.35 0.5 0.5
+assign ( resid 69 and segid G and name SG) ( resid 7 and segid D and name CD1) 23.37 0.5 0.5
+assign ( resid 69 and segid G and name SG) ( resid 14 and segid D and name CD1) 21.17 0.5 0.5
+assign ( resid 69 and segid G and name SG) ( resid 15 and segid D and name CG1) 21.89 0.5 0.5
+assign ( resid 69 and segid G and name SG) ( resid 24 and segid D and name CG1) 20.68 0.5 0.5
+assign ( resid 69 and segid G and name SG) ( resid 29 and segid D and name CD1) 17.33 0.5 0.5
+assign ( resid 69 and segid G and name SG) ( resid 52 and segid D and name CG1) 20.21 0.5 0.5
+assign ( resid 69 and segid G and name SG) ( resid 65 and segid D and name CD1) 20.29 0.5 0.5
+assign ( resid 69 and segid G and name SG) ( resid 68 and segid D and name CD1) 21.69 0.5 0.5
+assign ( resid 69 and segid G and name SG) ( resid 1 and segid E and name CD1) 22.24 0.5 0.5
+assign ( resid 69 and segid G and name SG) ( resid 2 and segid E and name CD1) 18.47 0.5 0.5
+assign ( resid 69 and segid G and name SG) ( resid 67 and segid E and name CD1) 19.74 0.5 0.5
+assign ( resid 69 and segid G and name SG) ( resid 68 and segid E and name CD1) 24.86 0.5 0.5
+assign ( resid 69 and segid G and name SG) ( resid 71 and segid E and name CG1) 24.11 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 69 and segid D and name CD1) 15.0 15.0 0.5
+assign ( resid 61 and segid A and name SG) ( resid 47 and segid B and name CD1) 23.68 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 53 and segid B and name CG1) 21.44 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 55 and segid B and name CD1) 21.29 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 58 and segid B and name CD1) 22.24 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 6 and segid D and name CG1) 21.89 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 7 and segid D and name CD1) 22.05 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 14 and segid D and name CD1) 19.83 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 15 and segid D and name CG1) 18.04 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 24 and segid D and name CG1) 16.56 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 29 and segid D and name CD1) 22.77 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 43 and segid D and name CD1) 24.50 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 45 and segid D and name CG1) 24.03 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 52 and segid D and name CG1) 20.71 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 60 and segid D and name CD1) 24.01 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 65 and segid D and name CD1) 21.43 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 68 and segid D and name CD1) 19.34 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 74 and segid D and name CD1) 20.92 0.5 0.5
+assign ( resid 61 and segid A and name SG) ( resid 80 and segid D and name CD1) 22.36 0.5 0.5
+assign ( resid 77 and segid C and name SG) ( resid 47 and segid B and name CD1) 24.13 0.5 0.5
+assign ( resid 77 and segid C and name SG) ( resid 48 and segid F and name CD1) 19.62 0.5 0.5
+assign ( resid 77 and segid C and name SG) ( resid 56 and segid F and name CD1) 24.53 0.5 0.5
+assign ( resid 52 and segid B and name SG) ( resid 15 and segid A and name CD1) 15.0 15.0 0.5
+assign ( resid 52 and segid B and name SG) ( resid 21 and segid A and name CD1) 15.0 15.0 0.5
+assign ( resid 52 and segid B and name SG) ( resid 46 and segid A and name CD1) 15.0 15.0 0.5
+assign ( resid 46 and segid D and name SG) ( resid 62 and segid A and name CD1) 15.0 15.0 0.5
+assign ( resid 52 and segid B and name SG) ( resid 16 and segid A and name CD1) 23.26 0.5 0.5
+assign ( resid 52 and segid B and name SG) ( resid 23 and segid A and name CD1) 19.64 0.5 0.5
+assign ( resid 52 and segid B and name SG) ( resid 35 and segid A and name CD1) 24.48 0.5 0.5
+assign ( resid 52 and segid B and name SG) ( resid 72 and segid A and name CD1) 20.20 0.5 0.5
+assign ( resid 52 and segid B and name SG) ( resid 73 and segid A and name CG1) 15.83 0.5 0.5
+assign ( resid 52 and segid B and name SG) ( resid 77 and segid A and name CG1) 20.65 0.5 0.5
+assign ( resid 52 and segid B and name SG) ( resid 39 and segid C and name CD1) 23.21 0.5 0.5
+assign ( resid 52 and segid B and name SG) ( resid 54 and segid C and name CD1) 24.99 0.5 0.5
+assign ( resid 52 and segid B and name SG) ( resid 57 and segid C and name CG1) 23.96 0.5 0.5
+assign ( resid 52 and segid B and name SG) ( resid 64 and segid C and name CG1) 23.53 0.5 0.5
+assign ( resid 52 and segid B and name SG) ( resid 83 and segid C and name CD1) 16.64 0.5 0.5
+assign ( resid 52 and segid B and name SG) ( resid 88 and segid C and name CD1) 23.40 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 16 and segid A and name CD1) 17.73 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 21 and segid A and name CD1) 23.46 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 23 and segid A and name CD1) 23.02 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 35 and segid A and name CD1) 24.98 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 36 and segid A and name CD1) 22.53 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 37 and segid A and name CD1) 20.59 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 64 and segid A and name CD1) 21.46 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 65 and segid A and name CG1) 16.08 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 66 and segid A and name CD1) 21.19 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 67 and segid A and name CD1) 18.04 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 72 and segid A and name CD1) 24.31 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 14 and segid G and name CD1) 24.55 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 16 and segid G and name CD1) 22.61 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 18 and segid G and name CD1) 23.06 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 24 and segid G and name CG1) 24.24 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 64 and segid G and name CD1) 22.86 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 65 and segid G and name CD1) 16.14 0.5 0.5
+assign ( resid 46 and segid D and name SG) ( resid 67 and segid G and name CD1) 21.08 0.5 0.5
+assign ( resid 48 and segid E and name SG) ( resid 20 and segid F and name CD1) 24.97 0.5 0.5
+assign ( resid 48 and segid E and name SG) ( resid 48 and segid F and name CD1) 24.23 0.5 0.5
+assign ( resid 48 and segid E and name SG) ( resid 67 and segid F and name CD1) 20.52 0.5 0.5
+assign ( resid 48 and segid E and name SG) ( resid 18 and segid G and name CD1) 18.46 0.5 0.5
+assign ( resid 48 and segid E and name SG) ( resid 24 and segid G and name CG1) 22.13 0.5 0.5
+assign ( resid 48 and segid E and name SG) ( resid 43 and segid G and name CG1) 22.74 0.5 0.5
+assign ( resid 48 and segid E and name SG) ( resid 54 and segid G and name CD1) 18.93 0.5 0.5
+assign ( resid 48 and segid E and name SG) ( resid 57 and segid G and name CG1) 23.80 0.5 0.5
+assign ( resid 48 and segid E and name SG) ( resid 59 and segid G and name CD1) 23.23 0.5 0.5
+assign ( resid 48 and segid E and name SG) ( resid 65 and segid G and name CD1) 24.13 0.5 0.5
+assign ( resid 50 and segid F and name SG) ( resid 55 and segid E and name CD1) 15.0 15.0 0.5
+assign ( resid 46 and segid G and name SG) ( resid 20 and segid E and name CG1) 15.0 15.0 0.5
+assign ( resid 46 and segid G and name SG) ( resid 67 and segid E and name CD1) 15.0 15.0 0.5
+assign ( resid 50 and segid F and name SG) ( resid 30 and segid C and name CD1) 22.31 0.5 0.5
+assign ( resid 50 and segid F and name SG) ( resid 64 and segid C and name CG1) 23.00 0.5 0.5
+assign ( resid 50 and segid F and name SG) ( resid 93 and segid C and name CG1) 24.87 0.5 0.5
+assign ( resid 50 and segid F and name SG) ( resid 94 and segid C and name CD1) 19.97 0.5 0.5
+assign ( resid 50 and segid F and name SG) ( resid 95 and segid C and name CG1) 18.82 0.5 0.5
+assign ( resid 50 and segid F and name SG) ( resid 96 and segid C and name CG1) 24.66 0.5 0.5
+assign ( resid 50 and segid F and name SG) ( resid 97 and segid C and name CD1) 18.50 0.5 0.5
+assign ( resid 50 and segid F and name SG) ( resid 16 and segid E and name CD1) 23.45 0.5 0.5
+assign ( resid 50 and segid F and name SG) ( resid 20 and segid E and name CG1) 16.31 0.5 0.5
+assign ( resid 50 and segid F and name SG) ( resid 24 and segid E and name CD1) 17.55 0.5 0.5
+assign ( resid 50 and segid F and name SG) ( resid 39 and segid E and name CD1) 22.98 0.5 0.5
+assign ( resid 50 and segid F and name SG) ( resid 45 and segid E and name CD1) 18.99 0.5 0.5
+assign ( resid 50 and segid F and name SG) ( resid 58 and segid E and name CD1) 17.71 0.5 0.5
+assign ( resid 50 and segid F and name SG) ( resid 60 and segid E and name CD1) 21.84 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 43 and segid D and name CD1) 24.00 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 45 and segid D and name CG1) 21.15 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 55 and segid D and name CD1) 20.03 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 58 and segid D and name CG1) 21.91 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 60 and segid D and name CD1) 21.80 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 2 and segid E and name CD1) 23.54 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 14 and segid E and name CG1) 20.72 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 16 and segid E and name CD1) 16.79 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 24 and segid E and name CD1) 18.89 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 37 and segid E and name CD1) 22.04 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 39 and segid E and name CD1) 21.73 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 45 and segid E and name CD1) 15.62 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 55 and segid E and name CD1) 23.32 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 58 and segid E and name CD1) 23.14 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 60 and segid E and name CD1) 20.74 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 65 and segid E and name CD1) 20.47 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 68 and segid E and name CD1) 19.33 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 71 and segid E and name CG1) 20.71 0.5 0.5
+assign ( resid 46 and segid G and name SG) ( resid 67 and segid F and name CD1) 19.77 0.5 0.5
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 32 and segid A and (name CG or name CE1)) ( resid 34 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 34 and segid G and (name CG or name CE1)) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 35 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
+assign ( resid 36 and segid G and name CG) ( resid 32 and segid V and (name N1 or name C2 or name N3 or name C4 or name C5 or name C6)) 5.0 5.0 0.0
