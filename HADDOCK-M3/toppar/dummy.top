@@ -1,0 +1,13 @@
+MASS  DU     0.0800   ! dummy atom
+
+
+RESIdue DU {dummy atom}
+  GROUp
+    ATOM DU TYPE=DU CHARge=0.0 END
+  bond DU DU
+END {DU}
+
+presidue CON     ! 
+  add bond -DU +DU
+END {con}
+
