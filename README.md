@@ -1,11 +1,15 @@
 # Integrative Structure Determination files:
 
 To use this software you need a special version of HADDOCK. 
-Please ask it by sending an e-mail to Alexandre Bonvin (a.m.j.j.bonvin@uu.nl).
+See for that the README file under the HADDOCK2.3-nmol directory.
 
-The README files and scripts to the HADDOCK-M3 framework are located under `analysis_scripts`. 
-The starting structures, restraints files, and final models for each benchmark case are given under 
-the respective folder in `cases/`. Finally, statistics within this framework are calculated using Matlab, 
+The additional scripts to perform analysis and model selection in the HADDOCK2.3-nmol framework are located under `analysis_scripts`. 
+See the README file in that directory.
+
+Starting structures, restraints files, and final models for each benchmark case are given under 
+the respective folder in `cases/`. Each case also contains an example `new.html` and instructions about specific HADDOCK parameter settings.
+
+Finally, statistics within this framework are calculated using Matlab, 
 although in principle any other statistics toolkit/programming language can be used instead.
 
 If you use this software in your work, please cite us:

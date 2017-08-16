@@ -1,5 +1,0 @@
-collapse
-  force  $Data.krg
-  target $Data.rgtarg
-  sele   ($Data.rgsele)
-end

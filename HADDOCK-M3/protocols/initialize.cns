@@ -1,8 +1,0 @@
-!$Revision: 2.1 $
-!$Date: 2010/02/10 16:01:54 $
-!$RCSfile: initialize.cns,v $
-
-
-module (iteration;)
-evaluate (&iteration = "")
-
