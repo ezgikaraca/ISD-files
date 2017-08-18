@@ -78,7 +78,7 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 
 {* RUN directory *}
 {*  the absolute path of your current run, e.g. /home/haddock/run1*}
-{===>} run_dir="/Users/abonvin/haddock2.3-nmol/examples/e2a-hpr/run1";
+{===>} run_dir="HCLOUD/examples/e2a-hpr/run1";
 {* PDB file of molecule (protein) A *}
 {===>} prot_coor_A="e2aP_1F3G.pdb";
 {* PSF file of molecule (protein) A *}
@@ -438,11 +438,11 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 
 {* HADDOCK directory *}
 {*  the absolute path of the HADDOCK program files *}
-{===>} haddock_dir="/Users/abonvin/haddock2.3-nmol";
+{===>} haddock_dir="HCLOUD";
 
 {* Logfile directory *}
 {* specify a directory for the large CNS log files *}
-{===>} temptrash_dir="/Users/abonvin/haddock2.3-nmol/haddock2.3/examples/e2a-hpr/run1";
+{===>} temptrash_dir="HCLOUD/haddock2.3/examples/e2a-hpr/run1";
 
 
 {==================== histidine patches =====================}
@@ -4023,9 +4023,9 @@ involved in water-mediated contacts *}
 {+ table: rows=10 "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"
  cols=3 "queue command" "cns executable" "number of jobs" +}
 
-{===>} queue_1="/bin/csh";
-{===>} cns_exe_1="/opt/nmr/cns_solve_1.31-UU/mac-intel-darwin/bin/cns";
-{===>} cpunumber_1=2;
+{===>} queue_1="QUEUECOM";
+{===>} cns_exe_1="CNSEXEC";
+{===>} cpunumber_1=NUMJOB;
 
 {===>} queue_2="";
 {===>} cns_exe_2="";

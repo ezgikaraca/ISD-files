@@ -519,7 +519,7 @@ if ($iteration = 0) then
 
       ! random placement of molecules
       if ($SaProtocol.randorien eq true) then
-          @RUN:protocols/separate.cns(Data=$Data; Toppar=$Toppar) ! Added by JR and EK
+          @RUN:protocols/separate.cns(Data=$Data; Toppar=$Toppar)
           @RUN:protocols/random_rotations.cns
           if ($Data.flags.centroids eq true) then
               ! place the centroids on their positions
@@ -751,11 +751,11 @@ if ($iteration = 0) then
 	        evaluate ($paramin = true)
           end if
 
-	  if ($paramin eq TRUE) then
+          if ($paramin eq TRUE) then
             if ($rantens_para eq true) then
               @RUN:protocols/mini_tensor_para.cns
             end if
-	  end if
+          end if
 
           if ($Data.flags.dani eq true) then
             dani class dan1 force $dan1_scale end
@@ -778,7 +778,7 @@ if ($iteration = 0) then
         end if
 
         evaluate ($imini = $imini + 1)
-        eval ($ministeps = int(500 / $data.ncomponents))
+        eval ($ministeps = 500 * nint ($data.ncomponents/6 + 1))
         if ($SaProtocol.randorien eq true) then
           flag excl vdw elec coll zhar end
         end if
@@ -868,12 +868,12 @@ if ($iteration = 0) then
           flag include coll end
         end if
 
-	if ($Data.flags.zres eq true) then
-	  flag incl zhar end
+        if ($Data.flags.zres eq true) then
+          flag incl zhar end
         end if
 
         fix sele=(name OO and not resn XAN) end
-
+        eval ($ministeps = 1000)
         minimize rigid
           eval ($nchain1 = 0)
           while ($nchain1 < $data.ncomponents) loop nloop1
@@ -881,7 +881,7 @@ if ($iteration = 0) then
             group (segid $Toppar.prot_segid_$nchain1 or segid $watersegname_$nchain1 and not name MAP)
             translation=true
           end loop nloop1
-          nstep 1000
+          nstep $ministeps
           nprint 10
         end
 
@@ -901,7 +901,7 @@ if ($iteration = 0) then
                 group (byres(id $id))
               end loop miniwater
               translation=$data.transwater
-              nstep 1000
+              nstep $ministeps
               nprint 100
             end
             display MINIMIZATION ENERGY AFTER: $grad $ener $vdw $elec
@@ -922,7 +922,7 @@ if ($iteration = 0) then
             group (byres(id $id))
           end loop miniwater
           translation=true
-          nstep 1000
+          nstep $ministeps
           nprint 10
         end
         energy end
@@ -958,7 +958,7 @@ if ($iteration = 0) then
               translation=false
             end loop miniani
             translation=true
-            nstep 1000
+            nstep $ministeps
             nprint 10
           end
         end if
