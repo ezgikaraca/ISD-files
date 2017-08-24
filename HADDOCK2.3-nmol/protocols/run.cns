@@ -17,7 +17,7 @@ data;
 iterations;
 saprotocol;
 refine;
-toppar; 
+toppar;
 analysis;
 )
 
@@ -29,21 +29,21 @@ Adapted from HADOOCK version 2.3 <br><br>
 Initially adapted from ARIA of Nilges and Linge +}
 
 {+ Please cite the following references when using this protocol: +}
-{+ reference: Cyril Dominguez, Rolf Boelens and Alexandre M.J.J. Bonvin (2003).  HADDOCK: a protein-protein docking approach 
+{+ reference: Cyril Dominguez, Rolf Boelens and Alexandre M.J.J. Bonvin (2003).  HADDOCK: a protein-protein docking approach
 based on biochemical and/or biophysical information. <i>J. Am. Chem. Soc.</i> <b>125</b>, 1731-1737.
 <p>
 <b>When using <i>residual dipolar couplings</i> in HADDOCK cite in addition:</b><p>
-<LI>A.D.J. van Dijk, D. Fushman and A.M.J.J. Bonvin (2005). Various strategies of using residual dipolar 
-couplings in NMR-driven protein docking: Application to Lys48-linked di-ubiquitin and validation against 
+<LI>A.D.J. van Dijk, D. Fushman and A.M.J.J. Bonvin (2005). Various strategies of using residual dipolar
+couplings in NMR-driven protein docking: Application to Lys48-linked di-ubiquitin and validation against
 15N-relaxation data. <EM>Proteins: Struc. Funct. & Bioinformatics</EM>, <STRONG>60</STRONG>, 367-381.</li>
 <p>
 <b>When using <i>diffusion anisotropy data</i> in HADDOCK cite in addition:</b><p>
-<li>A.D.J. van Dijk, R. Kaptein, R. Boelens and A.M.J.J. Bonvin (2006). Combining NMR relaxation with 
-chemical shift perturbation data to drive protein-protein docking. <EM>J. Biomol. NMR</EM>, 
+<li>A.D.J. van Dijk, R. Kaptein, R. Boelens and A.M.J.J. Bonvin (2006). Combining NMR relaxation with
+chemical shift perturbation data to drive protein-protein docking. <EM>J. Biomol. NMR</EM>,
 <STRONG>34</STRONG>, 237-244.</li>
 <p>
 <b>When using <i>solvated docking</i> in HADDOCK cite in addition:</b><p>
-<li>A.D.J. van Dijk and A.M.J.J. Bonvin (2006). Solvated docking: introducing water into the modelling 
+<li>A.D.J. van Dijk and A.M.J.J. Bonvin (2006). Solvated docking: introducing water into the modelling
 of biomolecular complexes. <EM>Bioinformatics</EM>,  <STRONG>22</STRONG> 2340-2347.
 <p>
 <b>When performing <i>flexible protein-DNA docking</i> using HADDOCK cite in addition:</b><p>
@@ -51,8 +51,8 @@ of biomolecular complexes. <EM>Bioinformatics</EM>,  <STRONG>22</STRONG> 2340-23
 Information-driven Protein-DNA Docking using HADDOCK: it is a matter of flexibility.
 <EM>Nucl. Acids Res.</EM>, <STRONG>34</STRONG> 3317-3325.</li>
 <p>
-<b>When performing the Nmolecule integrative modelling protocol please cite:</b><p> 
-<li>Ezgi Karaca, Joao P.G.L.M. Rodrigues, Andrea Graziadei, Alexandre M.J.J. Bonvin, Teresa Carlomagno (2017). 
+<b>When performing the Nmolecule integrative modelling protocol please cite:</b><p>
+<li>Ezgi Karaca, Joao P.G.L.M. Rodrigues, Andrea Graziadei, Alexandre M.J.J. Bonvin, Teresa Carlomagno (2017).
 An Integrative Framework for Structure Determination of Molecular Machines.
 <EM>Nature Methods</EM>, Advanced Online Publication.</li>
 +}
@@ -67,26 +67,29 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 
 {======== number of molecules for docking ==================}
 {* number of components *}
-{===>} ncomponents=2; 
+{===>} ncomponents=2;
 
 
 
 {======================= filenames =========================}
 {*  the name of your current project *}
 {*  this will be used as name for the generated structures *}
-{===>} fileroot="e2a-hpr"; 
+{===>} fileroot="e2a-hpr";
 
 {* RUN directory *}
 {*  the absolute path of your current run, e.g. /home/haddock/run1*}
-{===>} run_dir="/Users/abonvin/haddock2.3-nmol/examples/e2a-hpr/run1"; 
+{===>} run_dir="HCLOUD/examples/e2a-hpr/run1";
 {* PDB file of molecule (protein) A *}
-{===>} prot_coor_A="e2aP_1F3G.pdb"; 
+{===>} prot_coor_A="e2aP_1F3G.pdb";
 {* PSF file of molecule (protein) A *}
-{===>} prot_psf_A="e2aP_1F3G.psf"; 
+{===>} prot_psf_A="e2aP_1F3G.psf";
 {* segid of molecule (protein) A *}
-{===>} prot_segid_A="A"; 
+{===>} prot_segid_A="A";
 {* fileroot of molecule (protein) A *}
-{===>} prot_root_A="e2aP_1F3G"; 
+{===>} prot_root_A="e2aP_1F3G";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_A=false;
 {* Is molecule A DNA? *}
 {+ choice: true false +}
 {===>} dna_A=false;
@@ -95,13 +98,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {===>} cg_A=false;
 
 {* PDB file of molecule (protein) B *}
-{===>} prot_coor_B="hpr_1.pdb"; 
+{===>} prot_coor_B="hpr_1.pdb";
 {* PSF file of molecule (protein) B *}
-{===>} prot_psf_B="hpr_1.psf"; 
+{===>} prot_psf_B="hpr_1.psf";
 {* segid file of molecule (protein) B *}
-{===>} prot_segid_B="B"; 
+{===>} prot_segid_B="B";
 {* fileroot of molecule (protein) B *}
-{===>} prot_root_B="hpr_1"; 
+{===>} prot_root_B="hpr_1";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_B=false;
 {* Is molecule B DNA? *}
 {+ choice: true false +}
 {===>} dna_B=false;
@@ -110,13 +116,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {===>} cg_B=false;
 
 {* PDB file of molecule (protein) C *}
-{===>} prot_coor_C=""; 
+{===>} prot_coor_C="";
 {* PSF file of molecule (protein) C *}
-{===>} prot_psf_C=""; 
+{===>} prot_psf_C="";
 {* segid file of molecule (protein) C *}
-{===>} prot_segid_C="C"; 
+{===>} prot_segid_C="C";
 {* fileroot of molecule (protein) C *}
-{===>} prot_root_C=""; 
+{===>} prot_root_C="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_C=false;
 {* Is molecule C DNA? *}
 {+ choice: true false +}
 {===>} dna_C=false;
@@ -125,13 +134,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {===>} cg_C=false;
 
 {* PDB file of molecule (protein) D *}
-{===>} prot_coor_D=""; 
+{===>} prot_coor_D="";
 {* PSF file of molecule (protein) D *}
-{===>} prot_psf_D=""; 
+{===>} prot_psf_D="";
 {* segid file of molecule (protein) D *}
-{===>} prot_segid_D="D"; 
+{===>} prot_segid_D="D";
 {* fileroot of molecule (protein) D *}
-{===>} prot_root_D=""; 
+{===>} prot_root_D="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_D=false;
 {* Is molecule D DNA? *}
 {+ choice: true false +}
 {===>} dna_D=false;
@@ -140,13 +152,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {===>} cg_D=false;
 
 {* PDB file of molecule (protein) E *}
-{===>} prot_coor_E=""; 
+{===>} prot_coor_E="";
 {* PSF file of molecule (protein) E *}
-{===>} prot_psf_E=""; 
+{===>} prot_psf_E="";
 {* segid file of molecule (protein) E *}
-{===>} prot_segid_E="E"; 
+{===>} prot_segid_E="E";
 {* fileroot of molecule (protein) E *}
-{===>} prot_root_E=""; 
+{===>} prot_root_E="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_E=false;
 {* Is molecule E DNA? *}
 {+ choice: true false +}
 {===>} dna_E=false;
@@ -155,13 +170,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {===>} cg_E=false;
 
 {* PDB file of molecule (protein) F *}
-{===>} prot_coor_F=""; 
+{===>} prot_coor_F="";
 {* PSF file of molecule (protein) F *}
-{===>} prot_psf_F=""; 
+{===>} prot_psf_F="";
 {* segid file of molecule (protein) F *}
-{===>} prot_segid_F="F"; 
+{===>} prot_segid_F="F";
 {* fileroot of molecule (protein) F *}
-{===>} prot_root_F=""; 
+{===>} prot_root_F="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_F=false;
 {* Is molecule F DNA? *}
 {+ choice: true false +}
 {===>} dna_F=false;
@@ -170,13 +188,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {===>} cg_F=false;
 
 {* PDB file of molecule (protein) G *}
-{===>} prot_coor_G=""; 
+{===>} prot_coor_G="";
 {* PSF file of molecule (protein) G *}
-{===>} prot_psf_G=""; 
+{===>} prot_psf_G="";
 {* segid file of molecule (protein) G *}
-{===>} prot_segid_G=""; 
+{===>} prot_segid_G="";
 {* fileroot of molecule (protein) G *}
-{===>} prot_root_G=""; 
+{===>} prot_root_G="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_G=false;
 {* Is molecule G DNA? *}
 {+ choice: true false +}
 {===>} dna_G=false;
@@ -185,13 +206,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {===>} cg_G=false;
 
 {* PDB file of molecule (protein) H *}
-{===>} prot_coor_H=""; 
+{===>} prot_coor_H="";
 {* PSF file of molecule (protein) H *}
-{===>} prot_psf_H=""; 
+{===>} prot_psf_H="";
 {* segid file of molecule (protein) H *}
-{===>} prot_segid_H=""; 
+{===>} prot_segid_H="";
 {* fileroot of molecule (protein) H *}
-{===>} prot_root_H=""; 
+{===>} prot_root_H="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_H=false;
 {* Is molecule H DNA? *}
 {+ choice: true false +}
 {===>} dna_H=false;
@@ -200,13 +224,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {===>} cg_H=false;
 
 {* PDB file of molecule (protein) I *}
-{===>} prot_coor_I=""; 
+{===>} prot_coor_I="";
 {* PSF file of molecule (protein) I *}
-{===>} prot_psf_I=""; 
+{===>} prot_psf_I="";
 {* segid file of molecule (protein) I *}
-{===>} prot_segid_I=""; 
+{===>} prot_segid_I="";
 {* fileroot of molecule (protein) I *}
-{===>} prot_root_I=""; 
+{===>} prot_root_I="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_I=false;
 {* Is molecule I DNA? *}
 {+ choice: true false +}
 {===>} dna_I=false;
@@ -215,13 +242,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {===>} cg_I=false;
 
 {* PDB file of molecule (protein) J *}
-{===>} prot_coor_J=""; 
+{===>} prot_coor_J="";
 {* PSF file of molecule (protein) J *}
-{===>} prot_psf_J=""; 
+{===>} prot_psf_J="";
 {* segid file of molecule (protein) J *}
-{===>} prot_segid_J=""; 
+{===>} prot_segid_J="";
 {* fileroot of molecule (protein) J *}
-{===>} prot_root_J=""; 
+{===>} prot_root_J="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_J=false;
 {* Is molecule J DNA? *}
 {+ choice: true false +}
 {===>} dna_J=false;
@@ -230,13 +260,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {===>} cg_J=false;
 
 {* PDB file of molecule (protein) K *}
-{===>} prot_coor_K=""; 
+{===>} prot_coor_K="";
 {* PSF file of molecule (protein) K *}
-{===>} prot_psf_K=""; 
+{===>} prot_psf_K="";
 {* segid file of molecule (protein) K *}
-{===>} prot_segid_K=""; 
+{===>} prot_segid_K="";
 {* fileroot of molecule (protein) K *}
-{===>} prot_root_K=""; 
+{===>} prot_root_K="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_K=false;
 {* Is molecule K DNA? *}
 {+ choice: true false +}
 {===>} dna_K=false;
@@ -245,13 +278,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {===>} cg_K=false;
 
 {* PDB file of molecule (protein) L *}
-{===>} prot_coor_L=""; 
+{===>} prot_coor_L="";
 {* PSF file of molecule (protein) L *}
-{===>} prot_psf_L=""; 
+{===>} prot_psf_L="";
 {* segid file of molecule (protein) L *}
-{===>} prot_segid_L=""; 
+{===>} prot_segid_L="";
 {* fileroot of molecule (protein) L *}
-{===>} prot_root_L=""; 
+{===>} prot_root_L="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_L=false;
 {* Is molecule L DNA? *}
 {+ choice: true false +}
 {===>} dna_L=false;
@@ -259,13 +295,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {+ choice: true false +}
 {===>} cg_L=false;
 
-{===>} prot_coor_M=""; 
+{===>} prot_coor_M="";
 {* PSF file of molecule (protein) M *}
-{===>} prot_psf_M=""; 
+{===>} prot_psf_M="";
 {* segid file of molecule (protein) M *}
-{===>} prot_segid_M=""; 
+{===>} prot_segid_M="";
 {* fileroot of molecule (protein) M *}
-{===>} prot_root_M=""; 
+{===>} prot_root_M="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_M=false;
 {* Is molecule M DNA? *}
 {+ choice: true false +}
 {===>} dna_M=false;
@@ -273,13 +312,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {+ choice: true false +}
 {===>} cg_M=false;
 
-{===>} prot_coor_N=""; 
+{===>} prot_coor_N="";
 {* PSF file of molecule (protein) N *}
-{===>} prot_psf_N=""; 
+{===>} prot_psf_N="";
 {* segid file of molecule (protein) N *}
-{===>} prot_segid_N=""; 
+{===>} prot_segid_N="";
 {* fileroot of molecule (protein) N *}
-{===>} prot_root_N=""; 
+{===>} prot_root_N="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_N=false;
 {* Is molecule N DNA? *}
 {+ choice: true false +}
 {===>} dna_N=false;
@@ -287,13 +329,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {+ choice: true false +}
 {===>} cg_N=false;
 
-{===>} prot_coor_O=""; 
+{===>} prot_coor_O="";
 {* PSF file of molecule (protein) O *}
-{===>} prot_psf_O=""; 
+{===>} prot_psf_O="";
 {* segid file of molecule (protein) O *}
-{===>} prot_segid_O=""; 
+{===>} prot_segid_O="";
 {* fileroot of molecule (protein) O *}
-{===>} prot_root_O=""; 
+{===>} prot_root_O="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_O=false;
 {* Is molecule O DNA? *}
 {+ choice: true false +}
 {===>} dna_O=false;
@@ -301,13 +346,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {+ choice: true false +}
 {===>} cg_O=false;
 
-{===>} prot_coor_P=""; 
+{===>} prot_coor_P="";
 {* PSF file of molecule (protein) P *}
-{===>} prot_psf_P=""; 
+{===>} prot_psf_P="";
 {* segid file of molecule (protein) P *}
-{===>} prot_segid_P=""; 
+{===>} prot_segid_P="";
 {* fileroot of molecule (protein) P *}
-{===>} prot_root_P=""; 
+{===>} prot_root_P="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_P=false;
 {* Is molecule P DNA? *}
 {+ choice: true false +}
 {===>} dna_P=false;
@@ -315,13 +363,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {+ choice: true false +}
 {===>} cg_P=false;
 
-{===>} prot_coor_Q=""; 
+{===>} prot_coor_Q="";
 {* PSF file of molecule (protein) Q *}
-{===>} prot_psf_Q=""; 
+{===>} prot_psf_Q="";
 {* segid file of molecule (protein) Q *}
-{===>} prot_segid_Q=""; 
+{===>} prot_segid_Q="";
 {* fileroot of molecule (protein) Q *}
-{===>} prot_root_Q=""; 
+{===>} prot_root_Q="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_Q=false;
 {* Is molecule Q DNA? *}
 {+ choice: true false +}
 {===>} dna_Q=false;
@@ -330,13 +381,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {===>} cg_Q=false;
 
 
-{===>} prot_coor_R=""; 
+{===>} prot_coor_R="";
 {* PSF file of molecule (protein) R *}
-{===>} prot_psf_R=""; 
+{===>} prot_psf_R="";
 {* segid file of molecule (protein) R *}
-{===>} prot_segid_R=""; 
+{===>} prot_segid_R="";
 {* fileroot of molecule (protein) R *}
-{===>} prot_root_R=""; 
+{===>} prot_root_R="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_R=false;
 {* Is molecule R DNA? *}
 {+ choice: true false +}
 {===>} dna_R=false;
@@ -344,13 +398,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {+ choice: true false +}
 {===>} cg_R=false;
 
-{===>} prot_coor_S=""; 
+{===>} prot_coor_S="";
 {* PSF file of molecule (protein) S *}
-{===>} prot_psf_S=""; 
+{===>} prot_psf_S="";
 {* segid file of molecule (protein) S *}
-{===>} prot_segid_S=""; 
+{===>} prot_segid_S="";
 {* fileroot of molecule (protein) S *}
-{===>} prot_root_S=""; 
+{===>} prot_root_S="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_S=false;
 {* Is molecule S DNA? *}
 {+ choice: true false +}
 {===>} dna_S=false;
@@ -358,13 +415,16 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 {+ choice: true false +}
 {===>} cg_S=false;
 
-{===>} prot_coor_T=""; 
+{===>} prot_coor_T="";
 {* PSF file of molecule (protein) T *}
-{===>} prot_psf_T=""; 
+{===>} prot_psf_T="";
 {* segid file of molecule (protein) T *}
-{===>} prot_segid_T=""; 
+{===>} prot_segid_T="";
 {* fileroot of molecule (protein) T *}
-{===>} prot_root_T=""; 
+{===>} prot_root_T="";
+{* Fix Molecule at Origin during it0 *}
+{+ choice: true false +}
+{===>} fix_origin_T=false;
 {* Is molecule S DNA? *}
 {+ choice: true false +}
 {===>} dna_T=false;
@@ -374,15 +434,15 @@ An Integrative Framework for Structure Determination of Molecular Machines.
 
 {* Remove non-polar hydrogens? *}
 {+ choice: true false +}
-{===>} delenph=true; 
+{===>} delenph=true;
 
 {* HADDOCK directory *}
 {*  the absolute path of the HADDOCK program files *}
-{===>} haddock_dir="/Users/abonvin/haddock2.3-nmol"; 
+{===>} haddock_dir="HCLOUD";
 
 {* Logfile directory *}
 {* specify a directory for the large CNS log files *}
-{===>} temptrash_dir="/Users/abonvin/haddock2.3-nmol/haddock2.3/examples/e2a-hpr/run1"; 
+{===>} temptrash_dir="HCLOUD/haddock2.3/examples/e2a-hpr/run1";
 
 
 {==================== histidine patches =====================}
@@ -1013,521 +1073,521 @@ numhise=0;
 {* number of semi-flexible segments for molecule (protein) A (-1 for automated mode) *}
 {* Note that current max is 10 (edit the run.cns to add more segments *}
 
-{===>} nseg_A=-1; 
+{===>} nseg_A=-1;
 
 {* Residues of molecule (protein) A at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
 
-{===>} A_start_seg_1=""; 
-{===>} A_end_seg_1=""; 
-{===>} A_start_seg_2=""; 
-{===>} A_end_seg_2=""; 
-{===>} A_start_seg_3=""; 
-{===>} A_end_seg_3=""; 
-{===>} A_start_seg_4=""; 
-{===>} A_end_seg_4=""; 
-{===>} A_start_seg_5=""; 
-{===>} A_end_seg_5=""; 
-{===>} A_start_seg_6=""; 
-{===>} A_end_seg_6=""; 
-{===>} A_start_seg_7=""; 
-{===>} A_end_seg_7=""; 
-{===>} A_start_seg_8=""; 
-{===>} A_end_seg_8=""; 
-{===>} A_start_seg_9=""; 
-{===>} A_end_seg_9=""; 
-{===>} A_start_seg_10=""; 
-{===>} A_end_seg_10=""; 
+{===>} A_start_seg_1="";
+{===>} A_end_seg_1="";
+{===>} A_start_seg_2="";
+{===>} A_end_seg_2="";
+{===>} A_start_seg_3="";
+{===>} A_end_seg_3="";
+{===>} A_start_seg_4="";
+{===>} A_end_seg_4="";
+{===>} A_start_seg_5="";
+{===>} A_end_seg_5="";
+{===>} A_start_seg_6="";
+{===>} A_end_seg_6="";
+{===>} A_start_seg_7="";
+{===>} A_end_seg_7="";
+{===>} A_start_seg_8="";
+{===>} A_end_seg_8="";
+{===>} A_start_seg_9="";
+{===>} A_end_seg_9="";
+{===>} A_start_seg_10="";
+{===>} A_end_seg_10="";
 
 {* number of semi-flexible segments for molecule (protein) B (-1 for automated mode) *}
 {* Note that current max is 10 (edit the run.cns to add more segments    *}
 
-{===>} nseg_B=-1; 
+{===>} nseg_B=-1;
 
 {* Residues of molecule (protein) B at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} B_start_seg_1=""; 
-{===>} B_end_seg_1=""; 
-{===>} B_start_seg_2=""; 
-{===>} B_end_seg_2=""; 
-{===>} B_start_seg_3=""; 
-{===>} B_end_seg_3=""; 
-{===>} B_start_seg_4=""; 
-{===>} B_end_seg_4=""; 
-{===>} B_start_seg_5=""; 
-{===>} B_end_seg_5=""; 
-{===>} B_start_seg_6=""; 
-{===>} B_end_seg_6=""; 
-{===>} B_start_seg_7=""; 
-{===>} B_end_seg_7=""; 
-{===>} B_start_seg_8=""; 
-{===>} B_end_seg_8=""; 
-{===>} B_start_seg_9=""; 
-{===>} B_end_seg_9=""; 
-{===>} B_start_seg_10=""; 
-{===>} B_end_seg_10=""; 
+{===>} B_start_seg_1="";
+{===>} B_end_seg_1="";
+{===>} B_start_seg_2="";
+{===>} B_end_seg_2="";
+{===>} B_start_seg_3="";
+{===>} B_end_seg_3="";
+{===>} B_start_seg_4="";
+{===>} B_end_seg_4="";
+{===>} B_start_seg_5="";
+{===>} B_end_seg_5="";
+{===>} B_start_seg_6="";
+{===>} B_end_seg_6="";
+{===>} B_start_seg_7="";
+{===>} B_end_seg_7="";
+{===>} B_start_seg_8="";
+{===>} B_end_seg_8="";
+{===>} B_start_seg_9="";
+{===>} B_end_seg_9="";
+{===>} B_start_seg_10="";
+{===>} B_end_seg_10="";
 
 {* number of semi-flexible segments for molecule (protein) C (-1 for automated mode) *}
 {* Note that current max is 10 (edit the run.cns to add more segments    *}
 
-{===>} nseg_C=-1; 
+{===>} nseg_C=-1;
 
 {* Residues of molecule (protein) C at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} C_start_seg_1=""; 
-{===>} C_end_seg_1=""; 
-{===>} C_start_seg_2=""; 
-{===>} C_end_seg_2=""; 
-{===>} C_start_seg_3=""; 
-{===>} C_end_seg_3=""; 
-{===>} C_start_seg_4=""; 
-{===>} C_end_seg_4=""; 
-{===>} C_start_seg_5=""; 
-{===>} C_end_seg_5=""; 
-{===>} C_start_seg_6=""; 
-{===>} C_end_seg_6=""; 
-{===>} C_start_seg_7=""; 
-{===>} C_end_seg_7=""; 
-{===>} C_start_seg_8=""; 
-{===>} C_end_seg_8=""; 
-{===>} C_start_seg_9=""; 
-{===>} C_end_seg_9=""; 
-{===>} C_start_seg_10=""; 
-{===>} C_end_seg_10=""; 
+{===>} C_start_seg_1="";
+{===>} C_end_seg_1="";
+{===>} C_start_seg_2="";
+{===>} C_end_seg_2="";
+{===>} C_start_seg_3="";
+{===>} C_end_seg_3="";
+{===>} C_start_seg_4="";
+{===>} C_end_seg_4="";
+{===>} C_start_seg_5="";
+{===>} C_end_seg_5="";
+{===>} C_start_seg_6="";
+{===>} C_end_seg_6="";
+{===>} C_start_seg_7="";
+{===>} C_end_seg_7="";
+{===>} C_start_seg_8="";
+{===>} C_end_seg_8="";
+{===>} C_start_seg_9="";
+{===>} C_end_seg_9="";
+{===>} C_start_seg_10="";
+{===>} C_end_seg_10="";
 
 {* number of semi-flexible segments for molecule (protein) D (-1 for automated mode) *}
 {* Note that current max is 10 (edit the run.cns to add more segments    *}
 
-{===>} nseg_D=-1; 
+{===>} nseg_D=-1;
 
 {* Residues of molecule (protein) D at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} D_start_seg_1=""; 
-{===>} D_end_seg_1=""; 
-{===>} D_start_seg_2=""; 
-{===>} D_end_seg_2=""; 
-{===>} D_start_seg_3=""; 
-{===>} D_end_seg_3=""; 
-{===>} D_start_seg_4=""; 
-{===>} D_end_seg_4=""; 
-{===>} D_start_seg_5=""; 
-{===>} D_end_seg_5=""; 
-{===>} D_start_seg_6=""; 
-{===>} D_end_seg_6=""; 
-{===>} D_start_seg_7=""; 
-{===>} D_end_seg_7=""; 
-{===>} D_start_seg_8=""; 
-{===>} D_end_seg_8=""; 
-{===>} D_start_seg_9=""; 
-{===>} D_end_seg_9=""; 
-{===>} D_start_seg_10=""; 
-{===>} D_end_seg_10=""; 
+{===>} D_start_seg_1="";
+{===>} D_end_seg_1="";
+{===>} D_start_seg_2="";
+{===>} D_end_seg_2="";
+{===>} D_start_seg_3="";
+{===>} D_end_seg_3="";
+{===>} D_start_seg_4="";
+{===>} D_end_seg_4="";
+{===>} D_start_seg_5="";
+{===>} D_end_seg_5="";
+{===>} D_start_seg_6="";
+{===>} D_end_seg_6="";
+{===>} D_start_seg_7="";
+{===>} D_end_seg_7="";
+{===>} D_start_seg_8="";
+{===>} D_end_seg_8="";
+{===>} D_start_seg_9="";
+{===>} D_end_seg_9="";
+{===>} D_start_seg_10="";
+{===>} D_end_seg_10="";
 
 {* number of semi-flexible segments for molecule (protein) E (-1 for automated mode) *}
 {* Note that current max is 10 (edit the run.cns to add more segments    *}
 
-{===>} nseg_E=-1; 
+{===>} nseg_E=-1;
 
 {* Residues of molecule (protein) E at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} E_start_seg_1=""; 
-{===>} E_end_seg_1=""; 
-{===>} E_start_seg_2=""; 
-{===>} E_end_seg_2=""; 
-{===>} E_start_seg_3=""; 
-{===>} E_end_seg_3=""; 
-{===>} E_start_seg_4=""; 
-{===>} E_end_seg_4=""; 
-{===>} E_start_seg_5=""; 
-{===>} E_end_seg_5=""; 
-{===>} E_start_seg_6=""; 
-{===>} E_end_seg_6=""; 
-{===>} E_start_seg_7=""; 
-{===>} E_end_seg_7=""; 
-{===>} E_start_seg_8=""; 
-{===>} E_end_seg_8=""; 
-{===>} E_start_seg_9=""; 
-{===>} E_end_seg_9=""; 
-{===>} E_start_seg_10=""; 
-{===>} E_end_seg_10=""; 
+{===>} E_start_seg_1="";
+{===>} E_end_seg_1="";
+{===>} E_start_seg_2="";
+{===>} E_end_seg_2="";
+{===>} E_start_seg_3="";
+{===>} E_end_seg_3="";
+{===>} E_start_seg_4="";
+{===>} E_end_seg_4="";
+{===>} E_start_seg_5="";
+{===>} E_end_seg_5="";
+{===>} E_start_seg_6="";
+{===>} E_end_seg_6="";
+{===>} E_start_seg_7="";
+{===>} E_end_seg_7="";
+{===>} E_start_seg_8="";
+{===>} E_end_seg_8="";
+{===>} E_start_seg_9="";
+{===>} E_end_seg_9="";
+{===>} E_start_seg_10="";
+{===>} E_end_seg_10="";
 
 {* number of semi-flexible segments for molecule (protein) F (-1 for automated mode) *}
 {* Note that current max is 10 (edit the run.cns to add more segments    *}
 
-{===>} nseg_F=-1; 
+{===>} nseg_F=-1;
 
 {* Residues of molecule (protein) F at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} F_start_seg_1=""; 
-{===>} F_end_seg_1=""; 
-{===>} F_start_seg_2=""; 
-{===>} F_end_seg_2=""; 
-{===>} F_start_seg_3=""; 
-{===>} F_end_seg_3=""; 
-{===>} F_start_seg_4=""; 
-{===>} F_end_seg_4=""; 
-{===>} F_start_seg_5=""; 
-{===>} F_end_seg_5=""; 
-{===>} F_start_seg_6=""; 
-{===>} F_end_seg_6=""; 
-{===>} F_start_seg_7=""; 
-{===>} F_end_seg_7=""; 
-{===>} F_start_seg_8=""; 
-{===>} F_end_seg_8=""; 
-{===>} F_start_seg_9=""; 
-{===>} F_end_seg_9=""; 
-{===>} F_start_seg_10=""; 
-{===>} F_end_seg_10=""; 
+{===>} F_start_seg_1="";
+{===>} F_end_seg_1="";
+{===>} F_start_seg_2="";
+{===>} F_end_seg_2="";
+{===>} F_start_seg_3="";
+{===>} F_end_seg_3="";
+{===>} F_start_seg_4="";
+{===>} F_end_seg_4="";
+{===>} F_start_seg_5="";
+{===>} F_end_seg_5="";
+{===>} F_start_seg_6="";
+{===>} F_end_seg_6="";
+{===>} F_start_seg_7="";
+{===>} F_end_seg_7="";
+{===>} F_start_seg_8="";
+{===>} F_end_seg_8="";
+{===>} F_start_seg_9="";
+{===>} F_end_seg_9="";
+{===>} F_start_seg_10="";
+{===>} F_end_seg_10="";
 
-{===>} nseg_G=-1; 
+{===>} nseg_G=-1;
 
 {* Residues of molecule (protein) G at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} G_start_seg_1=""; 
-{===>} G_end_seg_1=""; 
-{===>} G_start_seg_2=""; 
-{===>} G_end_seg_2=""; 
-{===>} G_start_seg_3=""; 
-{===>} G_end_seg_3=""; 
-{===>} G_start_seg_4=""; 
-{===>} G_end_seg_4=""; 
-{===>} G_start_seg_5=""; 
-{===>} G_end_seg_5=""; 
-{===>} G_start_seg_6=""; 
-{===>} G_end_seg_6=""; 
-{===>} G_start_seg_7=""; 
-{===>} G_end_seg_7=""; 
-{===>} G_start_seg_8=""; 
-{===>} G_end_seg_8=""; 
-{===>} G_start_seg_9=""; 
-{===>} G_end_seg_9=""; 
-{===>} G_start_seg_10=""; 
-{===>} G_end_seg_10=""; 
+{===>} G_start_seg_1="";
+{===>} G_end_seg_1="";
+{===>} G_start_seg_2="";
+{===>} G_end_seg_2="";
+{===>} G_start_seg_3="";
+{===>} G_end_seg_3="";
+{===>} G_start_seg_4="";
+{===>} G_end_seg_4="";
+{===>} G_start_seg_5="";
+{===>} G_end_seg_5="";
+{===>} G_start_seg_6="";
+{===>} G_end_seg_6="";
+{===>} G_start_seg_7="";
+{===>} G_end_seg_7="";
+{===>} G_start_seg_8="";
+{===>} G_end_seg_8="";
+{===>} G_start_seg_9="";
+{===>} G_end_seg_9="";
+{===>} G_start_seg_10="";
+{===>} G_end_seg_10="";
 
-{===>} nseg_H=-1; 
+{===>} nseg_H=-1;
 
 {* Residues of molecule (protein) H at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} H_start_seg_1=""; 
-{===>} H_end_seg_1=""; 
-{===>} H_start_seg_2=""; 
-{===>} H_end_seg_2=""; 
-{===>} H_start_seg_3=""; 
-{===>} H_end_seg_3=""; 
-{===>} H_start_seg_4=""; 
-{===>} H_end_seg_4=""; 
-{===>} H_start_seg_5=""; 
-{===>} H_end_seg_5=""; 
-{===>} H_start_seg_6=""; 
-{===>} H_end_seg_6=""; 
-{===>} H_start_seg_7=""; 
-{===>} H_end_seg_7=""; 
-{===>} H_start_seg_8=""; 
-{===>} H_end_seg_8=""; 
-{===>} H_start_seg_9=""; 
-{===>} H_end_seg_9=""; 
-{===>} H_start_seg_10=""; 
-{===>} H_end_seg_10=""; 
+{===>} H_start_seg_1="";
+{===>} H_end_seg_1="";
+{===>} H_start_seg_2="";
+{===>} H_end_seg_2="";
+{===>} H_start_seg_3="";
+{===>} H_end_seg_3="";
+{===>} H_start_seg_4="";
+{===>} H_end_seg_4="";
+{===>} H_start_seg_5="";
+{===>} H_end_seg_5="";
+{===>} H_start_seg_6="";
+{===>} H_end_seg_6="";
+{===>} H_start_seg_7="";
+{===>} H_end_seg_7="";
+{===>} H_start_seg_8="";
+{===>} H_end_seg_8="";
+{===>} H_start_seg_9="";
+{===>} H_end_seg_9="";
+{===>} H_start_seg_10="";
+{===>} H_end_seg_10="";
 
-{===>} nseg_I=-1; 
+{===>} nseg_I=-1;
 
 {* Residues of molecule (protein) I at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} I_start_seg_1=""; 
-{===>} I_end_seg_1=""; 
-{===>} I_start_seg_2=""; 
-{===>} I_end_seg_2=""; 
-{===>} I_start_seg_3=""; 
-{===>} I_end_seg_3=""; 
-{===>} I_start_seg_4=""; 
-{===>} I_end_seg_4=""; 
-{===>} I_start_seg_5=""; 
-{===>} I_end_seg_5=""; 
-{===>} I_start_seg_6=""; 
-{===>} I_end_seg_6=""; 
-{===>} I_start_seg_7=""; 
-{===>} I_end_seg_7=""; 
-{===>} I_start_seg_8=""; 
-{===>} I_end_seg_8=""; 
-{===>} I_start_seg_9=""; 
-{===>} I_end_seg_9=""; 
-{===>} I_start_seg_10=""; 
-{===>} I_end_seg_10=""; 
+{===>} I_start_seg_1="";
+{===>} I_end_seg_1="";
+{===>} I_start_seg_2="";
+{===>} I_end_seg_2="";
+{===>} I_start_seg_3="";
+{===>} I_end_seg_3="";
+{===>} I_start_seg_4="";
+{===>} I_end_seg_4="";
+{===>} I_start_seg_5="";
+{===>} I_end_seg_5="";
+{===>} I_start_seg_6="";
+{===>} I_end_seg_6="";
+{===>} I_start_seg_7="";
+{===>} I_end_seg_7="";
+{===>} I_start_seg_8="";
+{===>} I_end_seg_8="";
+{===>} I_start_seg_9="";
+{===>} I_end_seg_9="";
+{===>} I_start_seg_10="";
+{===>} I_end_seg_10="";
 
-{===>} nseg_J=-1; 
+{===>} nseg_J=-1;
 
 {* Residues of molecule (protein) J at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} J_start_seg_1=""; 
-{===>} J_end_seg_1=""; 
-{===>} J_start_seg_2=""; 
-{===>} J_end_seg_2=""; 
-{===>} J_start_seg_3=""; 
-{===>} J_end_seg_3=""; 
-{===>} J_start_seg_4=""; 
-{===>} J_end_seg_4=""; 
-{===>} J_start_seg_5=""; 
-{===>} J_end_seg_5=""; 
-{===>} J_start_seg_6=""; 
-{===>} J_end_seg_6=""; 
-{===>} J_start_seg_7=""; 
-{===>} J_end_seg_7=""; 
-{===>} J_start_seg_8=""; 
-{===>} J_end_seg_8=""; 
-{===>} J_start_seg_9=""; 
-{===>} J_end_seg_9=""; 
-{===>} J_start_seg_10=""; 
-{===>} J_end_seg_10=""; 
+{===>} J_start_seg_1="";
+{===>} J_end_seg_1="";
+{===>} J_start_seg_2="";
+{===>} J_end_seg_2="";
+{===>} J_start_seg_3="";
+{===>} J_end_seg_3="";
+{===>} J_start_seg_4="";
+{===>} J_end_seg_4="";
+{===>} J_start_seg_5="";
+{===>} J_end_seg_5="";
+{===>} J_start_seg_6="";
+{===>} J_end_seg_6="";
+{===>} J_start_seg_7="";
+{===>} J_end_seg_7="";
+{===>} J_start_seg_8="";
+{===>} J_end_seg_8="";
+{===>} J_start_seg_9="";
+{===>} J_end_seg_9="";
+{===>} J_start_seg_10="";
+{===>} J_end_seg_10="";
 
-{===>} nseg_K=-1; 
+{===>} nseg_K=-1;
 
 {* Residues of molecule (protein) K at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} K_start_seg_1=""; 
-{===>} K_end_seg_1=""; 
-{===>} K_start_seg_2=""; 
-{===>} K_end_seg_2=""; 
-{===>} K_start_seg_3=""; 
-{===>} K_end_seg_3=""; 
-{===>} K_start_seg_4=""; 
-{===>} K_end_seg_4=""; 
-{===>} K_start_seg_5=""; 
-{===>} K_end_seg_5=""; 
-{===>} K_start_seg_6=""; 
-{===>} K_end_seg_6=""; 
-{===>} K_start_seg_7=""; 
-{===>} K_end_seg_7=""; 
-{===>} K_start_seg_8=""; 
-{===>} K_end_seg_8=""; 
-{===>} K_start_seg_9=""; 
-{===>} K_end_seg_9=""; 
-{===>} K_start_seg_10=""; 
-{===>} K_end_seg_10=""; 
+{===>} K_start_seg_1="";
+{===>} K_end_seg_1="";
+{===>} K_start_seg_2="";
+{===>} K_end_seg_2="";
+{===>} K_start_seg_3="";
+{===>} K_end_seg_3="";
+{===>} K_start_seg_4="";
+{===>} K_end_seg_4="";
+{===>} K_start_seg_5="";
+{===>} K_end_seg_5="";
+{===>} K_start_seg_6="";
+{===>} K_end_seg_6="";
+{===>} K_start_seg_7="";
+{===>} K_end_seg_7="";
+{===>} K_start_seg_8="";
+{===>} K_end_seg_8="";
+{===>} K_start_seg_9="";
+{===>} K_end_seg_9="";
+{===>} K_start_seg_10="";
+{===>} K_end_seg_10="";
 
-{===>} nseg_L=-1; 
+{===>} nseg_L=-1;
 
 {* Residues of molecule (protein) L at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} L_start_seg_1=""; 
-{===>} L_end_seg_1=""; 
-{===>} L_start_seg_2=""; 
-{===>} L_end_seg_2=""; 
-{===>} L_start_seg_3=""; 
-{===>} L_end_seg_3=""; 
-{===>} L_start_seg_4=""; 
-{===>} L_end_seg_4=""; 
-{===>} L_start_seg_5=""; 
-{===>} L_end_seg_5=""; 
-{===>} L_start_seg_6=""; 
-{===>} L_end_seg_6=""; 
-{===>} L_start_seg_7=""; 
-{===>} L_end_seg_7=""; 
-{===>} L_start_seg_8=""; 
-{===>} L_end_seg_8=""; 
-{===>} L_start_seg_9=""; 
-{===>} L_end_seg_9=""; 
-{===>} L_start_seg_10=""; 
-{===>} L_end_seg_10=""; 
+{===>} L_start_seg_1="";
+{===>} L_end_seg_1="";
+{===>} L_start_seg_2="";
+{===>} L_end_seg_2="";
+{===>} L_start_seg_3="";
+{===>} L_end_seg_3="";
+{===>} L_start_seg_4="";
+{===>} L_end_seg_4="";
+{===>} L_start_seg_5="";
+{===>} L_end_seg_5="";
+{===>} L_start_seg_6="";
+{===>} L_end_seg_6="";
+{===>} L_start_seg_7="";
+{===>} L_end_seg_7="";
+{===>} L_start_seg_8="";
+{===>} L_end_seg_8="";
+{===>} L_start_seg_9="";
+{===>} L_end_seg_9="";
+{===>} L_start_seg_10="";
+{===>} L_end_seg_10="";
 
-{===>} nseg_M=-1; 
+{===>} nseg_M=-1;
 
 {* Residues of molecule (protein) M at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} M_start_seg_1=""; 
-{===>} M_end_seg_1=""; 
-{===>} M_start_seg_2=""; 
-{===>} M_end_seg_2=""; 
-{===>} M_start_seg_3=""; 
-{===>} M_end_seg_3=""; 
-{===>} M_start_seg_4=""; 
-{===>} M_end_seg_4=""; 
-{===>} M_start_seg_5=""; 
-{===>} M_end_seg_5=""; 
-{===>} M_start_seg_6=""; 
-{===>} M_end_seg_6=""; 
-{===>} M_start_seg_7=""; 
-{===>} M_end_seg_7=""; 
-{===>} M_start_seg_8=""; 
-{===>} M_end_seg_8=""; 
-{===>} M_start_seg_9=""; 
-{===>} M_end_seg_9=""; 
-{===>} M_start_seg_10=""; 
-{===>} M_end_seg_10=""; 
+{===>} M_start_seg_1="";
+{===>} M_end_seg_1="";
+{===>} M_start_seg_2="";
+{===>} M_end_seg_2="";
+{===>} M_start_seg_3="";
+{===>} M_end_seg_3="";
+{===>} M_start_seg_4="";
+{===>} M_end_seg_4="";
+{===>} M_start_seg_5="";
+{===>} M_end_seg_5="";
+{===>} M_start_seg_6="";
+{===>} M_end_seg_6="";
+{===>} M_start_seg_7="";
+{===>} M_end_seg_7="";
+{===>} M_start_seg_8="";
+{===>} M_end_seg_8="";
+{===>} M_start_seg_9="";
+{===>} M_end_seg_9="";
+{===>} M_start_seg_10="";
+{===>} M_end_seg_10="";
 
-{===>} nseg_N=-1; 
+{===>} nseg_N=-1;
 
 {* Residues of molecule (protein) N at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} N_start_seg_1=""; 
-{===>} N_end_seg_1=""; 
-{===>} N_start_seg_2=""; 
-{===>} N_end_seg_2=""; 
-{===>} N_start_seg_3=""; 
-{===>} N_end_seg_3=""; 
-{===>} N_start_seg_4=""; 
-{===>} N_end_seg_4=""; 
-{===>} N_start_seg_5=""; 
-{===>} N_end_seg_5=""; 
-{===>} N_start_seg_6=""; 
-{===>} N_end_seg_6=""; 
-{===>} N_start_seg_7=""; 
-{===>} N_end_seg_7=""; 
-{===>} N_start_seg_8=""; 
-{===>} N_end_seg_8=""; 
-{===>} N_start_seg_9=""; 
-{===>} N_end_seg_9=""; 
-{===>} N_start_seg_10=""; 
-{===>} N_end_seg_10=""; 
+{===>} N_start_seg_1="";
+{===>} N_end_seg_1="";
+{===>} N_start_seg_2="";
+{===>} N_end_seg_2="";
+{===>} N_start_seg_3="";
+{===>} N_end_seg_3="";
+{===>} N_start_seg_4="";
+{===>} N_end_seg_4="";
+{===>} N_start_seg_5="";
+{===>} N_end_seg_5="";
+{===>} N_start_seg_6="";
+{===>} N_end_seg_6="";
+{===>} N_start_seg_7="";
+{===>} N_end_seg_7="";
+{===>} N_start_seg_8="";
+{===>} N_end_seg_8="";
+{===>} N_start_seg_9="";
+{===>} N_end_seg_9="";
+{===>} N_start_seg_10="";
+{===>} N_end_seg_10="";
 
-{===>} nseg_O=-1; 
+{===>} nseg_O=-1;
 
 {* Residues of molecule (protein) L at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} O_start_seg_1=""; 
-{===>} O_end_seg_1=""; 
-{===>} O_start_seg_2=""; 
-{===>} O_end_seg_2=""; 
-{===>} O_start_seg_3=""; 
-{===>} O_end_seg_3=""; 
-{===>} O_start_seg_4=""; 
-{===>} O_end_seg_4=""; 
-{===>} O_start_seg_5=""; 
-{===>} O_end_seg_5=""; 
-{===>} O_start_seg_6=""; 
-{===>} O_end_seg_6=""; 
-{===>} O_start_seg_7=""; 
-{===>} O_end_seg_7=""; 
-{===>} O_start_seg_8=""; 
-{===>} O_end_seg_8=""; 
-{===>} O_start_seg_9=""; 
-{===>} O_end_seg_9=""; 
-{===>} O_start_seg_10=""; 
-{===>} O_end_seg_10=""; 
+{===>} O_start_seg_1="";
+{===>} O_end_seg_1="";
+{===>} O_start_seg_2="";
+{===>} O_end_seg_2="";
+{===>} O_start_seg_3="";
+{===>} O_end_seg_3="";
+{===>} O_start_seg_4="";
+{===>} O_end_seg_4="";
+{===>} O_start_seg_5="";
+{===>} O_end_seg_5="";
+{===>} O_start_seg_6="";
+{===>} O_end_seg_6="";
+{===>} O_start_seg_7="";
+{===>} O_end_seg_7="";
+{===>} O_start_seg_8="";
+{===>} O_end_seg_8="";
+{===>} O_start_seg_9="";
+{===>} O_end_seg_9="";
+{===>} O_start_seg_10="";
+{===>} O_end_seg_10="";
 
-{===>} nseg_P=-1; 
+{===>} nseg_P=-1;
 
 {* Residues of molecule (protein) P at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} P_start_seg_1=""; 
-{===>} P_end_seg_1=""; 
-{===>} P_start_seg_2=""; 
-{===>} P_end_seg_2=""; 
-{===>} P_start_seg_3=""; 
-{===>} P_end_seg_3=""; 
-{===>} P_start_seg_4=""; 
-{===>} P_end_seg_4=""; 
-{===>} P_start_seg_5=""; 
-{===>} P_end_seg_5=""; 
-{===>} P_start_seg_6=""; 
-{===>} P_end_seg_6=""; 
-{===>} P_start_seg_7=""; 
-{===>} P_end_seg_7=""; 
-{===>} P_start_seg_8=""; 
-{===>} P_end_seg_8=""; 
-{===>} P_start_seg_9=""; 
-{===>} P_end_seg_9=""; 
-{===>} P_start_seg_10=""; 
-{===>} P_end_seg_10=""; 
+{===>} P_start_seg_1="";
+{===>} P_end_seg_1="";
+{===>} P_start_seg_2="";
+{===>} P_end_seg_2="";
+{===>} P_start_seg_3="";
+{===>} P_end_seg_3="";
+{===>} P_start_seg_4="";
+{===>} P_end_seg_4="";
+{===>} P_start_seg_5="";
+{===>} P_end_seg_5="";
+{===>} P_start_seg_6="";
+{===>} P_end_seg_6="";
+{===>} P_start_seg_7="";
+{===>} P_end_seg_7="";
+{===>} P_start_seg_8="";
+{===>} P_end_seg_8="";
+{===>} P_start_seg_9="";
+{===>} P_end_seg_9="";
+{===>} P_start_seg_10="";
+{===>} P_end_seg_10="";
 
-{===>} nseg_Q=-1; 
+{===>} nseg_Q=-1;
 
 {* Residues of molecule (protein) Q at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} Q_start_seg_1=""; 
-{===>} Q_end_seg_1=""; 
-{===>} Q_start_seg_2=""; 
-{===>} Q_end_seg_2=""; 
-{===>} Q_start_seg_3=""; 
-{===>} Q_end_seg_3=""; 
-{===>} Q_start_seg_4=""; 
-{===>} Q_end_seg_4=""; 
-{===>} Q_start_seg_5=""; 
-{===>} Q_end_seg_5=""; 
-{===>} Q_start_seg_6=""; 
-{===>} Q_end_seg_6=""; 
-{===>} Q_start_seg_7=""; 
-{===>} Q_end_seg_7=""; 
-{===>} Q_start_seg_8=""; 
-{===>} Q_end_seg_8=""; 
-{===>} Q_start_seg_9=""; 
-{===>} Q_end_seg_9=""; 
-{===>} Q_start_seg_10=""; 
-{===>} Q_end_seg_10=""; 
+{===>} Q_start_seg_1="";
+{===>} Q_end_seg_1="";
+{===>} Q_start_seg_2="";
+{===>} Q_end_seg_2="";
+{===>} Q_start_seg_3="";
+{===>} Q_end_seg_3="";
+{===>} Q_start_seg_4="";
+{===>} Q_end_seg_4="";
+{===>} Q_start_seg_5="";
+{===>} Q_end_seg_5="";
+{===>} Q_start_seg_6="";
+{===>} Q_end_seg_6="";
+{===>} Q_start_seg_7="";
+{===>} Q_end_seg_7="";
+{===>} Q_start_seg_8="";
+{===>} Q_end_seg_8="";
+{===>} Q_start_seg_9="";
+{===>} Q_end_seg_9="";
+{===>} Q_start_seg_10="";
+{===>} Q_end_seg_10="";
 
-{===>} nseg_R=-1; 
+{===>} nseg_R=-1;
 
 {* Residues of molecule (protein) R at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} R_start_seg_1=""; 
-{===>} R_end_seg_1=""; 
-{===>} R_start_seg_2=""; 
-{===>} R_end_seg_2=""; 
-{===>} R_start_seg_3=""; 
-{===>} R_end_seg_3=""; 
-{===>} R_start_seg_4=""; 
-{===>} R_end_seg_4=""; 
-{===>} R_start_seg_5=""; 
-{===>} R_end_seg_5=""; 
-{===>} R_start_seg_6=""; 
-{===>} R_end_seg_6=""; 
-{===>} R_start_seg_7=""; 
-{===>} R_end_seg_7=""; 
-{===>} R_start_seg_8=""; 
-{===>} R_end_seg_8=""; 
-{===>} R_start_seg_9=""; 
-{===>} R_end_seg_9=""; 
-{===>} R_start_seg_10=""; 
-{===>} R_end_seg_10=""; 
+{===>} R_start_seg_1="";
+{===>} R_end_seg_1="";
+{===>} R_start_seg_2="";
+{===>} R_end_seg_2="";
+{===>} R_start_seg_3="";
+{===>} R_end_seg_3="";
+{===>} R_start_seg_4="";
+{===>} R_end_seg_4="";
+{===>} R_start_seg_5="";
+{===>} R_end_seg_5="";
+{===>} R_start_seg_6="";
+{===>} R_end_seg_6="";
+{===>} R_start_seg_7="";
+{===>} R_end_seg_7="";
+{===>} R_start_seg_8="";
+{===>} R_end_seg_8="";
+{===>} R_start_seg_9="";
+{===>} R_end_seg_9="";
+{===>} R_start_seg_10="";
+{===>} R_end_seg_10="";
 
-{===>} nseg_S=-1; 
+{===>} nseg_S=-1;
 
 {* Residues of molecule (protein) S at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} S_start_seg_1=""; 
-{===>} S_end_seg_1=""; 
-{===>} S_start_seg_2=""; 
-{===>} S_end_seg_2=""; 
-{===>} S_start_seg_3=""; 
-{===>} S_end_seg_3=""; 
-{===>} S_start_seg_4=""; 
-{===>} S_end_seg_4=""; 
-{===>} S_start_seg_5=""; 
-{===>} S_end_seg_5=""; 
-{===>} S_start_seg_6=""; 
-{===>} S_end_seg_6=""; 
-{===>} S_start_seg_7=""; 
-{===>} S_end_seg_7=""; 
-{===>} S_start_seg_8=""; 
-{===>} S_end_seg_8=""; 
-{===>} S_start_seg_9=""; 
-{===>} S_end_seg_9=""; 
-{===>} S_start_seg_10=""; 
-{===>} S_end_seg_10=""; 
+{===>} S_start_seg_1="";
+{===>} S_end_seg_1="";
+{===>} S_start_seg_2="";
+{===>} S_end_seg_2="";
+{===>} S_start_seg_3="";
+{===>} S_end_seg_3="";
+{===>} S_start_seg_4="";
+{===>} S_end_seg_4="";
+{===>} S_start_seg_5="";
+{===>} S_end_seg_5="";
+{===>} S_start_seg_6="";
+{===>} S_end_seg_6="";
+{===>} S_start_seg_7="";
+{===>} S_end_seg_7="";
+{===>} S_start_seg_8="";
+{===>} S_end_seg_8="";
+{===>} S_start_seg_9="";
+{===>} S_end_seg_9="";
+{===>} S_start_seg_10="";
+{===>} S_end_seg_10="";
 
-{===>} nseg_T=-1; 
+{===>} nseg_T=-1;
 
 {* Residues of molecule (protein) T at interface *}
 {+ table: rows=10 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" "segment 6" "segment 7" "segment 8" "segment 9" "segment 10" cols=2 "Start residue" "End residue" +}
-{===>} T_start_seg_1=""; 
-{===>} T_end_seg_1=""; 
-{===>} T_start_seg_2=""; 
-{===>} T_end_seg_2=""; 
-{===>} T_start_seg_3=""; 
-{===>} T_end_seg_3=""; 
-{===>} T_start_seg_4=""; 
-{===>} T_end_seg_4=""; 
-{===>} T_start_seg_5=""; 
-{===>} T_end_seg_5=""; 
-{===>} T_start_seg_6=""; 
-{===>} T_end_seg_6=""; 
-{===>} T_start_seg_7=""; 
-{===>} T_end_seg_7=""; 
-{===>} T_start_seg_8=""; 
-{===>} T_end_seg_8=""; 
-{===>} T_start_seg_9=""; 
-{===>} T_end_seg_9=""; 
-{===>} T_start_seg_10=""; 
-{===>} T_end_seg_10=""; 
+{===>} T_start_seg_1="";
+{===>} T_end_seg_1="";
+{===>} T_start_seg_2="";
+{===>} T_end_seg_2="";
+{===>} T_start_seg_3="";
+{===>} T_end_seg_3="";
+{===>} T_start_seg_4="";
+{===>} T_end_seg_4="";
+{===>} T_start_seg_5="";
+{===>} T_end_seg_5="";
+{===>} T_start_seg_6="";
+{===>} T_end_seg_6="";
+{===>} T_start_seg_7="";
+{===>} T_end_seg_7="";
+{===>} T_start_seg_8="";
+{===>} T_end_seg_8="";
+{===>} T_start_seg_9="";
+{===>} T_end_seg_9="";
+{===>} T_start_seg_10="";
+{===>} T_end_seg_10="";
 
 {=========== Definition of fully flexible segments ==========}
 {* Define the fully flexible segment of each molecule.*}
@@ -1536,373 +1596,373 @@ numhise=0;
 {* Number of fully flexible segments for molecule (protein) A            *}
 {* Note that current max is 5 (edit the run.cns to add more segments     *}
 
-{===>} nfle_A=0; 
+{===>} nfle_A=0;
 
 {* Fully flexible segments of molecule (protein) A *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
 
-{===>} A_start_fle_1=""; 
-{===>} A_end_fle_1=""; 
-{===>} A_start_fle_2=""; 
-{===>} A_end_fle_2=""; 
-{===>} A_start_fle_3=""; 
-{===>} A_end_fle_3=""; 
-{===>} A_start_fle_4=""; 
-{===>} A_end_fle_4=""; 
-{===>} A_start_fle_5=""; 
-{===>} A_end_fle_5=""; 
+{===>} A_start_fle_1="";
+{===>} A_end_fle_1="";
+{===>} A_start_fle_2="";
+{===>} A_end_fle_2="";
+{===>} A_start_fle_3="";
+{===>} A_end_fle_3="";
+{===>} A_start_fle_4="";
+{===>} A_end_fle_4="";
+{===>} A_start_fle_5="";
+{===>} A_end_fle_5="";
 
 {* Fully flexible segments for molecule (protein) B           *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_B=0; 
+{===>} nfle_B=0;
 
 {* Residues of molecule (protein) B at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} B_start_fle_1=""; 
-{===>} B_end_fle_1=""; 
-{===>} B_start_fle_2=""; 
-{===>} B_end_fle_2=""; 
-{===>} B_start_fle_3=""; 
-{===>} B_end_fle_3=""; 
-{===>} B_start_fle_4=""; 
-{===>} B_end_fle_4=""; 
-{===>} B_start_fle_5=""; 
-{===>} B_end_fle_5=""; 
+{===>} B_start_fle_1="";
+{===>} B_end_fle_1="";
+{===>} B_start_fle_2="";
+{===>} B_end_fle_2="";
+{===>} B_start_fle_3="";
+{===>} B_end_fle_3="";
+{===>} B_start_fle_4="";
+{===>} B_end_fle_4="";
+{===>} B_start_fle_5="";
+{===>} B_end_fle_5="";
 
 {* Fully flexible segments for molecule (protein) C           *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_C=0; 
+{===>} nfle_C=0;
 
 {* Residues of molecule (protein) C at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} C_start_fle_1=""; 
-{===>} C_end_fle_1=""; 
-{===>} C_start_fle_2=""; 
-{===>} C_end_fle_2=""; 
-{===>} C_start_fle_3=""; 
-{===>} C_end_fle_3=""; 
-{===>} C_start_fle_4=""; 
-{===>} C_end_fle_4=""; 
-{===>} C_start_fle_5=""; 
-{===>} C_end_fle_5=""; 
+{===>} C_start_fle_1="";
+{===>} C_end_fle_1="";
+{===>} C_start_fle_2="";
+{===>} C_end_fle_2="";
+{===>} C_start_fle_3="";
+{===>} C_end_fle_3="";
+{===>} C_start_fle_4="";
+{===>} C_end_fle_4="";
+{===>} C_start_fle_5="";
+{===>} C_end_fle_5="";
 
 {* Fully flexible segments for molecule (protein) D           *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_D=0; 
+{===>} nfle_D=0;
 
 {* Residues of molecule (protein) D at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} D_start_fle_1=""; 
-{===>} D_end_fle_1=""; 
-{===>} D_start_fle_2=""; 
-{===>} D_end_fle_2=""; 
-{===>} D_start_fle_3=""; 
-{===>} D_end_fle_3=""; 
-{===>} D_start_fle_4=""; 
-{===>} D_end_fle_4=""; 
-{===>} D_start_fle_5=""; 
-{===>} D_end_fle_5=""; 
+{===>} D_start_fle_1="";
+{===>} D_end_fle_1="";
+{===>} D_start_fle_2="";
+{===>} D_end_fle_2="";
+{===>} D_start_fle_3="";
+{===>} D_end_fle_3="";
+{===>} D_start_fle_4="";
+{===>} D_end_fle_4="";
+{===>} D_start_fle_5="";
+{===>} D_end_fle_5="";
 
 
 {* Fully flexible segments for molecule (protein) E           *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_E=0; 
+{===>} nfle_E=0;
 
 {* Residues of molecule (protein) E at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} E_start_fle_1=""; 
-{===>} E_end_fle_1=""; 
-{===>} E_start_fle_2=""; 
-{===>} E_end_fle_2=""; 
-{===>} E_start_fle_3=""; 
-{===>} E_end_fle_3=""; 
-{===>} E_start_fle_4=""; 
-{===>} E_end_fle_4=""; 
-{===>} E_start_fle_5=""; 
-{===>} E_end_fle_5=""; 
+{===>} E_start_fle_1="";
+{===>} E_end_fle_1="";
+{===>} E_start_fle_2="";
+{===>} E_end_fle_2="";
+{===>} E_start_fle_3="";
+{===>} E_end_fle_3="";
+{===>} E_start_fle_4="";
+{===>} E_end_fle_4="";
+{===>} E_start_fle_5="";
+{===>} E_end_fle_5="";
 
 
 {* Fully flexible segments for molecule (protein) F           *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_F=0; 
+{===>} nfle_F=0;
 
 {* Residues of molecule (protein) F at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} F_start_fle_1=""; 
-{===>} F_end_fle_1=""; 
-{===>} F_start_fle_2=""; 
-{===>} F_end_fle_2=""; 
-{===>} F_start_fle_3=""; 
-{===>} F_end_fle_3=""; 
-{===>} F_start_fle_4=""; 
-{===>} F_end_fle_4=""; 
-{===>} F_start_fle_5=""; 
-{===>} F_end_fle_5=""; 
+{===>} F_start_fle_1="";
+{===>} F_end_fle_1="";
+{===>} F_start_fle_2="";
+{===>} F_end_fle_2="";
+{===>} F_start_fle_3="";
+{===>} F_end_fle_3="";
+{===>} F_start_fle_4="";
+{===>} F_end_fle_4="";
+{===>} F_start_fle_5="";
+{===>} F_end_fle_5="";
 
 
 {* Fully flexible segments for molecule (protein) G          *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_G=0; 
+{===>} nfle_G=0;
 
 {* Residues of molecule (protein) G at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} G_start_fle_1=""; 
-{===>} G_end_fle_1=""; 
-{===>} G_start_fle_2=""; 
-{===>} G_end_fle_2=""; 
-{===>} G_start_fle_3=""; 
-{===>} G_end_fle_3=""; 
-{===>} G_start_fle_4=""; 
-{===>} G_end_fle_4=""; 
-{===>} G_start_fle_5=""; 
-{===>} G_end_fle_5=""; 
+{===>} G_start_fle_1="";
+{===>} G_end_fle_1="";
+{===>} G_start_fle_2="";
+{===>} G_end_fle_2="";
+{===>} G_start_fle_3="";
+{===>} G_end_fle_3="";
+{===>} G_start_fle_4="";
+{===>} G_end_fle_4="";
+{===>} G_start_fle_5="";
+{===>} G_end_fle_5="";
 
 {* Fully flexible segments for molecule (protein) H          *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_H=0; 
+{===>} nfle_H=0;
 
 {* Residues of molecule (protein) H at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} H_start_fle_1=""; 
-{===>} H_end_fle_1=""; 
-{===>} H_start_fle_2=""; 
-{===>} H_end_fle_2=""; 
-{===>} H_start_fle_3=""; 
-{===>} H_end_fle_3=""; 
-{===>} H_start_fle_4=""; 
-{===>} H_end_fle_4=""; 
-{===>} H_start_fle_5=""; 
-{===>} H_end_fle_5=""; 
+{===>} H_start_fle_1="";
+{===>} H_end_fle_1="";
+{===>} H_start_fle_2="";
+{===>} H_end_fle_2="";
+{===>} H_start_fle_3="";
+{===>} H_end_fle_3="";
+{===>} H_start_fle_4="";
+{===>} H_end_fle_4="";
+{===>} H_start_fle_5="";
+{===>} H_end_fle_5="";
 
 {* Fully flexible segments for molecule (protein) I          *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_I=0; 
+{===>} nfle_I=0;
 
 {* Residues of molecule (protein) I at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} I_start_fle_1=""; 
-{===>} I_end_fle_1=""; 
-{===>} I_start_fle_2=""; 
-{===>} I_end_fle_2=""; 
-{===>} I_start_fle_3=""; 
-{===>} I_end_fle_3=""; 
-{===>} I_start_fle_4=""; 
-{===>} I_end_fle_4=""; 
-{===>} I_start_fle_5=""; 
+{===>} I_start_fle_1="";
+{===>} I_end_fle_1="";
+{===>} I_start_fle_2="";
+{===>} I_end_fle_2="";
+{===>} I_start_fle_3="";
+{===>} I_end_fle_3="";
+{===>} I_start_fle_4="";
+{===>} I_end_fle_4="";
+{===>} I_start_fle_5="";
 {===>} I_end_fle_5="";
 
 {* Fully flexible segments for molecule (protein) J          *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_J=0; 
+{===>} nfle_J=0;
 
 {* Residues of molecule (protein) J at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} J_start_fle_1=""; 
-{===>} J_end_fle_1=""; 
-{===>} J_start_fle_2=""; 
-{===>} J_end_fle_2=""; 
-{===>} J_start_fle_3=""; 
-{===>} J_end_fle_3=""; 
-{===>} J_start_fle_4=""; 
-{===>} J_end_fle_4=""; 
-{===>} J_start_fle_5=""; 
-{===>} J_end_fle_5=""; 
+{===>} J_start_fle_1="";
+{===>} J_end_fle_1="";
+{===>} J_start_fle_2="";
+{===>} J_end_fle_2="";
+{===>} J_start_fle_3="";
+{===>} J_end_fle_3="";
+{===>} J_start_fle_4="";
+{===>} J_end_fle_4="";
+{===>} J_start_fle_5="";
+{===>} J_end_fle_5="";
 
 {* Fully flexible segments for molecule (protein) K          *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_K=0; 
+{===>} nfle_K=0;
 
 {* Residues of molecule (protein) K at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} K_start_fle_1=""; 
-{===>} K_end_fle_1=""; 
-{===>} K_start_fle_2=""; 
-{===>} K_end_fle_2=""; 
-{===>} K_start_fle_3=""; 
-{===>} K_end_fle_3=""; 
-{===>} K_start_fle_4=""; 
-{===>} K_end_fle_4=""; 
-{===>} K_start_fle_5=""; 
-{===>} K_end_fle_5=""; 
+{===>} K_start_fle_1="";
+{===>} K_end_fle_1="";
+{===>} K_start_fle_2="";
+{===>} K_end_fle_2="";
+{===>} K_start_fle_3="";
+{===>} K_end_fle_3="";
+{===>} K_start_fle_4="";
+{===>} K_end_fle_4="";
+{===>} K_start_fle_5="";
+{===>} K_end_fle_5="";
 
 {* Fully flexible segments for molecule (protein) L          *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_L=0; 
+{===>} nfle_L=0;
 
 {* Residues of molecule (protein) L at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} L_start_fle_1=""; 
-{===>} L_end_fle_1=""; 
-{===>} L_start_fle_2=""; 
-{===>} L_end_fle_2=""; 
-{===>} L_start_fle_3=""; 
-{===>} L_end_fle_3=""; 
-{===>} L_start_fle_4=""; 
-{===>} L_end_fle_4=""; 
-{===>} L_start_fle_5=""; 
-{===>} L_end_fle_5=""; 
+{===>} L_start_fle_1="";
+{===>} L_end_fle_1="";
+{===>} L_start_fle_2="";
+{===>} L_end_fle_2="";
+{===>} L_start_fle_3="";
+{===>} L_end_fle_3="";
+{===>} L_start_fle_4="";
+{===>} L_end_fle_4="";
+{===>} L_start_fle_5="";
+{===>} L_end_fle_5="";
 
 {* Fully flexible segments for molecule (protein) M          *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_M=0; 
+{===>} nfle_M=0;
 
 {* Residues of molecule (protein) M at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} M_start_fle_1=""; 
-{===>} M_end_fle_1=""; 
-{===>} M_start_fle_2=""; 
-{===>} M_end_fle_2=""; 
-{===>} M_start_fle_3=""; 
-{===>} M_end_fle_3=""; 
-{===>} M_start_fle_4=""; 
-{===>} M_end_fle_4=""; 
-{===>} M_start_fle_5=""; 
-{===>} M_end_fle_5=""; 
+{===>} M_start_fle_1="";
+{===>} M_end_fle_1="";
+{===>} M_start_fle_2="";
+{===>} M_end_fle_2="";
+{===>} M_start_fle_3="";
+{===>} M_end_fle_3="";
+{===>} M_start_fle_4="";
+{===>} M_end_fle_4="";
+{===>} M_start_fle_5="";
+{===>} M_end_fle_5="";
 
 {* Fully flexible segments for molecule (protein) N          *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_N=0; 
+{===>} nfle_N=0;
 
 {* Residues of molecule (protein) N at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} N_start_fle_1=""; 
-{===>} N_end_fle_1=""; 
-{===>} N_start_fle_2=""; 
-{===>} N_end_fle_2=""; 
-{===>} N_start_fle_3=""; 
-{===>} N_end_fle_3=""; 
-{===>} N_start_fle_4=""; 
-{===>} N_end_fle_4=""; 
-{===>} N_start_fle_5=""; 
-{===>} N_end_fle_5=""; 
+{===>} N_start_fle_1="";
+{===>} N_end_fle_1="";
+{===>} N_start_fle_2="";
+{===>} N_end_fle_2="";
+{===>} N_start_fle_3="";
+{===>} N_end_fle_3="";
+{===>} N_start_fle_4="";
+{===>} N_end_fle_4="";
+{===>} N_start_fle_5="";
+{===>} N_end_fle_5="";
 
 {* Fully flexible segments for molecule (protein) O         *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_O=0; 
+{===>} nfle_O=0;
 
 {* Residues of molecule (protein) O at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} O_start_fle_1=""; 
-{===>} O_end_fle_1=""; 
-{===>} O_start_fle_2=""; 
-{===>} O_end_fle_2=""; 
-{===>} O_start_fle_3=""; 
-{===>} O_end_fle_3=""; 
-{===>} O_start_fle_4=""; 
-{===>} O_end_fle_4=""; 
-{===>} O_start_fle_5=""; 
-{===>} O_end_fle_5=""; 
+{===>} O_start_fle_1="";
+{===>} O_end_fle_1="";
+{===>} O_start_fle_2="";
+{===>} O_end_fle_2="";
+{===>} O_start_fle_3="";
+{===>} O_end_fle_3="";
+{===>} O_start_fle_4="";
+{===>} O_end_fle_4="";
+{===>} O_start_fle_5="";
+{===>} O_end_fle_5="";
 
 {* Fully flexible segments for molecule (protein) P          *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_P=0; 
+{===>} nfle_P=0;
 
 {* Residues of molecule (protein) P at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} P_start_fle_1=""; 
-{===>} P_end_fle_1=""; 
-{===>} P_start_fle_2=""; 
-{===>} P_end_fle_2=""; 
-{===>} P_start_fle_3=""; 
-{===>} P_end_fle_3=""; 
-{===>} P_start_fle_4=""; 
-{===>} P_end_fle_4=""; 
-{===>} P_start_fle_5=""; 
-{===>} P_end_fle_5=""; 
+{===>} P_start_fle_1="";
+{===>} P_end_fle_1="";
+{===>} P_start_fle_2="";
+{===>} P_end_fle_2="";
+{===>} P_start_fle_3="";
+{===>} P_end_fle_3="";
+{===>} P_start_fle_4="";
+{===>} P_end_fle_4="";
+{===>} P_start_fle_5="";
+{===>} P_end_fle_5="";
 
 {* Fully flexible segments for molecule (protein) Q          *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_Q=0; 
+{===>} nfle_Q=0;
 
 {* Residues of molecule (protein) Q at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} Q_start_fle_1=""; 
-{===>} Q_end_fle_1=""; 
-{===>} Q_start_fle_2=""; 
-{===>} Q_end_fle_2=""; 
-{===>} Q_start_fle_3=""; 
-{===>} Q_end_fle_3=""; 
-{===>} Q_start_fle_4=""; 
-{===>} Q_end_fle_4=""; 
-{===>} Q_start_fle_5=""; 
-{===>} Q_end_fle_5=""; 
+{===>} Q_start_fle_1="";
+{===>} Q_end_fle_1="";
+{===>} Q_start_fle_2="";
+{===>} Q_end_fle_2="";
+{===>} Q_start_fle_3="";
+{===>} Q_end_fle_3="";
+{===>} Q_start_fle_4="";
+{===>} Q_end_fle_4="";
+{===>} Q_start_fle_5="";
+{===>} Q_end_fle_5="";
 
 
 {* Fully flexible segments for molecule (protein) R          *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_R=0; 
+{===>} nfle_R=0;
 
 {* Residues of molecule (protein) R at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} R_start_fle_1=""; 
-{===>} R_end_fle_1=""; 
-{===>} R_start_fle_2=""; 
-{===>} R_end_fle_2=""; 
-{===>} R_start_fle_3=""; 
-{===>} R_end_fle_3=""; 
-{===>} R_start_fle_4=""; 
-{===>} R_end_fle_4=""; 
-{===>} R_start_fle_5=""; 
-{===>} R_end_fle_5=""; 
+{===>} R_start_fle_1="";
+{===>} R_end_fle_1="";
+{===>} R_start_fle_2="";
+{===>} R_end_fle_2="";
+{===>} R_start_fle_3="";
+{===>} R_end_fle_3="";
+{===>} R_start_fle_4="";
+{===>} R_end_fle_4="";
+{===>} R_start_fle_5="";
+{===>} R_end_fle_5="";
 
 
 {* Fully flexible segments for molecule (protein) S          *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_S=0; 
+{===>} nfle_S=0;
 
 {* Sesidues of molecule (protein) S at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} S_start_fle_1=""; 
-{===>} S_end_fle_1=""; 
-{===>} S_start_fle_2=""; 
-{===>} S_end_fle_2=""; 
-{===>} S_start_fle_3=""; 
-{===>} S_end_fle_3=""; 
-{===>} S_start_fle_4=""; 
-{===>} S_end_fle_4=""; 
-{===>} S_start_fle_5=""; 
-{===>} S_end_fle_5=""; 
+{===>} S_start_fle_1="";
+{===>} S_end_fle_1="";
+{===>} S_start_fle_2="";
+{===>} S_end_fle_2="";
+{===>} S_start_fle_3="";
+{===>} S_end_fle_3="";
+{===>} S_start_fle_4="";
+{===>} S_end_fle_4="";
+{===>} S_start_fle_5="";
+{===>} S_end_fle_5="";
 
 {* Fully flexible segments for molecule (protein) T          *}
 {* Note that current max is 5 (edit the run.cns to add more segments    *}
 
-{===>} nfle_T=0; 
+{===>} nfle_T=0;
 
 {* Sesidues of molecule (protein) S at interface *}
 {+ table: rows=5 "segment 1" "segment 2" "segment 3" "segment 4" "segment 5" cols=2 "Start residue" "End residue" +}
-{===>} T_start_fle_1=""; 
-{===>} T_end_fle_1=""; 
-{===>} T_start_fle_2=""; 
-{===>} T_end_fle_2=""; 
-{===>} T_start_fle_3=""; 
-{===>} T_end_fle_3=""; 
-{===>} T_start_fle_4=""; 
-{===>} T_end_fle_4=""; 
-{===>} T_start_fle_5=""; 
-{===>} T_end_fle_5=""; 
+{===>} T_start_fle_1="";
+{===>} T_end_fle_1="";
+{===>} T_start_fle_2="";
+{===>} T_end_fle_2="";
+{===>} T_start_fle_3="";
+{===>} T_end_fle_3="";
+{===>} T_start_fle_4="";
+{===>} T_end_fle_4="";
+{===>} T_start_fle_5="";
+{===>} T_end_fle_5="";
 
 {==================== membrane positioning restraints  ==================}
 {* Do you want to use membrane positioning restraints ? *}
 {+ choice: true false +}
-{===>} zres_on=false; 
+{===>} zres_on=false;
 
 {* Force constant for membrane positioning restraints ? *}
 {===>} kzres=10.0;
@@ -1973,7 +2033,7 @@ numhise=0;
 {====================== NCS restraints  =====================}
 {* Do you want to use NCS restraints? *}
 {+ choice: true false +}
-{===>} ncs_on=false; 
+{===>} ncs_on=false;
 
 {* Force constant for NCS restraints *}
 {===>} kncs=1.0;
@@ -2017,7 +2077,7 @@ numhise=0;
 {==================== Symmetry restraints  ==================}
 {* Do you want to use symmetry restraints ? *}
 {+ choice: true false +}
-{===>} sym_on=false; 
+{===>} sym_on=false;
 
 {* Force constant for symmetry restraints ? *}
 {===>} ksym=10.0;
@@ -2215,24 +2275,24 @@ numhise=0;
 {* Turn on/off and energy constants for distance restraints *}
 {+ table: rows=3 "distances" "AIR (ambig)" "hbonds" cols=6 "firstIteration" "lastIteration" "hot" "cool1" "cool2" "cool3"+}
 
-{===>} unamb_firstit=0; 
-{===>} unamb_lastit=2; 
-{===>} unamb_hot=10; 
-{===>} unamb_cool1=10; 
-{===>} unamb_cool2=50; 
-{===>} unamb_cool3=50; 
-{===>} amb_firstit=0; 
-{===>} amb_lastit=2; 
-{===>} amb_hot=10; 
-{===>} amb_cool1=10; 
-{===>} amb_cool2=50; 
-{===>} amb_cool3=50; 
-{===>} hbond_firstit=1; 
-{===>} hbond_lastit=2; 
-{===>} hbond_hot=10; 
-{===>} hbond_cool1=10; 
-{===>} hbond_cool2=50; 
-{===>} hbond_cool3=50; 
+{===>} unamb_firstit=0;
+{===>} unamb_lastit=2;
+{===>} unamb_hot=10;
+{===>} unamb_cool1=10;
+{===>} unamb_cool2=50;
+{===>} unamb_cool3=50;
+{===>} amb_firstit=0;
+{===>} amb_lastit=2;
+{===>} amb_hot=10;
+{===>} amb_cool1=10;
+{===>} amb_cool2=50;
+{===>} amb_cool3=50;
+{===>} hbond_firstit=1;
+{===>} hbond_lastit=2;
+{===>} hbond_hot=10;
+{===>} hbond_cool1=10;
+{===>} hbond_cool2=50;
+{===>} hbond_cool3=50;
 
 {* Do you want to randomly exclude a fraction of the ambiguous restraints (AIRs)? *}
 {+ choice: true false +}
@@ -2243,7 +2303,7 @@ numhise=0;
 
 {* Do you want to use hydrogen bond restraints? *}
 {+ choice: true false +}
-{===>} hbonds_on=false; 
+{===>} hbonds_on=false;
 
 {* Do you want to define randomly ambiguous interaction restraints from accessible residues? *}
 {* Only residues in the defined flexible segments will be considered *}
@@ -2269,30 +2329,30 @@ numhise=0;
 
 { Use automated distance restraints weighting }
 { choice: true false }
-air_scaling=false; 
+air_scaling=false;
 
 { Define the number of distance restraints for automated weighting }
-tot_unamb=25; 
+tot_unamb=25;
 { Define the number of AIR restraints for automated weighting }
-tot_amb=0; 
+tot_amb=0;
 
 { potential shape }
-mrswi_hot=0.5; 
-mrswi_cool1=0.5; 
-mrswi_cool2=0.5; 
-mrswi_cool3=0.5; 
-rswi_hot=0.5; 
-rswi_cool1=0.5; 
-rswi_cool2=0.5; 
-rswi_cool3=0.5; 
-masy_hot=-1.0; 
-masy_cool1=-1.0; 
-masy_cool2=-0.1; 
-masy_cool3=-0.1; 
-asy_hot=1.0; 
-asy_cool1=1.0; 
-asy_cool2=0.1; 
-asy_cool3=0.1; 
+mrswi_hot=0.5;
+mrswi_cool1=0.5;
+mrswi_cool2=0.5;
+mrswi_cool3=0.5;
+rswi_hot=0.5;
+rswi_cool1=0.5;
+rswi_cool2=0.5;
+rswi_cool3=0.5;
+masy_hot=-1.0;
+masy_cool1=-1.0;
+masy_cool2=-0.1;
+masy_cool3=-0.1;
+asy_hot=1.0;
+asy_cool1=1.0;
+asy_cool2=0.1;
+asy_cool3=0.1;
 
 {=========================== radius of gyration restraint  ============}
 {* Turn on/off and energy constants for Rg restraints *}
@@ -2317,7 +2377,7 @@ asy_cool3=0.1;
 {======================DNA-RNA restraints ============================}
 {* Use DNA/RNA restraints (dna-rna_restraints.def in data/sequence)? *}
 {+ choice: true false +}
-{===>} dnarest_on=false; 
+{===>} dnarest_on=false;
 
 
 
@@ -2326,11 +2386,11 @@ asy_cool3=0.1;
 {+ table: rows=1 "dihedrals" cols=5 "use?" "hot" "cool1" "cool2" "cool3" +}
 
 {+ choice: true false +}
-{===>} dihedrals_on=false; 
-{===>} dihedrals_hot=5; 
-{===>} dihedrals_cool1=5; 
-{===>} dihedrals_cool2=50; 
-{===>} dihedrals_cool3=200; 
+{===>} dihedrals_on=false;
+{===>} dihedrals_hot=5;
+{===>} dihedrals_cool1=5;
+{===>} dihedrals_cool2=50;
+{===>} dihedrals_cool3=200;
 
 {* Automatically define backbone dihedral angle restraints from structure? *}
 {* Error treshold for restraint violation is defined by error_dih *}
@@ -2345,205 +2405,205 @@ asy_cool3=0.1;
 {* The jcoupling restraint files should be present in the data/jcouplings directory *}
 {* and named c1.tbl, c2.tbl, ... *}
 
- c1_on=false; 
- c1_karplusa=6.98; 
- c1_karplusb=-1.38; 
- c1_karplusc=1.72; 
- c1_karplusd=-60.0; 
- c1_hot=0.0; 
- c1_cool1=0.2; 
- c1_cool2=1.0; 
- c1_cool3=1.0; 
+ c1_on=false;
+ c1_karplusa=6.98;
+ c1_karplusb=-1.38;
+ c1_karplusc=1.72;
+ c1_karplusd=-60.0;
+ c1_hot=0.0;
+ c1_cool1=0.2;
+ c1_cool2=1.0;
+ c1_cool3=1.0;
 
- c2_on=false; 
- c2_karplusa=6.98; 
- c2_karplusb=-1.38; 
- c2_karplusc=1.72; 
- c2_karplusd=-120.0; 
- c2_hot=0.0; 
- c2_cool1=0.2; 
- c2_cool2=1.0; 
- c2_cool3=1.0; 
+ c2_on=false;
+ c2_karplusa=6.98;
+ c2_karplusb=-1.38;
+ c2_karplusc=1.72;
+ c2_karplusd=-120.0;
+ c2_hot=0.0;
+ c2_cool1=0.2;
+ c2_cool2=1.0;
+ c2_cool3=1.0;
 
- c3_on=false; 
- c3_karplusa=6.98; 
- c3_karplusb=-1.38; 
- c3_karplusc=1.72; 
- c3_karplusd=-120.0; 
- c3_hot=0.0; 
- c3_cool1=0.2; 
- c3_cool2=1.0; 
- c3_cool3=1.0; 
+ c3_on=false;
+ c3_karplusa=6.98;
+ c3_karplusb=-1.38;
+ c3_karplusc=1.72;
+ c3_karplusd=-120.0;
+ c3_hot=0.0;
+ c3_cool1=0.2;
+ c3_cool2=1.0;
+ c3_cool3=1.0;
 
- c4_on=false; 
- c4_karplusa=6.98; 
- c4_karplusb=-1.38; 
- c4_karplusc=1.72; 
- c4_karplusd=-120.0; 
- c4_hot=0.0; 
- c4_cool1=0.2; 
- c4_cool2=1.0; 
- c4_cool3=1.0; 
+ c4_on=false;
+ c4_karplusa=6.98;
+ c4_karplusb=-1.38;
+ c4_karplusc=1.72;
+ c4_karplusd=-120.0;
+ c4_hot=0.0;
+ c4_cool1=0.2;
+ c4_cool2=1.0;
+ c4_cool3=1.0;
 
- c5_on=false; 
- c5_karplusa=6.98; 
- c5_karplusb=-1.38; 
- c5_karplusc=1.72; 
- c5_karplusd=-120.0; 
- c5_hot=0.0; 
- c5_cool1=0.2; 
- c5_cool2=1.0; 
- c5_cool3=1.0; 
- 
+ c5_on=false;
+ c5_karplusa=6.98;
+ c5_karplusb=-1.38;
+ c5_karplusc=1.72;
+ c5_karplusd=-120.0;
+ c5_hot=0.0;
+ c5_cool1=0.2;
+ c5_cool2=1.0;
+ c5_cool3=1.0;
+
 {=========================== residual dipolar couplings ======================}
 
 {* Parameters *}
 {+ table: rows=5 "class1" "class2" "class3" "class4" "class5"
-          cols=25 "type" "firstIt" "lastIt" "Ksani<br>(hot)" "Ksani<br>(cool1)" "Ksani<br>(cool2)" "Ksani<br>(cool3)" "R" "D" 
+          cols=25 "type" "firstIt" "lastIt" "Ksani<br>(hot)" "Ksani<br>(cool1)" "Ksani<br>(cool2)" "Ksani<br>(cool3)" "R" "D"
  "Kvean<br>(ini_bor_hot)" "Kvean<br>(fin_bor_hot)"
- "Kvean<br>(ini_bor_cool1)" "Kvean<br>(fin_bor_cool1)" 
- "Kvean<br>(ini_bor_cool2)" "Kvean<br>(fin_bor_cool2)" 
- "Kvean<br>(ini_bor_cool3)" "Kvean<br>(fin_bor_cool3)" 
- "Kvean<br>(ini_cen_hot)" "Kvean<br>(fin_cen_hot)" 
- "Kvean<br>(ini_cen_cool1)" "Kvean<br>(fin_cen_cool1)" 
- "Kvean<br>(ini_cen_cool2)" "Kvean<br>(fin_cen_cool2)" 
+ "Kvean<br>(ini_bor_cool1)" "Kvean<br>(fin_bor_cool1)"
+ "Kvean<br>(ini_bor_cool2)" "Kvean<br>(fin_bor_cool2)"
+ "Kvean<br>(ini_bor_cool3)" "Kvean<br>(fin_bor_cool3)"
+ "Kvean<br>(ini_cen_hot)" "Kvean<br>(fin_cen_hot)"
+ "Kvean<br>(ini_cen_cool1)" "Kvean<br>(fin_cen_cool1)"
+ "Kvean<br>(ini_cen_cool2)" "Kvean<br>(fin_cen_cool2)"
  "Kvean<br>(ini_cen_cool3)" "Kvean<br>(fin_cen_cool3)"+}
 {+ choice: "NO" "SANI" "VANGLE" +}
-{===>} rdc1_choice="NO"; 
-{===>} rdc1_firstIt=2; 
-{===>} rdc1_lastIt=2; 
-{===>} rdc1_hot=0.001; 
+{===>} rdc1_choice="NO";
+{===>} rdc1_firstIt=2;
+{===>} rdc1_lastIt=2;
+{===>} rdc1_hot=0.001;
 {===>} rdc1_cool1=0.02;
-{===>} rdc1_cool2=0.2; 
-{===>} rdc1_cool3=0.2; 
-{===>} rdc1_r=0.057; 
-{===>} rdc1_d=-11.49; 
-{===>} ini_bor_hot_1=1.0; 
-{===>} fin_bor_hot_1=10.0; 
-{===>} ini_bor_cool1_1=10.0; 
-{===>} fin_bor_cool1_1=40.0; 
-{===>} ini_bor_cool2_1=40.0; 
-{===>} fin_bor_cool2_1=40.0; 
-{===>} ini_bor_cool3_1=40.0; 
-{===>} fin_bor_cool3_1=40.0; 
-{===>} ini_cen_hot_1=0.25; 
-{===>} fin_cen_hot_1=2.5; 
-{===>} ini_cen_cool1_1=2.5; 
-{===>} fin_cen_cool1_1=10.0; 
-{===>} ini_cen_cool2_1=10.0; 
-{===>} fin_cen_cool2_1=10.0; 
-{===>} ini_cen_cool3_1=10.0; 
-{===>} fin_cen_cool3_1=10.0; 
+{===>} rdc1_cool2=0.2;
+{===>} rdc1_cool3=0.2;
+{===>} rdc1_r=0.057;
+{===>} rdc1_d=-11.49;
+{===>} ini_bor_hot_1=1.0;
+{===>} fin_bor_hot_1=10.0;
+{===>} ini_bor_cool1_1=10.0;
+{===>} fin_bor_cool1_1=40.0;
+{===>} ini_bor_cool2_1=40.0;
+{===>} fin_bor_cool2_1=40.0;
+{===>} ini_bor_cool3_1=40.0;
+{===>} fin_bor_cool3_1=40.0;
+{===>} ini_cen_hot_1=0.25;
+{===>} fin_cen_hot_1=2.5;
+{===>} ini_cen_cool1_1=2.5;
+{===>} fin_cen_cool1_1=10.0;
+{===>} ini_cen_cool2_1=10.0;
+{===>} fin_cen_cool2_1=10.0;
+{===>} ini_cen_cool3_1=10.0;
+{===>} fin_cen_cool3_1=10.0;
 
 {+ choice: "NO" "SANI" "XRDC" "VANGLE" +}
-{===>} rdc2_choice="NO"; 
-{===>} rdc2_firstIt=0; 
-{===>} rdc2_lastIt=1; 
-{===>} rdc2_hot=0.01; 
-{===>} rdc2_cool1=0.2; 
-{===>} rdc2_cool2=1.0; 
-{===>} rdc2_cool3=1.0; 
-{===>} rdc2_r=0.4; 
-{===>} rdc2_d=8.0; 
-{===>} ini_bor_hot_2=1.0; 
-{===>} fin_bor_hot_2=10.0; 
-{===>} ini_bor_cool1_2=10.0; 
-{===>} fin_bor_cool1_2=40.0; 
-{===>} ini_bor_cool2_2=40.0; 
-{===>} fin_bor_cool2_2=40.0; 
-{===>} ini_bor_cool3_2=40.0; 
-{===>} fin_bor_cool3_2=40.0; 
-{===>} ini_cen_hot_2=0.25; 
-{===>} fin_cen_hot_2=2.5; 
-{===>} ini_cen_cool1_2=2.5; 
-{===>} fin_cen_cool1_2=10.0; 
-{===>} ini_cen_cool2_2=10.0; 
-{===>} fin_cen_cool2_2=10.0; 
-{===>} ini_cen_cool3_2=10.0; 
-{===>} fin_cen_cool3_2=10.0; 
+{===>} rdc2_choice="NO";
+{===>} rdc2_firstIt=0;
+{===>} rdc2_lastIt=1;
+{===>} rdc2_hot=0.01;
+{===>} rdc2_cool1=0.2;
+{===>} rdc2_cool2=1.0;
+{===>} rdc2_cool3=1.0;
+{===>} rdc2_r=0.4;
+{===>} rdc2_d=8.0;
+{===>} ini_bor_hot_2=1.0;
+{===>} fin_bor_hot_2=10.0;
+{===>} ini_bor_cool1_2=10.0;
+{===>} fin_bor_cool1_2=40.0;
+{===>} ini_bor_cool2_2=40.0;
+{===>} fin_bor_cool2_2=40.0;
+{===>} ini_bor_cool3_2=40.0;
+{===>} fin_bor_cool3_2=40.0;
+{===>} ini_cen_hot_2=0.25;
+{===>} fin_cen_hot_2=2.5;
+{===>} ini_cen_cool1_2=2.5;
+{===>} fin_cen_cool1_2=10.0;
+{===>} ini_cen_cool2_2=10.0;
+{===>} fin_cen_cool2_2=10.0;
+{===>} ini_cen_cool3_2=10.0;
+{===>} fin_cen_cool3_2=10.0;
 
 {+ choice: "NO" "SANI" "XRDC" "VANGLE" +}
-{===>} rdc3_choice="NO"; 
-{===>} rdc3_firstIt=1; 
-{===>} rdc3_lastIt=1; 
-{===>} rdc3_hot=0.01; 
-{===>} rdc3_cool1=0.2; 
-{===>} rdc3_cool2=1.0; 
-{===>} rdc3_cool3=1.0; 
-{===>} rdc3_r=0.4; 
-{===>} rdc3_d=8.0; 
-{===>} ini_bor_hot_3=1.0; 
-{===>} fin_bor_hot_3=10.0; 
-{===>} ini_bor_cool1_3=10.0; 
-{===>} fin_bor_cool1_3=40.0; 
-{===>} ini_bor_cool2_3=40.0; 
-{===>} fin_bor_cool2_3=40.0; 
-{===>} ini_bor_cool3_3=40.0; 
-{===>} fin_bor_cool3_3=40.0; 
-{===>} ini_cen_hot_3=0.25; 
-{===>} fin_cen_hot_3=2.5; 
-{===>} ini_cen_cool1_3=2.5; 
-{===>} fin_cen_cool1_3=10.0; 
-{===>} ini_cen_cool2_3=10.0; 
-{===>} fin_cen_cool2_3=10.0; 
-{===>} ini_cen_cool3_3=10.0; 
-{===>} fin_cen_cool3_3=10.0; 
+{===>} rdc3_choice="NO";
+{===>} rdc3_firstIt=1;
+{===>} rdc3_lastIt=1;
+{===>} rdc3_hot=0.01;
+{===>} rdc3_cool1=0.2;
+{===>} rdc3_cool2=1.0;
+{===>} rdc3_cool3=1.0;
+{===>} rdc3_r=0.4;
+{===>} rdc3_d=8.0;
+{===>} ini_bor_hot_3=1.0;
+{===>} fin_bor_hot_3=10.0;
+{===>} ini_bor_cool1_3=10.0;
+{===>} fin_bor_cool1_3=40.0;
+{===>} ini_bor_cool2_3=40.0;
+{===>} fin_bor_cool2_3=40.0;
+{===>} ini_bor_cool3_3=40.0;
+{===>} fin_bor_cool3_3=40.0;
+{===>} ini_cen_hot_3=0.25;
+{===>} fin_cen_hot_3=2.5;
+{===>} ini_cen_cool1_3=2.5;
+{===>} fin_cen_cool1_3=10.0;
+{===>} ini_cen_cool2_3=10.0;
+{===>} fin_cen_cool2_3=10.0;
+{===>} ini_cen_cool3_3=10.0;
+{===>} fin_cen_cool3_3=10.0;
 
 {+ choice: "NO" "SANI" "XRDC" "VANGLE" +}
-{===>} rdc4_choice="NO"; 
-{===>} rdc4_firstIt=0; 
-{===>} rdc4_lastIt=2; 
-{===>} rdc4_hot=0.1; 
-{===>} rdc4_cool1=1.0; 
-{===>} rdc4_cool2=1.0; 
-{===>} rdc4_cool3=1.0; 
-{===>} rdc4_r=0.4; 
-{===>} rdc4_d=8.0; 
-{===>} ini_bor_hot_4=1.0; 
-{===>} fin_bor_hot_4=10.0; 
-{===>} ini_bor_cool1_4=10.0; 
-{===>} fin_bor_cool1_4=40.0; 
-{===>} ini_bor_cool2_4=40.0; 
-{===>} fin_bor_cool2_4=40.0; 
-{===>} ini_bor_cool3_4=40.0; 
-{===>} fin_bor_cool3_4=40.0; 
-{===>} ini_cen_hot_4=0.25; 
-{===>} fin_cen_hot_4=2.5; 
-{===>} ini_cen_cool1_4=2.5; 
-{===>} fin_cen_cool1_4=10.0; 
-{===>} ini_cen_cool2_4=10.0; 
-{===>} fin_cen_cool2_4=10.0; 
-{===>} ini_cen_cool3_4=10.0; 
-{===>} fin_cen_cool3_4=10.0; 
+{===>} rdc4_choice="NO";
+{===>} rdc4_firstIt=0;
+{===>} rdc4_lastIt=2;
+{===>} rdc4_hot=0.1;
+{===>} rdc4_cool1=1.0;
+{===>} rdc4_cool2=1.0;
+{===>} rdc4_cool3=1.0;
+{===>} rdc4_r=0.4;
+{===>} rdc4_d=8.0;
+{===>} ini_bor_hot_4=1.0;
+{===>} fin_bor_hot_4=10.0;
+{===>} ini_bor_cool1_4=10.0;
+{===>} fin_bor_cool1_4=40.0;
+{===>} ini_bor_cool2_4=40.0;
+{===>} fin_bor_cool2_4=40.0;
+{===>} ini_bor_cool3_4=40.0;
+{===>} fin_bor_cool3_4=40.0;
+{===>} ini_cen_hot_4=0.25;
+{===>} fin_cen_hot_4=2.5;
+{===>} ini_cen_cool1_4=2.5;
+{===>} fin_cen_cool1_4=10.0;
+{===>} ini_cen_cool2_4=10.0;
+{===>} fin_cen_cool2_4=10.0;
+{===>} ini_cen_cool3_4=10.0;
+{===>} fin_cen_cool3_4=10.0;
 
 {+ choice: "NO" "SANI" "XRDC" "VANGLE" +}
-{===>} rdc5_choice="NO"; 
-{===>} rdc5_firstIt=0; 
-{===>} rdc5_lastIt=2; 
-{===>} rdc5_hot=0.1; 
-{===>} rdc5_cool1=1.0; 
-{===>} rdc5_cool2=1.0; 
-{===>} rdc5_cool3=1.0; 
-{===>} rdc5_r=0.4; 
-{===>} rdc5_d=8.0; 
-{===>} ini_bor_hot_5=1.0; 
-{===>} fin_bor_hot_5=10.0; 
-{===>} ini_bor_cool1_5=10.0; 
-{===>} fin_bor_cool1_5=40.0; 
-{===>} ini_bor_cool2_5=40.0; 
-{===>} fin_bor_cool2_5=40.0; 
-{===>} ini_bor_cool3_5=40.0; 
-{===>} fin_bor_cool3_5=40.0; 
-{===>} ini_cen_hot_5=0.25; 
-{===>} fin_cen_hot_5=2.5; 
-{===>} ini_cen_cool1_5=2.5; 
-{===>} fin_cen_cool1_5=10.0; 
-{===>} ini_cen_cool2_5=10.0; 
-{===>} fin_cen_cool2_5=10.0; 
-{===>} ini_cen_cool3_5=10.0; 
-{===>} fin_cen_cool3_5=10.0; 
+{===>} rdc5_choice="NO";
+{===>} rdc5_firstIt=0;
+{===>} rdc5_lastIt=2;
+{===>} rdc5_hot=0.1;
+{===>} rdc5_cool1=1.0;
+{===>} rdc5_cool2=1.0;
+{===>} rdc5_cool3=1.0;
+{===>} rdc5_r=0.4;
+{===>} rdc5_d=8.0;
+{===>} ini_bor_hot_5=1.0;
+{===>} fin_bor_hot_5=10.0;
+{===>} ini_bor_cool1_5=10.0;
+{===>} fin_bor_cool1_5=40.0;
+{===>} ini_bor_cool2_5=40.0;
+{===>} fin_bor_cool2_5=40.0;
+{===>} ini_bor_cool3_5=40.0;
+{===>} fin_bor_cool3_5=40.0;
+{===>} ini_cen_hot_5=0.25;
+{===>} fin_cen_hot_5=2.5;
+{===>} ini_cen_cool1_5=2.5;
+{===>} fin_cen_cool1_5=10.0;
+{===>} ini_cen_cool2_5=10.0;
+{===>} fin_cen_cool2_5=10.0;
+{===>} ini_cen_cool3_5=10.0;
+{===>} fin_cen_cool3_5=10.0;
 
- 
+
 {=========================== pseudo contact shifts ===========================}
 
 {* Parameters *}
@@ -2561,178 +2621,178 @@ asy_cool3=0.1;
 {===>} pcs1_d=10000;
 
 {+ choice: "NO" "XPCS" +}
-{===>} pcs2_choice="NO"; 
-{===>} pcs2_firstIt=0; 
-{===>} pcs2_lastIt=2; 
-{===>} pcs2_hot=100.0; 
-{===>} pcs2_cool1=100.0; 
-{===>} pcs2_cool2=100.0; 
-{===>} pcs2_cool3=100.0; 
-{===>} pcs2_r=1000; 
-{===>} pcs2_d=10000; 
+{===>} pcs2_choice="NO";
+{===>} pcs2_firstIt=0;
+{===>} pcs2_lastIt=2;
+{===>} pcs2_hot=100.0;
+{===>} pcs2_cool1=100.0;
+{===>} pcs2_cool2=100.0;
+{===>} pcs2_cool3=100.0;
+{===>} pcs2_r=1000;
+{===>} pcs2_d=10000;
 
 {+ choice: "NO" "XPCS" +}
-{===>} pcs3_choice="NO"; 
-{===>} pcs3_firstIt=0; 
-{===>} pcs3_lastIt=2; 
-{===>} pcs3_hot=100.0; 
+{===>} pcs3_choice="NO";
+{===>} pcs3_firstIt=0;
+{===>} pcs3_lastIt=2;
+{===>} pcs3_hot=100.0;
 {===>} pcs3_cool1=100.0;
-{===>} pcs3_cool2=100.0; 
-{===>} pcs3_cool3=100.0; 
+{===>} pcs3_cool2=100.0;
+{===>} pcs3_cool3=100.0;
 {===>} pcs3_r=1000;
-{===>} pcs3_d=10000;  
+{===>} pcs3_d=10000;
 
 {+ choice: "NO" "XPCS" +}
-{===>} pcs4_choice="NO"; 
-{===>} pcs4_firstIt=0; 
-{===>} pcs4_lastIt=2; 
-{===>} pcs4_hot=100.0; 
-{===>} pcs4_cool1=100.0; 
-{===>} pcs4_cool2=100.0; 
-{===>} pcs4_cool3=100.0; 
-{===>} pcs4_r=1000; 
-{===>} pcs4_d=10000; 
+{===>} pcs4_choice="NO";
+{===>} pcs4_firstIt=0;
+{===>} pcs4_lastIt=2;
+{===>} pcs4_hot=100.0;
+{===>} pcs4_cool1=100.0;
+{===>} pcs4_cool2=100.0;
+{===>} pcs4_cool3=100.0;
+{===>} pcs4_r=1000;
+{===>} pcs4_d=10000;
 
 {+ choice: "NO" "XPCS" +}
-{===>} pcs5_choice="NO"; 
-{===>} pcs5_firstIt=0; 
-{===>} pcs5_lastIt=2; 
-{===>} pcs5_hot=100.0; 
-{===>} pcs5_cool1=100.0; 
-{===>} pcs5_cool2=100.0; 
-{===>} pcs5_cool3=100.0; 
+{===>} pcs5_choice="NO";
+{===>} pcs5_firstIt=0;
+{===>} pcs5_lastIt=2;
+{===>} pcs5_hot=100.0;
+{===>} pcs5_cool1=100.0;
+{===>} pcs5_cool2=100.0;
+{===>} pcs5_cool3=100.0;
 {===>} pcs5_r=1000;
-{===>} pcs5_d=10000; 
+{===>} pcs5_d=10000;
 
 {+ choice: "NO" "XPCS" +}
-{===>} pcs6_choice="NO"; 
-{===>} pcs6_firstIt=0; 
-{===>} pcs6_lastIt=2; 
-{===>} pcs6_hot=100.0; 
-{===>} pcs6_cool1=100.0; 
-{===>} pcs6_cool2=100.0; 
-{===>} pcs6_cool3=100.0; 
-{===>} pcs6_r=1000; 
-{===>} pcs6_d=10000; 
+{===>} pcs6_choice="NO";
+{===>} pcs6_firstIt=0;
+{===>} pcs6_lastIt=2;
+{===>} pcs6_hot=100.0;
+{===>} pcs6_cool1=100.0;
+{===>} pcs6_cool2=100.0;
+{===>} pcs6_cool3=100.0;
+{===>} pcs6_r=1000;
+{===>} pcs6_d=10000;
 
 {+ choice: "NO" "XPCS" +}
-{===>} pcs7_choice="NO"; 
-{===>} pcs7_firstIt=0; 
-{===>} pcs7_lastIt=2; 
-{===>} pcs7_hot=100.0; 
-{===>} pcs7_cool1=100.0; 
-{===>} pcs7_cool2=100.0; 
-{===>} pcs7_cool3=100.0; 
-{===>} pcs7_r=1000; 
-{===>} pcs7_d=10000; 
+{===>} pcs7_choice="NO";
+{===>} pcs7_firstIt=0;
+{===>} pcs7_lastIt=2;
+{===>} pcs7_hot=100.0;
+{===>} pcs7_cool1=100.0;
+{===>} pcs7_cool2=100.0;
+{===>} pcs7_cool3=100.0;
+{===>} pcs7_r=1000;
+{===>} pcs7_d=10000;
 
 {+ choice: "NO" "XPCS" +}
-{===>} pcs8_choice="NO"; 
-{===>} pcs8_firstIt=0; 
-{===>} pcs8_lastIt=2; 
-{===>} pcs8_hot=100.0; 
-{===>} pcs8_cool1=100.0; 
-{===>} pcs8_cool2=100.0; 
-{===>} pcs8_cool3=100.0; 
-{===>} pcs8_r=1000; 
-{===>} pcs8_d=10000; 
+{===>} pcs8_choice="NO";
+{===>} pcs8_firstIt=0;
+{===>} pcs8_lastIt=2;
+{===>} pcs8_hot=100.0;
+{===>} pcs8_cool1=100.0;
+{===>} pcs8_cool2=100.0;
+{===>} pcs8_cool3=100.0;
+{===>} pcs8_r=1000;
+{===>} pcs8_d=10000;
 
 {+ choice: "NO" "XPCS" +}
-{===>} pcs9_choice="NO"; 
-{===>} pcs9_firstIt=0; 
-{===>} pcs9_lastIt=2; 
-{===>} pcs9_hot=100.0; 
-{===>} pcs9_cool1=100.0; 
-{===>} pcs9_cool2=100.0; 
-{===>} pcs9_cool3=100.0; 
-{===>} pcs9_r=1000; 
-{===>} pcs9_d=10000; 
+{===>} pcs9_choice="NO";
+{===>} pcs9_firstIt=0;
+{===>} pcs9_lastIt=2;
+{===>} pcs9_hot=100.0;
+{===>} pcs9_cool1=100.0;
+{===>} pcs9_cool2=100.0;
+{===>} pcs9_cool3=100.0;
+{===>} pcs9_r=1000;
+{===>} pcs9_d=10000;
 
 
 {+ choice: "NO" "XPCS" +}
-{===>} pcsA_choice="NO"; 
-{===>} pcsA_firstIt=0; 
-{===>} pcsA_lastIt=2; 
-{===>} pcsA_hot=100.0; 
-{===>} pcsA_cool1=100.0; 
-{===>} pcsA_cool2=100.0; 
-{===>} pcsA_cool3=100.0; 
-{===>} pcsA_r=1000; 
-{===>} pcsA_d=10000; 
+{===>} pcsA_choice="NO";
+{===>} pcsA_firstIt=0;
+{===>} pcsA_lastIt=2;
+{===>} pcsA_hot=100.0;
+{===>} pcsA_cool1=100.0;
+{===>} pcsA_cool2=100.0;
+{===>} pcsA_cool3=100.0;
+{===>} pcsA_r=1000;
+{===>} pcsA_d=10000;
 
 {=========================== relaxation data ======================}
 {* Parameters *}
 {+ table: rows=5 "class1" "class2" "class3" "class4" "class5"
           cols=12 "type" "firstIt" "lastIt" "Kdani(hot)" "Kdani(cool1)" "Kdani(cool2)" "Kdani(cool3)" "Correlation time" "D" "R" "H frequency" "N frequency" +}
 {+ choice: "NO" "DANI" +}
-{===>} dan1_choice="NO"; 
-{===>} dan1_firstIt=0; 
-{===>} dan1_lastIt=2; 
-{===>} dan1_hot=1; 
+{===>} dan1_choice="NO";
+{===>} dan1_firstIt=0;
+{===>} dan1_lastIt=2;
+{===>} dan1_hot=1;
 {===>} dan1_cool1=5;
 {===>} dan1_cool2=10;
-{===>} dan1_cool3=10; 
+{===>} dan1_cool3=10;
 {===>} dan1_tc=9.771;
 {===>} dan1_anis=1.557;
 {===>} dan1_r=0.455;
-{===>} dan1_wh=599.91; 
-{===>} dan1_wn=60.82; 
+{===>} dan1_wh=599.91;
+{===>} dan1_wn=60.82;
 
 {+ choice: "NO" "DANI" +}
-{===>} dan2_choice="NO"; 
-{===>} dan2_firstIt=0; 
-{===>} dan2_lastIt=1; 
-{===>} dan2_hot=1; 
-{===>} dan2_cool1=5; 
-{===>} dan2_cool2=10; 
-{===>} dan2_cool3=10; 
-{===>} dan2_tc=9.84; 
-{===>} dan2_anis=-1.35; 
-{===>} dan2_r=0.308; 
-{===>} dan2_wh=599.91; 
-{===>} dan2_wn=60.82; 
+{===>} dan2_choice="NO";
+{===>} dan2_firstIt=0;
+{===>} dan2_lastIt=1;
+{===>} dan2_hot=1;
+{===>} dan2_cool1=5;
+{===>} dan2_cool2=10;
+{===>} dan2_cool3=10;
+{===>} dan2_tc=9.84;
+{===>} dan2_anis=-1.35;
+{===>} dan2_r=0.308;
+{===>} dan2_wh=599.91;
+{===>} dan2_wn=60.82;
 
 {+ choice: "NO" "DANI" +}
-{===>} dan3_choice="NO"; 
-{===>} dan3_firstIt=1; 
-{===>} dan3_lastIt=1; 
-{===>} dan3_hot=1; 
-{===>} dan3_cool1=5; 
-{===>} dan3_cool2=10; 
-{===>} dan3_cool3=10; 
-{===>} dan3_tc=9.84; 
-{===>} dan3_anis=-1.35; 
-{===>} dan3_r=0.308; 
-{===>} dan3_wh=599.91; 
-{===>} dan3_wn=60.82; 
+{===>} dan3_choice="NO";
+{===>} dan3_firstIt=1;
+{===>} dan3_lastIt=1;
+{===>} dan3_hot=1;
+{===>} dan3_cool1=5;
+{===>} dan3_cool2=10;
+{===>} dan3_cool3=10;
+{===>} dan3_tc=9.84;
+{===>} dan3_anis=-1.35;
+{===>} dan3_r=0.308;
+{===>} dan3_wh=599.91;
+{===>} dan3_wn=60.82;
 
 {+ choice: "NO" "DANI" +}
-{===>} dan4_choice="NO"; 
-{===>} dan4_firstIt=0; 
-{===>} dan4_lastIt=2; 
-{===>} dan4_hot=1; 
-{===>} dan4_cool1=5; 
-{===>} dan4_cool2=10; 
-{===>} dan4_cool3=10; 
-{===>} dan4_tc=9.84; 
-{===>} dan4_anis=-1.35; 
-{===>} dan4_r=0.308; 
-{===>} dan4_wh=599.91; 
-{===>} dan4_wn=60.82; 
+{===>} dan4_choice="NO";
+{===>} dan4_firstIt=0;
+{===>} dan4_lastIt=2;
+{===>} dan4_hot=1;
+{===>} dan4_cool1=5;
+{===>} dan4_cool2=10;
+{===>} dan4_cool3=10;
+{===>} dan4_tc=9.84;
+{===>} dan4_anis=-1.35;
+{===>} dan4_r=0.308;
+{===>} dan4_wh=599.91;
+{===>} dan4_wn=60.82;
 
 {+ choice: "NO" "DANI" +}
-{===>} dan5_choice="NO"; 
-{===>} dan5_firstIt=0; 
-{===>} dan5_lastIt=2; 
-{===>} dan5_hot=1; 
-{===>} dan5_cool1=5; 
-{===>} dan5_cool2=10; 
-{===>} dan5_cool3=10; 
-{===>} dan5_tc=9.84; 
-{===>} dan5_anis=-1.35; 
-{===>} dan5_r=0.308; 
-{===>} dan5_wh=599.91; 
-{===>} dan5_wn=60.82; 
+{===>} dan5_choice="NO";
+{===>} dan5_firstIt=0;
+{===>} dan5_lastIt=2;
+{===>} dan5_hot=1;
+{===>} dan5_cool1=5;
+{===>} dan5_cool2=10;
+{===>} dan5_cool3=10;
+{===>} dan5_tc=9.84;
+{===>} dan5_anis=-1.35;
+{===>} dan5_r=0.308;
+{===>} dan5_wh=599.91;
+{===>} dan5_wn=60.82;
 
 {========================== Cryo-EM parameters ============================}
 
@@ -2789,17 +2849,17 @@ asy_cool3=0.1;
 {===================== topology and parameter files ======================}
 
 {* topology file for molecule (protein) A *}
-{===>} prot_top_A="protein-allhdg5-4.top"; 
+{===>} prot_top_A="protein-allhdg5-4.top";
 {* topology file for molecule (protein) B *}
-{===>} prot_top_B="protein-allhdg5-4.top"; 
+{===>} prot_top_B="protein-allhdg5-4.top";
 {* topology file for molecule (protein) C *}
-{===>} prot_top_C="protein-allhdg5-4.top"; 
+{===>} prot_top_C="protein-allhdg5-4.top";
 {* topology file for molecule (protein) D *}
-{===>} prot_top_D="protein-allhdg5-4.top"; 
+{===>} prot_top_D="protein-allhdg5-4.top";
 {* topology file for molecule (protein) E *}
-{===>} prot_top_E="protein-allhdg5-4.top"; 
+{===>} prot_top_E="protein-allhdg5-4.top";
 {* topology file for molecule (protein) F *}
-{===>} prot_top_F="protein-allhdg5-4.top"; 
+{===>} prot_top_F="protein-allhdg5-4.top";
 {* topology file for molecule (protein) G *}
 {===>} prot_top_G="protein-allhdg5-4.top";
 {* topology file for molecule (protein) H *}
@@ -2830,21 +2890,21 @@ asy_cool3=0.1;
 {===>} prot_top_T="protein-allhdg5-4.top";
 
 {* linkage file for molecule (protein) A *}
-{===>} prot_link_A="protein-allhdg5-4-noter.link"; 
+{===>} prot_link_A="protein-allhdg5-4-noter.link";
 {* linkage file for molecule (protein) B *}
-{===>} prot_link_B="protein-allhdg5-4-noter.link"; 
+{===>} prot_link_B="protein-allhdg5-4-noter.link";
 {* linkage file for molecule (protein) C *}
-{===>} prot_link_C="protein-allhdg5-4-noter.link"; 
+{===>} prot_link_C="protein-allhdg5-4-noter.link";
 {* linkage file for molecule (protein) D *}
-{===>} prot_link_D="protein-allhdg5-4-noter.link"; 
+{===>} prot_link_D="protein-allhdg5-4-noter.link";
 {* linkage file for molecule (protein) E *}
-{===>} prot_link_E="protein-allhdg5-4-noter.link"; 
+{===>} prot_link_E="protein-allhdg5-4-noter.link";
 {* linkage file for molecule (protein) F *}
-{===>} prot_link_F="protein-allhdg5-4-noter.link"; 
+{===>} prot_link_F="protein-allhdg5-4-noter.link";
 {* linkage file for molecule (protein) G *}
-{===>} prot_link_G="protein-allhdg5-4-noter.link"; 
+{===>} prot_link_G="protein-allhdg5-4-noter.link";
 {* linkage file for molecule (protein) H *}
-{===>} prot_link_H="protein-allhdg5-4-noter.link"; 
+{===>} prot_link_H="protein-allhdg5-4-noter.link";
 {* linkage file for molecule (protein) I *}
 {===>} prot_link_I="protein-allhdg5-4-noter.link";
 {* linkage file for molecule (protein) J *}
@@ -2871,29 +2931,29 @@ asy_cool3=0.1;
 {===>} prot_link_T="protein-allhdg5-4-noter.link";
 
 {* energy parameter file for molecule (protein) A *}
-{===>} prot_par_A="protein-allhdg5-4.param"; 
+{===>} prot_par_A="protein-allhdg5-4.param";
 {* energy parameter file for molecule (protein) B *}
-{===>} prot_par_B="protein-allhdg5-4.param"; 
+{===>} prot_par_B="protein-allhdg5-4.param";
 {* energy parameter file for molecule (protein) C *}
-{===>} prot_par_C="protein-allhdg5-4.param"; 
+{===>} prot_par_C="protein-allhdg5-4.param";
 {* energy parameter file for molecule (protein) D *}
-{===>} prot_par_D="protein-allhdg5-4.param"; 
+{===>} prot_par_D="protein-allhdg5-4.param";
 {* energy parameter file for molecule (protein) E *}
-{===>} prot_par_E="protein-allhdg5-4.param"; 
+{===>} prot_par_E="protein-allhdg5-4.param";
 {* energy parameter file for molecule (protein) F *}
-{===>} prot_par_F="protein-allhdg5-4.param"; 
+{===>} prot_par_F="protein-allhdg5-4.param";
 {* energy parameter file for molecule (protein) G *}
-{===>} prot_par_G="protein-allhdg5-4.param"; 
+{===>} prot_par_G="protein-allhdg5-4.param";
 {* energy parameter file for molecule (protein) H *}
-{===>} prot_par_H="protein-allhdg5-4.param"; 
+{===>} prot_par_H="protein-allhdg5-4.param";
 {* energy parameter file for molecule (protein) I *}
-{===>} prot_par_I="protein-allhdg5-4.param"; 
+{===>} prot_par_I="protein-allhdg5-4.param";
 {* energy parameter file for molecule (protein) J *}
-{===>} prot_par_J="protein-allhdg5-4.param"; 
+{===>} prot_par_J="protein-allhdg5-4.param";
 {* energy parameter file for molecule (protein) K *}
-{===>} prot_par_K="protein-allhdg5-4.param"; 
+{===>} prot_par_K="protein-allhdg5-4.param";
 {* energy parameter file for molecule (protein) L *}
-{===>} prot_par_L="protein-allhdg5-4.param"; 
+{===>} prot_par_L="protein-allhdg5-4.param";
 {* energy parameter file for molecule (protein) M *}
 {===>} prot_par_M="protein-allhdg5-4.param";
 {* energy parameter file for molecule (protein) N *}
@@ -2914,18 +2974,18 @@ asy_cool3=0.1;
 {* type of non-bonded parameters *}
 {* specify the type of non-bonded interaction *}
 {+ choice: "PROLSQ" "PARMALLH6" "PARALLHDG" "OPLSX" +}
-{===>} par_nonbonded="OPLSX"; 
+{===>} par_nonbonded="OPLSX";
 
 {============coarse graining topology and parameter files ==================}
 
 {* topology file for molecule (protein) A *}
-{===>} prot_cg_top_A="protein-CG-Martini.top"; 
+{===>} prot_cg_top_A="protein-CG-Martini.top";
 {* topology file for molecule (protein) B *}
-{===>} prot_cg_top_B="protein-CG-Martini.top"; 
+{===>} prot_cg_top_B="protein-CG-Martini.top";
 {* topology file for molecule (protein) C *}
-{===>} prot_cg_top_C="protein-CG-Martini.top"; 
+{===>} prot_cg_top_C="protein-CG-Martini.top";
 {* topology file for molecule (protein) D *}
-{===>} prot_cg_top_D="protein-CG-Martini.top"; 
+{===>} prot_cg_top_D="protein-CG-Martini.top";
 {* topology file for molecule (protein) E *}
 {===>} prot_cg_top_E="protein-CG-Martini.top";
 {* topology file for molecule (protein) F *}
@@ -2960,17 +3020,17 @@ asy_cool3=0.1;
 {===>} prot_cg_top_T="protein-CG-Martini.top";
 
 {* linkage file for molecule (protein) A *}
-{===>} prot_cg_link_A="protein-CG-Martini.link"; 
+{===>} prot_cg_link_A="protein-CG-Martini.link";
 {* linkage file for molecule (protein) B *}
-{===>} prot_cg_link_B="protein-CG-Martini.link"; 
+{===>} prot_cg_link_B="protein-CG-Martini.link";
 {* linkage file for molecule (protein) C *}
-{===>} prot_cg_link_C="protein-CG-Martini.link"; 
+{===>} prot_cg_link_C="protein-CG-Martini.link";
 {* linkage file for molecule (protein) D *}
-{===>} prot_cg_link_D="protein-CG-Martini.link"; 
+{===>} prot_cg_link_D="protein-CG-Martini.link";
 {* linkage file for molecule (protein) E *}
-{===>} prot_cg_link_E="protein-CG-Martini.link"; 
+{===>} prot_cg_link_E="protein-CG-Martini.link";
 {* linkage file for molecule (protein) F *}
-{===>} prot_cg_link_F="protein-CG-Martini.link"; 
+{===>} prot_cg_link_F="protein-CG-Martini.link";
 {* linkage file for molecule (protein) G *}
 {===>} prot_cg_link_G="protein-CG-Martini.link";
 {* linkage file for molecule (protein) H *}
@@ -3001,17 +3061,17 @@ asy_cool3=0.1;
 {===>} prot_cg_link_T="protein-CG-Martini.link";
 
 {* energy parameter file for molecule (protein) A *}
-{===>} prot_cg_par_A="protein-CG-Martini.param"; 
+{===>} prot_cg_par_A="protein-CG-Martini.param";
 {* energy parameter file for molecule (protein) B *}
-{===>} prot_cg_par_B="protein-CG-Martini.param"; 
+{===>} prot_cg_par_B="protein-CG-Martini.param";
 {* energy parameter file for molecule (protein) C *}
-{===>} prot_cg_par_C="protein-CG-Martini.param"; 
+{===>} prot_cg_par_C="protein-CG-Martini.param";
 {* energy parameter file for molecule (protein) D *}
-{===>} prot_cg_par_D="protein-CG-Martini.param"; 
+{===>} prot_cg_par_D="protein-CG-Martini.param";
 {* energy parameter file for molecule (protein) E *}
-{===>} prot_cg_par_E="protein-CG-Martini.param"; 
+{===>} prot_cg_par_E="protein-CG-Martini.param";
 {* energy parameter file for molecule (protein) F *}
-{===>} prot_cg_par_F="protein-CG-Martini.param"; 
+{===>} prot_cg_par_F="protein-CG-Martini.param";
 {* energy parameter file for molecule (protein) G *}
 {===>} prot_cg_par_G="protein-CG-Martini.param";
 {* energy parameter file for molecule (protein) H *}
@@ -3046,21 +3106,21 @@ asy_cool3=0.1;
 
 { Do you want to include dihedral angle energy terms? }
 { choice: true false }
-dihedflag=true; 
+dihedflag=true;
 
 {* Do you want to include the electrostatic energy term for docking? *}
 {* Note that it will be automatically included in the solvent refinement *}
 
 {* Include electrostatic during rigid body docking (it0)? *}
 {+ choice: true false +}
-{===>} elecflag_0=true; 
+{===>} elecflag_0=true;
 {* Include electrostatic during semi-flexible SA (it1)? *}
 {+ choice: true false +}
-{===>} elecflag_1=true; 
+{===>} elecflag_1=true;
 
 {* Give the epsilon constant for the electrostatic energy term? *}
 {* Note that for explicit solvent refinement cdie with epsilon=1 is used *}
-{===>} epsilon=10.0; 
+{===>} epsilon=10.0;
 
 {* Use constant (cdie) or distance-dependent (rdie) dielectric? *}
 {+ choice: cdie rdie +}
@@ -3072,7 +3132,7 @@ dihedflag=true;
 {===>} inter_rigid=1.0;
 
 {* Scaling of intermolecular interactions for semi-flexible SA*}
-{+ table: rows=3 "Rigid body dynamic " "SA with flexible side-chains (cool2)" "SA with flexible backbone and side-chains (cool3)" 
+{+ table: rows=3 "Rigid body dynamic " "SA with flexible side-chains (cool2)" "SA with flexible backbone and side-chains (cool3)"
           cols=2 "Init value" "Final value" +}
 {===>} init_rigid=0.001;
 {===>} fin_rigid=0.001;
@@ -3679,14 +3739,14 @@ dihedflag=true;
 {* Setting for the rigid-body (it0) and semi-flexible refiment (it1) *}
 
 {* number of structures for rigid body docking *}
-{===>} structures_0=1000; 
+{===>} structures_0=1000;
        keepstruct_0=&structures_0;
 {* number of structures for refinement *}
-{===>} structures_1=200; 
+{===>} structures_1=200;
        keepstruct_1=&structures_1;
        keepstruct_2=&structures_1;
 {* number of structures to be analysed*}
-{===>} anastruc_1=200; 
+{===>} anastruc_1=200;
        anastruc_0=&anastruc_1;
        anastruc_2=&anastruc_1;
 
@@ -3727,45 +3787,48 @@ dihedflag=true;
 
 {* initial seed for random number generator *}
 {* change to get different initial velocities *}
-{===>} iniseed=917; 
+{===>} iniseed=917;
 
 {* temperature for rigid body high temperature TAD *}
-{===>} tadhigh_t=2000; 
+{===>} tadhigh_t=2000;
 
 {* initial temperature for rigid body first TAD cooling step *}
-{===>} tadinit1_t=2000; 
+{===>} tadinit1_t=2000;
 
 {* final temperature after first cooling step *}
-{===>} tadfinal1_t=500; 
+{===>} tadfinal1_t=500;
 
 {* initial temperature for second TAD cooling step with flexible side-chain at the inferface *}
-{===>} tadinit2_t=1000; 
+{===>} tadinit2_t=1000;
 
 {* finale temperature after second cooling step *}
-{===>} tadfinal2_t=50; 
+{===>} tadfinal2_t=50;
 
 {* initial temperature for third TAD cooling step with fully flexible interface *}
-{===>} tadinit3_t=1000; 
+{===>} tadinit3_t=1000;
 
 {* finale temperature after third cooling step *}
-{===>} tadfinal3_t=50; 
+{===>} tadfinal3_t=50;
 
 {* time step *}
-{===>} timestep=0.002; 
+{===>} timestep=0.002;
 {* factor for timestep in TAD *}
-{===>} tadfactor=8; 
+{===>} tadfactor=8;
+
+{* Number of EM steps for translational minimisation? *}
+{===>} emstepstrans=1000;
 
 {* number of MD steps for rigid body high temperature TAD *}
-{===>} initiosteps=500; 
+{===>} initiosteps=500;
 
 {* number of MD steps during first rigid body cooling stage *}
-{===>} cool1_steps=500; 
+{===>} cool1_steps=500;
 
 {* number of MD steps during second cooling stage with flexible side-chains at interface *}
-{===>} cool2_steps=1000; 
+{===>} cool2_steps=1000;
 
 {* number of MD steps during third cooling stage with fully flexible interface *}
-{===>} cool3_steps=1000; 
+{===>} cool3_steps=1000;
 
 
 {======================= Solvated rigid body docking=======================}
@@ -3785,12 +3848,12 @@ water mediated contacts and blank (""): for uniform waterlayer *}
 {===>} db_method="kytedoolittle";
 
 {* initial cutoff for restraints solvating method *}
-{* all waters further away from a highly occuring water solvated residue will be removed in the generation 
+{* all waters further away from a highly occuring water solvated residue will be removed in the generation
 of the initial solvation shell *}
 {===>} water_restraint_initial=5.0;
 
 {* cutoff for restraints solvating method *}
-{* upper distance limit for defining distance restraints between water and amino-acids often found to be 
+{* upper distance limit for defining distance restraints between water and amino-acids often found to be
 involved in water-mediated contacts *}
 {===>} water_restraint_cutoff=5.0;
 
@@ -3798,12 +3861,12 @@ involved in water-mediated contacts *}
 {===>} water_restraint_scale=25.0;
 
 {* fraction of water to keep *}
-{* this is the fraction of all interface water after the initial rigid body docking that will be kept 
+{* this is the fraction of all interface water after the initial rigid body docking that will be kept
 (note that more waters might be removed if the interaction energy is unfavorable  *}
 {===>} water_tokeep=0.50;
 
 {* fraction of water around DNA to keep *}
-{* this is the fraction of interface water involving DNA phoshpates after the initial rigid body docking that will be kept 
+{* this is the fraction of interface water involving DNA phoshpates after the initial rigid body docking that will be kept
 (note that more waters might be removed if the interaction energy is unfavorable  *}
 {===>} dnap_water_tokeep=0.75;
 
@@ -3829,20 +3892,20 @@ involved in water-mediated contacts *}
 {==================== final explicit solvent refinement  ==================}
 {* Do you want to refine your docking models in explicit solvent? *}
 {+ choice: "yes" "no" +}
-{===>} firstwater="yes"; 
+{===>} firstwater="yes";
 
 {* Build explicit solvent shell? (Can be turned off the large molecules or when morphing CG to AA models) *}
 {* Only EM will then be performed                                                                         *}
 {+ choice: true false +}
-{===>} solvshell=true; 
+{===>} solvshell=true;
 
 {* Which solvent do you want to use? *}
 {+ choice: "water" "dmso" +}
-{===>} solvent="water"; 
+{===>} solvent="water";
 
 {* number of structures for the explicit solvent refinement *}
 {* the n best structures will be refined                    *}
-{===>} waterrefine=200; 
+{===>} waterrefine=200;
        structures_2=&waterrefine;
 
 {* number of steps for heating phase (100, 200, 300K)?      *}
@@ -3856,7 +3919,7 @@ involved in water-mediated contacts *}
 
 {* write additional PDB files including solvent ?           *}
 {+ choice: true false +}
-{===>} keepwater=false; 
+{===>} keepwater=false;
 
 
 {================================ Scoring =================================}
@@ -3963,45 +4026,45 @@ involved in water-mediated contacts *}
 {+ table: rows=10 "1" "2" "3" "4" "5" "6" "7" "8" "9" "10"
  cols=3 "queue command" "cns executable" "number of jobs" +}
 
-{===>} queue_1="/bin/csh";
-{===>} cns_exe_1="/opt/nmr/cns_solve_1.31-UU/mac-intel-darwin/bin/cns";
-{===>} cpunumber_1=2;
+{===>} queue_1="QUEUECOM";
+{===>} cns_exe_1="CNSEXEC";
+{===>} cpunumber_1=NUMJOB;
 
-{===>} queue_2=""; 
-{===>} cns_exe_2=""; 
-{===>} cpunumber_2=0; 
+{===>} queue_2="";
+{===>} cns_exe_2="";
+{===>} cpunumber_2=0;
 
-{===>} queue_3=""; 
-{===>} cns_exe_3=""; 
-{===>} cpunumber_3=0; 
+{===>} queue_3="";
+{===>} cns_exe_3="";
+{===>} cpunumber_3=0;
 
-{===>} queue_4=""; 
-{===>} cns_exe_4=""; 
-{===>} cpunumber_4=0; 
+{===>} queue_4="";
+{===>} cns_exe_4="";
+{===>} cpunumber_4=0;
 
-{===>} queue_5=""; 
-{===>} cns_exe_5=""; 
-{===>} cpunumber_5=0; 
+{===>} queue_5="";
+{===>} cns_exe_5="";
+{===>} cpunumber_5=0;
 
-{===>} queue_6=""; 
-{===>} cns_exe_6=""; 
-{===>} cpunumber_6=0; 
+{===>} queue_6="";
+{===>} cns_exe_6="";
+{===>} cpunumber_6=0;
 
-{===>} queue_7=""; 
-{===>} cns_exe_7=""; 
-{===>} cpunumber_7=0; 
+{===>} queue_7="";
+{===>} cns_exe_7="";
+{===>} cpunumber_7=0;
 
-{===>} queue_8=""; 
-{===>} cns_exe_8=""; 
-{===>} cpunumber_8=0; 
+{===>} queue_8="";
+{===>} cns_exe_8="";
+{===>} cpunumber_8=0;
 
-{===>} queue_9=""; 
-{===>} cns_exe_9=""; 
-{===>} cpunumber_9=0; 
+{===>} queue_9="";
+{===>} cns_exe_9="";
+{===>} cpunumber_9=0;
 
-{===>} queue_10=""; 
-{===>} cns_exe_10=""; 
-{===>} cpunumber_10=0; 
+{===>} queue_10="";
+{===>} cns_exe_10="";
+{===>} cpunumber_10=0;
 
 {===========================================================================}
 {        things below this line do not normally need to be changed          }
@@ -4033,6 +4096,7 @@ evaluate (&saprotocol.inter_fin_cool3=&fin_cool3)
 evaluate (&saprotocol.tempstep=50)
 evaluate (&saprotocol.timestep=&timestep)
 evaluate (&saprotocol.tadfactor=&tadfactor)
+evaluate (&saprotocol.emstepstrans=&emstepstrans)
 evaluate (&saprotocol.initiosteps=&initiosteps)
 evaluate (&saprotocol.cool1_steps=&cool1_steps)
 evaluate (&saprotocol.cool2_steps=&cool2_steps)
@@ -4043,7 +4107,7 @@ evaluate (&saprotocol.mass=100)
 evaluate (&filenames.fileroot=&fileroot)
 evaluate (&filenames.template=&fileroot + "_1.pdb")
 
-evaluate (&iterations.ini_count    =1) 
+evaluate (&iterations.ini_count    =1)
 evaluate (&iterations.structures   =&structures_$iteration)
 evaluate (&iterations.keepstruct   =&keepstruct_$iteration)
 evaluate (&iterations.filesort     =&filesort_$iteration)
@@ -4238,6 +4302,27 @@ evaluate (&toppar.prot_root_18=&prot_root_R)
 evaluate (&toppar.prot_root_19=&prot_root_S)
 evaluate (&toppar.prot_root_20=&prot_root_T)
 
+evaluate (&toppar.fix_origin_1=&fix_origin_A)
+evaluate (&toppar.fix_origin_2=&fix_origin_B)
+evaluate (&toppar.fix_origin_3=&fix_origin_C)
+evaluate (&toppar.fix_origin_4=&fix_origin_D)
+evaluate (&toppar.fix_origin_5=&fix_origin_E)
+evaluate (&toppar.fix_origin_6=&fix_origin_F)
+evaluate (&toppar.fix_origin_7=&fix_origin_G)
+evaluate (&toppar.fix_origin_8=&fix_origin_H)
+evaluate (&toppar.fix_origin_9=&fix_origin_I)
+evaluate (&toppar.fix_origin_10=&fix_origin_J)
+evaluate (&toppar.fix_origin_11=&fix_origin_K)
+evaluate (&toppar.fix_origin_12=&fix_origin_L)
+evaluate (&toppar.fix_origin_13=&fix_origin_M)
+evaluate (&toppar.fix_origin_14=&fix_origin_N)
+evaluate (&toppar.fix_origin_15=&fix_origin_O)
+evaluate (&toppar.fix_origin_16=&fix_origin_P)
+evaluate (&toppar.fix_origin_17=&fix_origin_Q)
+evaluate (&toppar.fix_origin_18=&fix_origin_R)
+evaluate (&toppar.fix_origin_19=&fix_origin_S)
+evaluate (&toppar.fix_origin_20=&fix_origin_T)
+
 evaluate (&toppar.dna_1=&dna_A)
 evaluate (&toppar.dna_2=&dna_B)
 evaluate (&toppar.dna_3=&dna_C)
@@ -4301,7 +4386,7 @@ evaluate (&toppar.prot_segid_18=&prot_segid_R)
 evaluate (&toppar.prot_segid_19=&prot_segid_S)
 evaluate (&toppar.prot_segid_20=&prot_segid_T)
 
-evaluate (&data.ncomponents=&ncomponents) 
+evaluate (&data.ncomponents=&ncomponents)
 
 evaluate (&toppar.nseg_1=&nseg_A)
 evaluate (&toppar.nseg_2=&nseg_B)
@@ -5754,7 +5839,7 @@ evaluate (&refine.steps=&watersteps)
 evaluate (&refine.coolsteps=&watercoolsteps)
 
 
-!for the non-bonded parameters (the section was taken out of 
+!for the non-bonded parameters (the section was taken out of
 !parallhdg5.0.pro and parallhdg5.1.pro, so be careful!):
 if (&toppar.par_nonbonded eq "PROLSQ") then
     evaluate (&toppar.repel_radius = 1.0)
