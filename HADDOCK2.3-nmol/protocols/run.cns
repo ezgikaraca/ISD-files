@@ -3815,6 +3815,9 @@ dihedflag=true;
 {* factor for timestep in TAD *}
 {===>} tadfactor=8;
 
+{* Number of EM steps for translational minimisation? *}
+{===>} emstepstrans=1000;
+
 {* number of MD steps for rigid body high temperature TAD *}
 {===>} initiosteps=500;
 
@@ -4093,6 +4096,7 @@ evaluate (&saprotocol.inter_fin_cool3=&fin_cool3)
 evaluate (&saprotocol.tempstep=50)
 evaluate (&saprotocol.timestep=&timestep)
 evaluate (&saprotocol.tadfactor=&tadfactor)
+evaluate (&saprotocol.emstepstrans=&emstepstrans)
 evaluate (&saprotocol.initiosteps=&initiosteps)
 evaluate (&saprotocol.cool1_steps=&cool1_steps)
 evaluate (&saprotocol.cool2_steps=&cool2_steps)
