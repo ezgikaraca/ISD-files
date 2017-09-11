@@ -16,5 +16,5 @@ If you use this software in your work, please cite us:
 
 Karaca, E., Rodrigues, J.P.G.L.M., Graziadei, A., Bonvin, A.M.J.J., and Carlomagno, T. (2017). 
 *M3: an integrative framework for structure determination of molecular machines.*
-**Nat Meth** 14, 897–902 (2017) doi:10.1038/nmeth.4392
+**Nat Meth** 14, 897–902 doi:10.1038/nmeth.4392
 
